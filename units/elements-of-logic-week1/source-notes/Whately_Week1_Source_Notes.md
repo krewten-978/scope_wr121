@@ -21,6 +21,10 @@ Week 1 uses the Introduction and prefatory defense of logic, especially Whately'
 
 The student reading is **adapted and modernized** rather than quoted continuously. It preserves Whately's order of thought and central claims, but rewrites syntax and diction for 10th-grade readers. The reading does not attempt to summarize the whole book; it focuses on the opening question: what logic can and cannot do.
 
+## Revision note
+
+After Wayne reviewed the first version, the student reading was expanded so that the argument-lab procedure is taught inside the reading before students are asked to use it. The revised reading now amplifies conclusion, stated reason, hidden assumption, and test with multiple examples: popularity/justice, Macbeth and prediction, old ideas, and confidence versus proof.
+
 ## Spelling note
 
 The author's name is Richard Whately. Wayne's email used "Wately" in one place; repo materials use the standard spelling.
