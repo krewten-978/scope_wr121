@@ -1,0 +1,83 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\setlength{\columnsep}{0.28in}
+\setlength{\parindent}{1.1em}
+\setlength{\parskip}{0.35em}
+\setlength{\headheight}{15pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\newcommand{\focusbox}[1]{\par\vspace{0.4em}\noindent\begingroup\setlength{\fboxsep}{6pt}\colorbox{gray!12}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}#1\end{minipage}}\endgroup\par\vspace{0.5em}}
+\newcommand{\studentline}{\vspace{0.35em}\hrule\vspace{0.65em}}
+
+\fancyhead[L]{Whately: One Word, Two Ideas}
+\fancyhead[R]{Student Reading}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries One Word, Two Ideas}\par\vspace{0.25em}
+{\large\scshape Why Ambiguity Breaks Arguments}\par\vspace{0.5em}
+{Adapted and modernized from Richard Whately, \textit{Elements of Logic}}\par\vspace{0.6em}
+\rule{0.82\textwidth}{0.4pt}
+\end{center}
+
+\section*{Central Question}
+How can the same word mean two different things inside a single argument, and what can we do about it?
+
+\section*{Vocabulary Preview}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*, itemsep=0.18em]
+\item \textbf{Term}: a word or phrase that stands for a specific idea.
+\item \textbf{Meaning}: the idea a term refers to in a particular context.
+\item \textbf{Ambiguity}: when a single word or phrase can refer to more than one idea.
+\item \textbf{Equivocation}: using the same word in two different senses within one argument.
+\item \textbf{Fix the term}: to state clearly which meaning you are using before reasoning further.
+\item \textbf{Context}: the surrounding words and situation that help determine meaning.
+\end{itemize}
+\end{multicols}
+
+\section*{Introduction}
+In Week 1 we learned to slow down and ask four questions of any argument: What is the conclusion? What is the stated reason? What is the hidden assumption? Does the conclusion actually follow? 
+
+One of the most common reasons arguments fail this test is surprisingly simple: the key word in the argument is being used in two different ways. Richard Whately noticed that many people argue past each other, or reach false conclusions, not because their logic is bad, but because they are not using words to mean the same thing.
+
+\section*{Reading}
+A \textit{term} is simply a word or short phrase that stands for an idea. When we say “bank,” we might mean a financial institution or the side of a river. When we say “light,” we might mean “not heavy” or “bright.” Most words have more than one possible meaning. In ordinary conversation this rarely causes trouble because the context makes the intended meaning clear.
+
+The trouble begins when someone uses the same word in two different senses inside a single argument without noticing the shift. This is called \textit{equivocation}. The argument looks like it proves something, but it only works because the word quietly changed meaning halfway through.
+
+Consider this argument: “No bank is completely safe from thieves. The side of a river is a bank. Therefore the side of a river is not completely safe from thieves.” The conclusion is absurd. The argument fails because “bank” is used in two different senses. The first sentence uses the financial meaning; the second sentence uses the geographical meaning. Once the two meanings are separated, the argument collapses.
+
+Here is a more serious example. Someone claims: “A liberal education is useless because it does not prepare students for a job. Therefore we should cut funding for liberal arts colleges.” The word “liberal” is doing hidden work. In one sense, “liberal education” means a broad education in the arts and sciences that aims at wisdom and citizenship. In another sense, “liberal” can mean politically left-leaning. The argument trades on the ambiguity. If we fix the term and use only the educational meaning, the claim that a liberal education is useless becomes much harder to defend.
+
+Another example: “The government should not interfere with the free market. Therefore it should not pass laws against child labor.” Here “free market” shifts meaning. In one sense it means an economy without government rules. In another sense it means an economy in which people are free to buy and sell without being forced. The first meaning supports the conclusion; the second does not. The argument only appears strong because the term was never fixed.
+
+Whately’s point is practical. Before we test whether a conclusion follows from its reasons, we should ask: Are the key terms being used in the same sense throughout? If not, we must fix the meaning of the disputed word before we can fairly evaluate the argument.
+
+Fixing a term does not mean choosing the “right” definition forever. It means saying, for the purposes of this argument, “When I say X, I mean this specific idea.” Once the meaning is fixed, the hidden assumption often becomes visible and the test becomes possible.
+
+Students who learn to notice ambiguity gain a powerful defensive skill. They stop being fooled by arguments that only work because a word is being used in two ways at once. They also become better at making their own arguments clear by defining key terms at the start.
+
+\section*{Reading Focus}
+\begin{enumerate}[leftmargin=*]
+\item What is a term, and why can the same word sometimes stand for different ideas?
+\item Explain the difference between ambiguity and equivocation using one of the examples from the reading.
+\item In the “liberal education” example, what two meanings of “liberal” are being confused?
+\item Why does fixing the meaning of a key term often make the hidden assumption easier to see?
+\item Choose one of the examples in the reading and rewrite the argument so that the key term is used in only one sense.
+\item Why might two people who appear to disagree actually be using the same word to mean two different things?
+\end{enumerate}
+
+\studentline
+\end{document}
