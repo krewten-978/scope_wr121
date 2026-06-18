@@ -56,6 +56,8 @@ Required sections:
 
 - Use original Shakespeare text only for play excerpts.
 - Glosses should be light side notes, not modernized replacement text.
+- Keep side glosses short and sparse enough that they do not collide. In LaTeX, use small side-note type and tight line spacing for margin glosses.
+- Leave visible breathing room before student writing lines; the first line should not sit immediately under the question.
 - Use direct student-facing language.
 - Keep teacher notes out of the student handout.
 - Prefer recurring Macbeth and Julius Caesar examples across the unit.
