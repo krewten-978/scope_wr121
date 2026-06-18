@@ -1,6 +1,6 @@
 # Elements of Logic — Week 1 Test Run
 
-This repository contains the first-week test run for a 10th-grade CUE-style unit based on Richard Whately's *Elements of Logic*.
+This repository contains the first-week opening for a 12th-grade long logic unit based on Richard Whately's *Elements of Logic*.
 
 ## Unit Working Title
 
@@ -10,7 +10,7 @@ This repository contains the first-week test run for a 10th-grade CUE-style unit
 
 **Logic Is Not Magic: What Logic Can and Cannot Do**
 
-Students begin by reading a modernized, student-facing adaptation drawn heavily from Whately's introduction to *Elements of Logic*. The week establishes logic as a discipline for examining reasoning, not as a machine that automatically discovers truth or makes people wise.
+Students begin by reading a modernized, student-facing adaptation drawn heavily from Whately's introduction to *Elements of Logic*. The week establishes logic as a discipline for examining reasoning, not as a machine that automatically discovers truth or makes people wise. In the revised long-unit plan, students also begin applying Whately's method to recurring Shakespeare anchors: *Macbeth* and *Julius Caesar*.
 
 ## Included Products
 

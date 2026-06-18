@@ -19,7 +19,7 @@ Week 1 uses the Introduction and prefatory defense of logic, especially Whately'
 
 ## Adaptation policy
 
-The student reading is **adapted and modernized** rather than quoted continuously. It preserves Whately's order of thought and central claims, but rewrites syntax and diction for 10th-grade readers. The reading does not attempt to summarize the whole book; it focuses on the opening question: what logic can and cannot do.
+The student reading is **adapted and modernized** rather than quoted continuously. It preserves Whately's order of thought and central claims while making the prose accessible for the revised 12th-grade long-unit plan. The reading does not attempt to summarize the whole book; it focuses on the opening question: what logic can and cannot do. The revised materials also introduce recurring *Macbeth* and *Julius Caesar* applications for the logic portfolio.
 
 ## Revision note
 

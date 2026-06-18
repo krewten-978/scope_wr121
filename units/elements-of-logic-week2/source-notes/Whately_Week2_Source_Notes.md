@@ -10,7 +10,7 @@ Week 2 builds directly on the four-step analysis habit taught in Week 1 by zoomi
 
 ## Adaptation approach
 
-The student reading is adapted and modernized. It preserves Whately's core insight that many apparent disagreements and faulty inferences arise not from bad logic per se, but from words that carry multiple meanings. Multiple original examples are provided so students can practice the skill of identifying and repairing ambiguous terms.
+The student reading is adapted and modernized for the revised 12th-grade long-unit plan. It preserves Whately's core insight that many apparent disagreements and faulty inferences arise not from bad logic per se, but from words that carry multiple meanings. Multiple original examples are provided so students can practice the skill of identifying and repairing ambiguous terms. The revised lab and reading also connect this habit to recurring Shakespeare anchors, especially terms such as fate, manhood, honor, ambition, liberty, and tyranny in *Macbeth* and *Julius Caesar*.
 
 ## Connection to Week 1
 
