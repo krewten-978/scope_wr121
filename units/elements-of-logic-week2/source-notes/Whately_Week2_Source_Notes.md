@@ -15,3 +15,14 @@ The student reading is adapted and modernized for the revised 12th-grade long-un
 ## Connection to Week 1
 
 This unit treats ambiguity as a major source of the "hidden assumptions" students learned to surface in Week 1. By making terms precise, students make the hidden assumptions visible and testable.
+
+## Macbeth lit-anchor sources
+
+The Week 2 Macbeth lit-anchor, "Words That Lie Like Truth," uses original Shakespeare text from *Macbeth* Act 4, Scene 1 and Act 5, Scene 8. The guided passage focuses on the apparitions' ambiguous promises: "none of woman born" and "Birnam wood to high Dunsinane hill / Shall come." The independent passage focuses on Macduff's revelation and Macbeth's recognition that the fiends "palter with us in a double sense."
+
+Public-domain source text consulted:
+
+- MIT Shakespeare, *Macbeth*, Act 4, Scene 1: `https://shakespeare.mit.edu/macbeth/macbeth.4.1.html`
+- MIT Shakespeare, *Macbeth*, Act 5, Scene 8: `https://shakespeare.mit.edu/macbeth/macbeth.5.8.html`
+
+The Shakespeare text is not modernized; the handout adds only light side-note glosses.

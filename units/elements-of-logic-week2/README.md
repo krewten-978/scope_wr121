@@ -15,6 +15,7 @@ Week 2 builds on the Week 1 four-step argument test by focusing on terms. Studen
 - `pdfs/Whately_Logic_Week2_Teacher_Guide.pdf`
 - `pdfs/Whately_Logic_Week2_Student_Reading.pdf`
 - `pdfs/Whately_Logic_Week2_Argument_Lab.pdf`
+- `pdfs/Whately_Logic_Week2_Macbeth_Lit_Anchor.pdf`
 - LaTeX sources in `tex/`
 - Source notes in `source-notes/`
 
@@ -30,4 +31,5 @@ From this folder:
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week2_Teacher_Guide.tex
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week2_Student_Reading.tex
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week2_Argument_Lab.tex
+latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week2_Macbeth_Lit_Anchor.tex
 ```
