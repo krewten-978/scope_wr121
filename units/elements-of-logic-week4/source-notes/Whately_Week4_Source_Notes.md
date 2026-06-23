@@ -26,4 +26,13 @@ The main goal is practical mapping. Students should leave Week 4 able to take an
 
 ## Literary connection note
 
-The Week 4 reading and lab include light *Macbeth* and *Julius Caesar* applications, but the full lit anchor is intentionally deferred. The Shakespeare cases preview the next deliverable by asking students to map Brutus's argument about Caesar's future danger and Macbeth's reasoning from prophecy toward action.
+The Week 4 reading and lab include light *Macbeth* and *Julius Caesar* applications. The full lit anchor centers on *Julius Caesar* because Brutus's serpent's egg argument gives students a concentrated test case for practical syllogism mapping: a serious argument whose conclusion depends on whether the middle term "future tyrant" has actually been proved.
+
+## Julius Caesar lit-anchor sources
+
+The Week 4 lit-anchor uses original Shakespeare text from two scenes:
+
+- William Shakespeare, *Julius Caesar*, Act 2, Scene 1: Brutus's orchard soliloquy, including the "serpent's egg" argument. Source used: https://shakespeare.mit.edu/julius_caesar/julius_caesar.2.1.html
+- William Shakespeare, *Julius Caesar*, Act 1, Scene 2: Cassius's persuasion of Brutus, including the Colossus comparison and "The fault, dear Brutus" passage. Source used: https://shakespeare.mit.edu/julius_caesar/julius_caesar.1.2.html
+
+The lit-anchor connects these passages to Whately's practical treatment of syllogisms by asking students to map dramatic reasoning into major premise, minor premise, conclusion, major term, minor term, and middle term. The core Lesson 4 insight is that Brutus's middle term, "future tyrant," carries the weight of the argument; if Caesar has not been proved to belong under that term, possibility may be doing the work of proof.

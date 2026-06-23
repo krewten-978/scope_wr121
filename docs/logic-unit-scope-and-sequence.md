@@ -162,7 +162,7 @@ The first three weeks are already represented in the repository and should now b
 - **Student skill:** separate premises from conclusion and identify the major, minor, and middle terms without yet requiring full mood-and-figure classification.
 - **Macbeth / Caesar application:** previewed in the reading and lab through Macbeth's reasoning from prophecy and Brutus's argument that Caesar must be stopped before he becomes tyrannical.
 - **Portfolio artifact:** practical syllogism map and window note.
-- **Current repo status:** student reading and argument lab built; teacher guide and lit anchor planned next.
+- **Current repo status:** built with student reading, argument lab, Julius Caesar lit-anchor, and teacher guide.
 
 ## Full-unit sequence
 
