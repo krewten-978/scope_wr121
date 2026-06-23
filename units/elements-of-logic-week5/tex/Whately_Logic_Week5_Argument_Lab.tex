@@ -1,0 +1,147 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{1.1em}
+\setlength{\parskip}{0.38em}
+\setlength{\headheight}{15pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\newcommand{\focusbox}[1]{\par\vspace{0.4em}\noindent\begingroup\setlength{\fboxsep}{6pt}\colorbox{gray!12}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}#1\end{minipage}}\endgroup\par\vspace{0.5em}}
+\newcommand{\studentline}{\vspace{0.35em}\hrule\vspace{0.65em}}
+\newcommand{\shortline}{\vspace{0.25em}\hrule\vspace{0.45em}}
+
+\fancyhead[L]{Whately: Mood and Figure Lab}
+\fancyhead[R]{Student Handout}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Week 5 Argument Lab}\par\vspace{0.25em}
+{\large\scshape Mood, Figure, and Formal Validity}\par\vspace{0.6em}
+\rule{0.82\textwidth}{0.4pt}
+\end{center}
+
+\section*{Name: \rule{2.4in}{0.4pt} \hfill Date: \rule{1.3in}{0.4pt}}
+
+\section*{Purpose}
+This lab turns Week 5 reading into a portfolio artifact. You will classify basic syllogisms by mood and figure, then decide whether the form carries the conclusion. The goal is not to memorize every valid mood. The goal is to explain why a conclusion follows, or why it only seems to follow.
+
+\section*{Part I: Reference Box}
+\focusbox{\textbf{A/E/I/O forms:} A = All S are P. E = No S are P. I = Some S are P. O = Some S are not P. \textbf{Terms:} S = minor term, the subject of the conclusion. P = major term, the predicate of the conclusion. M = middle term, found in both premises but not in the conclusion.}
+
+\section*{Part II: Model Classification}
+\textbf{Argument:}
+\begin{itemize}[leftmargin=*]
+\item All disciplined thinkers test arguments by form. 
+\item All careful logicians are disciplined thinkers.
+\item Therefore, all careful logicians test arguments by form.
+\end{itemize}
+
+\begin{itemize}[leftmargin=*]
+\item \textbf{Conclusion:} All careful logicians are people who test arguments by form.
+\item \textbf{Minor term (S):} careful logicians.
+\item \textbf{Major term (P):} people who test arguments by form.
+\item \textbf{Middle term (M):} disciplined thinkers.
+\item \textbf{Mood:} A-A-A.
+\item \textbf{Figure pattern:} All M are P; All S are M; therefore All S are P.
+\item \textbf{Form judgment:} Valid. If both premises are true, the conclusion follows.
+\end{itemize}
+
+\section*{Part III: Classify and Judge}
+For each argument, identify mood, terms, and form judgment. Use complete sentences when explaining why the conclusion follows or fails.
+
+\subsection*{1. Valid Beginner Form}
+\textbf{Argument:} All careful proofs state their reasons clearly. All sound syllogisms are careful proofs. Therefore, all sound syllogisms state their reasons clearly.
+
+\textbf{Mood:}\shortline
+\textbf{Minor term (S):}\shortline
+\textbf{Major term (P):}\shortline
+\textbf{Middle term (M):}\shortline
+\textbf{Figure pattern using S, P, M:}\studentline
+\textbf{Does the conclusion follow from the form? Explain.}\studentline
+
+\subsection*{2. Undistributed Middle}
+\textbf{Argument:} All careful readers notice contradictions. All suspicious readers notice contradictions. Therefore, all suspicious readers are careful readers.
+
+\textbf{Mood:}\shortline
+\textbf{Minor term (S):}\shortline
+\textbf{Major term (P):}\shortline
+\textbf{Middle term (M):}\shortline
+\textbf{Why is the middle term not strong enough to connect the conclusion?}\studentline\studentline
+
+\subsection*{3. Two Negative Premises}
+\textbf{Argument:} No honest judges ignore evidence. No careless speakers are honest judges. Therefore, no careless speakers ignore evidence.
+
+\textbf{Mood:}\shortline
+\textbf{Minor term (S):}\shortline
+\textbf{Major term (P):}\shortline
+\textbf{Middle term (M):}\shortline
+\textbf{Does the form connect S and P, or does it only separate both from M? Explain.}\studentline\studentline
+
+\section*{Part IV: Repair the Form}
+Choose one invalid argument from Part III. Rewrite it so that the conclusion follows, or narrow the conclusion so that it matches what the premises can actually prove.
+
+\textbf{Invalid argument I am repairing:}\studentline
+\textbf{Problem with the original form:}\studentline
+\textbf{Repaired major premise:}\studentline
+\textbf{Repaired minor premise:}\studentline
+\textbf{Repaired conclusion:}\studentline
+\textbf{New mood and form judgment:}\studentline
+
+\section*{Part V: Shakespeare Form Test}
+Choose \textbf{one} case. Your task is not to decide the whole moral issue. Your task is to ask whether the argument's form proves the conclusion.
+
+\subsection*{Option A: Brutus and Honor}
+\textbf{Spoken claim:} ``Brutus loves Rome, so Brutus must be honorable.''
+
+\textbf{Possible hidden syllogism:}
+\begin{itemize}[leftmargin=*]
+\item All honorable men love Rome.
+\item Brutus loves Rome.
+\item Therefore, Brutus is honorable.
+\end{itemize}
+
+\textbf{Mood:}\shortline
+\textbf{Middle term:}\shortline
+\textbf{Form problem or form strength:}\studentline\studentline
+\textbf{Better conclusion, if the original proves too much:}\studentline
+
+\subsection*{Option B: Macbeth and Fate}
+\textbf{Spoken claim:} ``Macbeth's kingship will happen, so it must be fated.''
+
+\textbf{Possible hidden syllogism:}
+\begin{itemize}[leftmargin=*]
+\item All fated events will happen.
+\item Macbeth's kingship will happen.
+\item Therefore, Macbeth's kingship is fated.
+\end{itemize}
+
+\textbf{Mood:}\shortline
+\textbf{Middle term:}\shortline
+\textbf{Form problem or form strength:}\studentline\studentline
+\textbf{Better conclusion, if the original proves too much:}\studentline
+
+\section*{Part VI: Portfolio Artifact}
+Create a one-page \textbf{Mood-and-Figure Classification Card} for your Logic Portfolio. It should include:
+\begin{enumerate}[leftmargin=*]
+\item one valid syllogism from this lab or your own writing;
+\item the mood in A/E/I/O letters;
+\item the S, P, and M terms;
+\item a simple figure diagram using arrows or nested boxes;
+\item a two-sentence form judgment explaining why the conclusion follows;
+\item one warning about a similar invalid form.
+\end{enumerate}
+
+\focusbox{\textbf{Portfolio summary starter:} Mood helps me test \rule{1.8in}{0.4pt}. Figure helps me see \rule{1.8in}{0.4pt}. A conclusion may sound persuasive but still fail formally when \rule{1.9in}{0.4pt}.}
+
+\vspace{1.0in}
+\end{document}

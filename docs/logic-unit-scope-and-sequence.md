@@ -164,6 +164,16 @@ The first three weeks are already represented in the repository and should now b
 - **Portfolio artifact:** practical syllogism map and window note.
 - **Current repo status:** built with student reading, argument lab, Julius Caesar lit-anchor, and teacher guide.
 
+### Week 5 — The Shape of an Argument
+
+- **Source base:** Whately on syllogistic form, mood, figure, and formal validity.
+- **Essential question:** Can the shape of an argument tell us whether the conclusion follows?
+- **Core idea:** Once propositions are classified, arguments have recognizable forms. Some forms preserve valid inference; others only appear to do so.
+- **Student skill:** identify mood first, figure second, and test a small set of valid and invalid forms without memorizing every traditional valid mood.
+- **Macbeth / Caesar application:** previewed in the reading and lab through form tests of arguments about Brutus's honor and Macbeth's fate.
+- **Portfolio artifact:** mood-and-figure classification card with explanation of formal validity.
+- **Current repo status:** student reading and argument lab built; lit anchor and teacher guide planned next.
+
 ## Full-unit sequence
 
 The sequence below expands the earlier compact unit into a long twelfth-grade course. The extension weeks are now part of the core plan.
@@ -191,6 +201,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Macbeth / Caesar application:** compare a formally valid classroom syllogism with a rhetorically powerful but formally unstable Shakespearean argument.
 - **Portfolio artifact:** mood-and-figure classification with explanation of validity.
 - **Why it belongs here:** The first syllogism week should be practical; the second can introduce formal classification after students understand the parts.
+- **Current repo status:** student reading and argument lab built; lit anchor and teacher guide planned next.
 
 ### Week 6 — Valid Does Not Mean True
 
@@ -454,8 +465,8 @@ Recommended naming convention:
 4. Add recurring *Macbeth* and *Julius Caesar* application work to Weeks 1-3.
 5. Add README files for Week 2 and Week 3.
 6. Rebuild and verify PDFs for Weeks 1-3.
-7. Build Week 4 as practical syllogisms.
-8. Build Week 5 as mood and figure.
+7. Build Week 4 as practical syllogisms. — complete.
+8. Build Week 5 as mood and figure. — reading and lab complete; lit anchor and teacher guide next.
 
 ## Design decisions recorded
 

@@ -10,3 +10,4 @@ Start here:
 - `units/elements-of-logic-week2/README.md` — ambiguity/equivocation week and current deliverables.
 - `units/elements-of-logic-week3/README.md` — propositions and clear claims week.
 - `units/elements-of-logic-week4/README.md` — practical syllogism reading and argument lab.
+- `units/elements-of-logic-week5/README.md` — mood-and-figure reading and argument lab.
