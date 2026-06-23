@@ -174,6 +174,16 @@ The first three weeks are already represented in the repository and should now b
 - **Portfolio artifact:** mood-and-figure classification card with explanation of formal validity.
 - **Current repo status:** built with student reading, argument lab, Julius Caesar lit-anchor, and teacher guide.
 
+### Week 6 — Valid Does Not Mean True
+
+- **Source base:** Whately on the province of logic and the distinction between formal correctness and material truth.
+- **Essential question:** Can an argument be logically valid and still fail to prove what we should believe?
+- **Core idea:** Logic can show whether a conclusion follows from premises, but other disciplines are needed to determine whether the premises are true.
+- **Student skill:** classify arguments as valid/invalid and then ask whether the premises are true.
+- **Macbeth / Caesar application:** focused on *Julius Caesar*: Brutus's argument can be reconstructed as valid, while Antony attacks the pressure-point premise about Caesar's ambition.
+- **Portfolio artifact:** two-column argument diagnosis: form test and fact test.
+- **Current repo status:** built with student reading, argument lab, Julius Caesar lit-anchor, and teacher guide.
+
 ## Full-unit sequence
 
 The sequence below expands the earlier compact unit into a long twelfth-grade course. The extension weeks are now part of the core plan.
@@ -211,9 +221,10 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Core concepts:** validity, soundness, false premise, true conclusion, form test, fact test.
 - **Core idea:** Logic can show whether a conclusion follows from premises, but other disciplines are needed to determine whether the premises are true.
 - **Student skill:** classify arguments as valid/invalid and then ask whether the premises are true.
-- **Macbeth / Caesar application:** test whether Macbeth or Brutus reasons from premises that are themselves questionable.
+- **Macbeth / Caesar application:** focused on *Julius Caesar*: Brutus's argument can be reconstructed as valid, while Antony attacks the pressure-point premise about Caesar's ambition.
 - **Portfolio artifact:** two-column argument diagnosis: form test and fact test.
 - **Why it belongs here:** It prevents students from treating syllogisms as truth machines and returns to Whately's modest account of logic.
+- **Current repo status:** built with student reading, argument lab, Julius Caesar lit-anchor, and teacher guide.
 
 ### Week 7 — When an Argument Looks Stronger Than It Is
 
@@ -467,6 +478,7 @@ Recommended naming convention:
 6. Rebuild and verify PDFs for Weeks 1-3.
 7. Build Week 4 as practical syllogisms. — complete.
 8. Build Week 5 as mood and figure. — complete.
+9. Build Week 6 as validity, truth, and soundness. — complete.
 
 ## Design decisions recorded
 

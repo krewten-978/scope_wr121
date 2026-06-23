@@ -11,3 +11,4 @@ Start here:
 - `units/elements-of-logic-week3/README.md` — propositions and clear claims week.
 - `units/elements-of-logic-week4/README.md` — practical syllogism reading and argument lab.
 - `units/elements-of-logic-week5/README.md` — mood-and-figure lesson with Julius Caesar lit-anchor and teacher guide.
+- `units/elements-of-logic-week6/README.md` — validity/truth lesson with Julius Caesar lit-anchor and teacher guide.

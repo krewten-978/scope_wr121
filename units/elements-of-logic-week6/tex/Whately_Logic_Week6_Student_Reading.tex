@@ -1,0 +1,178 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\setlength{\columnsep}{0.28in}
+\setlength{\parindent}{1.1em}
+\setlength{\parskip}{0.32em}
+\setlength{\headheight}{15pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\newcommand{\focusbox}[1]{\par\vspace{0.4em}\noindent\begingroup\setlength{\fboxsep}{6pt}\colorbox{gray!12}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}#1\end{minipage}}\endgroup\par\vspace{0.5em}}
+
+\fancyhead[L]{Whately: Validity and Truth}
+\fancyhead[R]{Student Reading}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Good Form, Bad Facts}\par\vspace{0.25em}
+{\large\scshape Week 6: Valid Does Not Mean True}\par\vspace{0.5em}
+{Adapted and modernized from Richard Whately, \textit{Elements of Logic}}\par\vspace{0.6em}
+\rule{0.82\textwidth}{0.4pt}
+\end{center}
+
+\section*{Central Question}
+Can an argument be logically valid and still fail to prove what we should believe?
+
+\section*{Vocabulary Preview}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*, itemsep=0.18em]
+\item \textbf{Valid}: the conclusion follows from the premises because of the argument's form.
+\item \textbf{Invalid}: the conclusion does not follow from the premises, even if the conclusion happens to be true.
+\item \textbf{True premise}: a premise that accurately states the case.
+\item \textbf{False premise}: a premise that does not accurately state the case.
+\item \textbf{Doubtful premise}: a premise that has not yet been proved enough to bear the conclusion.
+\item \textbf{Sound argument}: a valid argument with true premises.
+\item \textbf{Unsound argument}: an argument that fails because its form is invalid or because one or more premises are false.
+\item \textbf{Form test}: the question, ``Does the conclusion follow from the premises?''
+\item \textbf{Fact test}: the question, ``Are the premises true or justified?''
+\item \textbf{Material truth}: the truth of the actual content, not merely the correctness of the form.
+\item \textbf{Overclaim}: a conclusion that says more than the premises can support.
+\item \textbf{Premise pressure point}: the premise on which the argument most depends.
+\end{itemize}
+\end{multicols}
+
+\section*{Introduction}
+In Week 5, you learned that arguments have shape. You used mood and figure to ask whether the conclusion follows from the premises. This week adds the other half of disciplined judgment: even a valid argument can fail if the premises are false, doubtful, or too weak.
+
+Whately repeatedly insists that logic has a proper office. Logic tests reasoning as reasoning. It can show whether a conclusion follows from the premises laid down. It cannot, by itself, supply all the facts of history, science, politics, literature, or moral judgment. If the premises are wrong, a formally correct argument may carry you neatly to a false or unjust conclusion.
+
+This does not make logic useless. It makes logic modest and powerful. A disciplined thinker does not ask only, ``Does the argument sound convincing?'' and does not ask only, ``Is the form valid?'' He asks both: Does it follow? Are the premises true?
+
+\focusbox{\textbf{Source note:} This reading is adapted and modernized from Whately's account of logic's province and from his distinction between formal correctness and the truth of the matter reasoned about. The examples are classroom adaptations for the twelfth-grade long logic unit.}
+
+\begin{multicols}{2}
+\section*{Reading}
+
+\subsection*{1. The Two Tests}
+Every serious argument needs two tests.
+
+First comes the \textit{form test}: if these premises are granted, does the conclusion follow? This is the work of validity. It asks about the structure of the reasoning.
+
+Second comes the \textit{fact test}: are these premises true, justified, or acceptable? This is the work of knowledge, evidence, interpretation, observation, testimony, and moral judgment.
+
+A person who ignores form may accept a conclusion because it is exciting. A person who ignores facts may admire a neat syllogism that begins from falsehood. Whately wants neither error.
+
+\subsection*{2. Valid but False}
+Consider this argument:
+\begin{itemize}[leftmargin=*]
+\item All birds can swim underwater for long distances.
+\item All eagles are birds.
+\item Therefore, all eagles can swim underwater for long distances.
+\end{itemize}
+
+The form is valid. It has the familiar shape: All M are P; All S are M; therefore All S are P. But the argument is not sound. The first premise is false. Because the premise is false, the conclusion is not proved.
+
+This example is silly on purpose. In real life, false or doubtful premises are often more subtle. They may sound patriotic, moral, scientific, traditional, or compassionate. Good form cannot rescue bad facts.
+
+\subsection*{3. True Conclusion, Bad Proof}
+An argument may also have a true conclusion without proving it. Consider:
+\begin{itemize}[leftmargin=*]
+\item All careful readers use pencils.
+\item Marcus uses a pencil.
+\item Therefore, Marcus is a careful reader.
+\end{itemize}
+
+Marcus may indeed be a careful reader. But this argument has not proved it. Many people use pencils for many reasons. The conclusion might be true by accident, but the proof is weak.
+
+This distinction matters in essays. A student may write a true sentence and still support it badly. Logic asks not only whether the final claim is attractive, but whether the path to that claim is disciplined.
+
+\subsection*{4. Soundness}
+A sound argument must pass both tests. It must be valid in form, and its premises must be true.
+
+Example:
+\begin{itemize}[leftmargin=*]
+\item All citizens who knowingly betray their city for private profit act unjustly.
+\item Lucius knowingly betrayed his city for private profit.
+\item Therefore, Lucius acted unjustly.
+\end{itemize}
+
+The form is valid. But whether the argument is sound depends on the fact test. Did Lucius knowingly betray the city? Was it for private profit? If those premises are established, the argument is strong. If they are merely rumored, the argument is not yet sound.
+
+\subsection*{5. Premise Pressure Points}
+Most serious arguments have a pressure point: the premise that carries the greatest weight. In political, literary, and moral arguments, the pressure point is often not the general principle but the application.
+
+For example:
+\begin{itemize}[leftmargin=*]
+\item All rulers who will enslave their country should be resisted.
+\item Caesar will enslave Rome.
+\item Therefore, Caesar should be resisted.
+\end{itemize}
+
+The major premise may seem plausible to many readers. The pressure point is the minor premise: will Caesar enslave Rome? If that has not been proved, the argument is not sound, even if the form is valid.
+
+\subsection*{6. Why Whately Limits Logic}
+Whately does not limit logic because he thinks logic is weak. He limits logic because he wants it used honestly. Logic can test inference, expose hidden structure, and prevent confused movement from premises to conclusion. But logic cannot turn an unproved premise into a proved one.
+
+Other kinds of work must help: history supplies facts, science supplies observation, moral reasoning tests principles, literary reading interprets characters and speeches, and testimony must be weighed. Logic cooperates with these disciplines; it does not replace them.
+
+\subsection*{7. Three Kinds of Failure}
+When you diagnose an argument, do not simply say, ``This is bad.'' Name the failure.
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Invalid form}: the conclusion does not follow from the premises.
+\item \textbf{False premise}: the form may be valid, but a premise is false.
+\item \textbf{Doubtful premise}: the premise may be true, but the speaker has not proved it well enough.
+\end{enumerate}
+
+This habit makes criticism fairer. You may disagree with a conclusion because the form fails, because a premise is false, or because the evidence is incomplete. Those are different objections.
+
+\subsection*{8. Julius Caesar and the Fact Test}
+In \textit{Julius Caesar}, Brutus can make his argument look formally disciplined:
+\begin{itemize}[leftmargin=*]
+\item All men whose ambition would enslave Rome deserve death for Rome's freedom.
+\item Caesar was a man whose ambition would enslave Rome.
+\item Therefore, Caesar deserved death for Rome's freedom.
+\end{itemize}
+
+The argument can be reconstructed in valid form. But Antony's funeral speech presses the fact test: did Caesar's actions actually prove tyrannical ambition? Caesar brought money into Rome, wept for the poor, and refused a crown three times. Antony does not merely cry; he attacks the premise on which Brutus's argument depends.
+
+\subsection*{9. What This Week Adds}
+Week 6 prevents a dangerous misunderstanding. A valid syllogism is not a truth machine. It is a form test. It shows what follows if the premises are granted.
+
+A complete diagnosis should include:
+\begin{itemize}[leftmargin=*]
+\item the conclusion;
+\item the argument's form judgment: valid or invalid;
+\item the premise most in need of proof;
+\item the fact judgment: true, false, doubtful, or not yet established;
+\item the final diagnosis: sound, unsound, or not yet proved.
+\end{itemize}
+
+This is a mature habit of mind. It lets you be fair to an opponent's structure while still demanding evidence. It also lets you repair your own writing: keep the good form, then strengthen or narrow the premises.
+
+\section*{Reading Focus}
+\begin{enumerate}[leftmargin=*]
+\item What is the difference between the form test and the fact test?
+\item Define sound argument in your own words.
+\item Why can a valid argument still fail to prove what we should believe?
+\item Explain the difference between a false premise and a doubtful premise.
+\item Why might an argument with a true conclusion still be bad proof?
+\item In the Caesar example, which premise is the pressure point? Why?
+\item How does Week 6 correct a possible misunderstanding from Week 5?
+\end{enumerate}
+
+\section*{Handout Summary}
+Write 5--7 sentences explaining why validity is necessary but not enough for a fully successful argument. Your summary must include the words \textit{valid}, \textit{sound}, \textit{premise}, and \textit{truth}.
+\end{multicols}
+\end{document}
