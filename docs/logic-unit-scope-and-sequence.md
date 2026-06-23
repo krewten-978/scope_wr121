@@ -154,6 +154,16 @@ The first three weeks are already represented in the repository and should now b
 - **Portfolio artifact:** proposition translation and window note.
 - **Current repo status:** built; O-proposition distribution corrected.
 
+### Week 4 — Two Claims and a Conclusion
+
+- **Source base:** Whately on arguments and syllogistic structure.
+- **Essential question:** When do two claims actually force a conclusion?
+- **Core idea:** A syllogism tests whether a conclusion follows from two propositions because of their form and shared terms.
+- **Student skill:** separate premises from conclusion and identify the major, minor, and middle terms without yet requiring full mood-and-figure classification.
+- **Macbeth / Caesar application:** previewed in the reading and lab through Macbeth's reasoning from prophecy and Brutus's argument that Caesar must be stopped before he becomes tyrannical.
+- **Portfolio artifact:** practical syllogism map and window note.
+- **Current repo status:** student reading and argument lab built; teacher guide and lit anchor planned next.
+
 ## Full-unit sequence
 
 The sequence below expands the earlier compact unit into a long twelfth-grade course. The extension weeks are now part of the core plan.

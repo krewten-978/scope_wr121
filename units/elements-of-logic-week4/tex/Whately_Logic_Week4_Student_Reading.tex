@@ -1,0 +1,206 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\setlength{\columnsep}{0.28in}
+\setlength{\parindent}{1.1em}
+\setlength{\parskip}{0.32em}
+\setlength{\headheight}{15pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\newcommand{\focusbox}[1]{\par\vspace{0.4em}\noindent\begingroup\setlength{\fboxsep}{6pt}\colorbox{gray!12}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}#1\end{minipage}}\endgroup\par\vspace{0.5em}}
+
+\fancyhead[L]{Whately: Syllogisms}
+\fancyhead[R]{Student Reading}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Because: How Syllogisms Work}\par\vspace{0.25em}
+{\large\scshape Week 4: Two Claims and a Conclusion}\par\vspace{0.5em}
+{Adapted and modernized from Richard Whately, \textit{Elements of Logic}}\par\vspace{0.6em}
+\rule{0.82\textwidth}{0.4pt}
+\end{center}
+
+\section*{Central Question}
+When do two claims actually force a conclusion?
+
+\section*{Vocabulary Preview}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*, itemsep=0.18em]
+\item \textbf{Syllogism}: a deductive argument in which two premises are used to prove a conclusion.
+\item \textbf{Premise}: a claim offered as a reason in an argument.
+\item \textbf{Conclusion}: the claim the argument tries to prove.
+\item \textbf{Term}: one of the important idea-words in a proposition, usually the subject or predicate.
+\item \textbf{Middle term}: the term that appears in both premises but not in the conclusion; it links the other two terms.
+\item \textbf{Major term}: the predicate of the conclusion.
+\item \textbf{Minor term}: the subject of the conclusion.
+\item \textbf{Major premise}: the premise that contains the major term.
+\item \textbf{Minor premise}: the premise that contains the minor term.
+\item \textbf{Deduction}: reasoning in which the conclusion follows necessarily if the premises are true and the form is valid.
+\item \textbf{Valid form}: an argument structure in which the conclusion follows from the premises.
+\item \textbf{Practical syllogism map}: a clear layout of premises, conclusion, and terms before formal mood-and-figure classification.
+\end{itemize}
+\end{multicols}
+
+\section*{Introduction}
+In Week 1, you learned to ask Whately's basic question: What follows from what? In Week 2, you learned that terms must keep a steady meaning. In Week 3, you learned to make claims precise by identifying subject, predicate, quality, and quantity. Week 4 combines those tools. We now ask how two propositions can work together to prove a third proposition.
+
+Richard Whately treats the syllogism as the central form of deductive reasoning. That does not mean every ordinary argument in speech or writing appears in neat textbook form. Most real arguments come to us mixed with examples, emotions, stories, omitted steps, and persuasive language. But Whately's point is that if an argument is deductive, we should be able to slow it down and see whether its structure is sound.
+
+This week is practical. You are not yet being asked to memorize all the traditional moods and figures of the syllogism. That will come later in a limited way. For now, the goal is to see the working parts: two premises, a conclusion, three terms, and especially the middle term that is supposed to connect the argument.
+
+\focusbox{\textbf{Source note:} This reading is adapted and modernized from Whately's treatment of arguments and syllogisms in \textit{Elements of Logic}, especially his explanation that reasoning moves from premises to a conclusion and that the middle term is the medium of proof. The reading adds classroom examples and Shakespeare applications for the long 12th-grade logic unit.}
+
+\begin{multicols}{2}
+\section*{Reading}
+
+\subsection*{1. From Single Claims to Arguments}
+A single proposition can be true or false, clear or unclear, universal or particular, affirmative or negative. But an argument does more than state one claim. It tries to prove a claim by means of other claims.
+
+Consider this proposition: "All humans are mortal." By itself, it is a claim. Now add another proposition: "Socrates is a human." Together, the two claims support a third claim: "Socrates is mortal." We have moved from propositions to reasoning.
+
+A syllogism is a disciplined form of that movement. It shows whether the conclusion follows from the premises because of the relation among the terms.
+
+\subsection*{2. A Simple Syllogism}
+Here is the classic form:
+
+\begin{itemize}[leftmargin=*]
+\item All humans are mortal.
+\item Socrates is a human.
+\item Therefore, Socrates is mortal.
+\end{itemize}
+
+This argument has two premises and a conclusion. If the two premises are true, the conclusion must be true. Why? Because the middle term connects Socrates to mortality. Socrates belongs to the class "humans," and the class "humans" belongs within the class "mortal beings." The conclusion follows through that connection.
+
+This is the basic power of a syllogism. It makes the chain of reasoning visible.
+
+\subsection*{3. The Three Terms}
+A standard syllogism has three important terms.
+
+First, the \textit{minor term} is the subject of the conclusion. In "Socrates is mortal," the minor term is \textit{Socrates}. It is the thing about which the conclusion is being made.
+
+Second, the \textit{major term} is the predicate of the conclusion. In "Socrates is mortal," the major term is \textit{mortal}. It is what the conclusion says about the subject.
+
+Third, the \textit{middle term} appears in both premises but not in the conclusion. In this example, the middle term is \textit{human}. The conclusion does not say, "Socrates is human." That has already been used as a premise. Instead, the middle term serves as the bridge that connects Socrates to mortality.
+
+\subsection*{4. Major and Minor Premises}
+The premises are also named by the terms they contain. The \textit{major premise} contains the major term. The \textit{minor premise} contains the minor term.
+
+In the example:
+
+\begin{itemize}[leftmargin=*]
+\item Major premise: All humans are mortal. (contains the major term, mortal)
+\item Minor premise: Socrates is a human. (contains the minor term, Socrates)
+\item Conclusion: Socrates is mortal.
+\end{itemize}
+
+The order may vary in ordinary writing. A speaker might begin with the minor premise, hide the major premise, or state the conclusion first. The task of logic is not merely to copy the order in which the speaker spoke. It is to arrange the reasoning so that its structure can be tested.
+
+\subsection*{5. The Middle Term as the Medium of Proof}
+Whately emphasizes the importance of the middle term because it is the medium of proof. It is the shared term that lets the mind pass from one end of the argument to the other.
+
+Think of the middle term as a bridge. If the bridge reaches both sides, the argument may carry the conclusion. If the bridge does not reach, the conclusion falls.
+
+Example:
+
+\begin{itemize}[leftmargin=*]
+\item All unjust acts should be resisted.
+\item This policy is unjust.
+\item Therefore, this policy should be resisted.
+\end{itemize}
+
+The middle term is \textit{unjust acts}. It connects "this policy" to "things that should be resisted." If the policy truly belongs in the class of unjust acts, and if all unjust acts should be resisted, the conclusion follows.
+
+\subsection*{6. When the Bridge Fails}
+Not every argument with two premises and a conclusion is a good syllogism. The middle term may fail to connect the other terms.
+
+Consider this weak argument:
+
+\begin{itemize}[leftmargin=*]
+\item All careful thinkers ask questions.
+\item Marcus asks questions.
+\item Therefore, Marcus is a careful thinker.
+\end{itemize}
+
+This sounds tempting, but the conclusion does not follow. The first premise says that careful thinkers ask questions. It does not say that everyone who asks questions is a careful thinker. A person may ask questions out of confusion, mockery, curiosity, laziness, or careful thought. The middle term "people who ask questions" is not strong enough to prove the conclusion.
+
+This matters because many everyday arguments make exactly this mistake. They notice that one group has a feature, then assume that everyone with that feature belongs to the group. Logic slows the move down.
+
+\subsection*{7. Hidden Syllogisms in Ordinary Speech}
+Most ordinary arguments are not stated as complete syllogisms. A person may say, "Brutus is honorable, so he must be acting for Rome." The missing premise is something like: "All honorable men act for Rome." Once stated that way, the argument can be tested.
+
+Or someone may say, "Macbeth has been promised the crown, so whatever he does to get it must be fate." The missing premise is something like: "All actions that move a person toward a predicted future are forced by fate." Once that premise is visible, it can be challenged.
+
+This is why syllogism work matters for literature. Shakespeare's characters rarely speak like logic textbooks, but they often reason. They draw conclusions about ambition, manhood, danger, honor, loyalty, and necessity. A reader trained by Whately can ask what premises the speech requires.
+
+\subsection*{8. Brutus and the Serpent's Egg}
+In \textit{Julius Caesar}, Brutus worries that Caesar may become a tyrant if he gains too much power. His reasoning can be mapped roughly like this:
+
+\begin{itemize}[leftmargin=*]
+\item Anyone who will probably become a dangerous tyrant should be stopped before he gains power.
+\item Caesar will probably become a dangerous tyrant if crowned.
+\item Therefore, Caesar should be stopped before he is crowned.
+\end{itemize}
+
+This map does not settle whether Brutus is right. It reveals what must be judged. Is the major premise true? Is it just to stop someone for what he may become? Is the minor premise true? Has Caesar actually shown enough evidence of future tyranny? The syllogism map forces the hidden pressure points into the open.
+
+\subsection*{9. Macbeth and Prophecy}
+Macbeth's reasoning can also be mapped. After hearing the witches, he begins to imagine the crown as if prediction itself were proof of destiny.
+
+One possible map:
+
+\begin{itemize}[leftmargin=*]
+\item Whatever has been truly prophesied must happen.
+\item Macbeth's kingship has been truly prophesied.
+\item Therefore, Macbeth's kingship must happen.
+\end{itemize}
+
+Another possible map, more dangerous, would be:
+
+\begin{itemize}[leftmargin=*]
+\item Whatever helps fulfill a true prophecy is necessary rather than blameworthy.
+\item Murdering Duncan would help fulfill the prophecy.
+\item Therefore, murdering Duncan is necessary rather than blameworthy.
+\end{itemize}
+
+The second argument is much weaker morally and logically. Even if a future event is predicted, it does not follow that every chosen means of reaching it is innocent. The syllogism map helps separate prediction, desire, choice, and responsibility.
+
+\subsection*{10. What This Week Adds}
+Week 1 taught you to find a conclusion and a stated reason. Week 4 asks for a fuller map. A practical syllogism map should show:
+
+\begin{itemize}[leftmargin=*]
+\item the conclusion;
+\item the major term and minor term in the conclusion;
+\item the middle term that connects the premises;
+\item the major premise;
+\item the minor premise;
+\item whether the middle term actually links the conclusion.
+\end{itemize}
+
+This map does not answer every question. It does not prove that the premises are true. It does not decide every moral or historical issue. But it gives the mind a disciplined way to test whether a conclusion has been reached by reasoning or merely by pressure, fear, habit, or desire.
+
+\section*{Reading Focus}
+\begin{enumerate}[leftmargin=*]
+\item In your own words, what is a syllogism?
+\item What are the three terms in a standard syllogism, and where does each appear?
+\item Why does Whately's idea of the middle term matter for testing an argument?
+\item In the Socrates example, identify the major premise, minor premise, conclusion, major term, minor term, and middle term.
+\item Explain why this argument fails: "All careful thinkers ask questions. Marcus asks questions. Therefore, Marcus is a careful thinker."
+\item Choose either Brutus or Macbeth from the reading. Which premise in the mapped argument seems most debatable? Why?
+\item How does Week 4 depend on the Week 2 skill of keeping terms steady and the Week 3 skill of stating propositions clearly?
+\end{enumerate}
+
+\section*{Handout Summary}
+Write 5--7 sentences explaining how a syllogism uses two premises and a middle term to prove a conclusion. Your summary must include the words \textit{premise}, \textit{conclusion}, \textit{middle term}, and \textit{follows}.
+\end{multicols}
+\end{document}
