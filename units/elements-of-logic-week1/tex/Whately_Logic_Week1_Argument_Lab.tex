@@ -1,122 +1,122 @@
-
 \documentclass[12pt]{article}
-\usepackage[margin=0.75in]{geometry}
-\usepackage{fontspec}
-\setmainfont{Latin Modern Roman}
+\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{multicol}
 \usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{xcolor}
+\usepackage{lastpage}
+\usepackage{array}
 \usepackage[hidelinks]{hyperref}
-\setlength{\columnsep}{0.28in}
-\setlength{\parindent}{1.1em}
-\setlength{\parskip}{0.35em}
-\setlength{\headheight}{15pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.25em}
+\setlength{\headheight}{26pt}
+
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
 \titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+
 \pagestyle{fancy}
 \fancyhf{}
-\fancyfoot[C]{\thepage}
-\renewcommand{\headrulewidth}{0.4pt}
-\newcommand{\focusbox}[1]{\par\vspace{0.4em}\noindent\begingroup\setlength{\fboxsep}{6pt}\colorbox{gray!12}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}#1\end{minipage}}\endgroup\par\vspace{0.5em}}
-\newcommand{\studentline}{\vspace{0.35em}\hrule\vspace{0.65em}}
-\newcommand{\shortline}{\vspace{0.25em}\hrule\vspace{0.45em}}
+\fancyhead[C]{%
+\footnotesize
+Student Name: \hspace{2.3in} \quad Assignment ID: U1L1AL \quad Page \thepage\ of \pageref{LastPage}
+}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
 
-\fancyhead[L]{Whately: Argument Lab}
-\fancyhead[R]{Student Handout}
+\newcommand{\argumentbox}[2]{% #1 = label e.g. "Part 1 Q1 ARGUMENT BOX", #2 = height e.g. 2.6in
+\vspace{0.15em}
+\noindent\textbf{#1}\par
+\vspace{0.05em}
+\noindent\fbox{%
+\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
+\rule{\textwidth}{0pt}
+\vspace{#2}
+\end{minipage}
+}\par
+\vspace{0.25em}
+}
+
 \begin{document}
+
 \begin{center}
-{\LARGE\bfseries Week 1 Argument Lab}\par\vspace{0.25em}
-{\large\scshape What Follows From What?}\par\vspace{0.6em}
-\rule{0.82\textwidth}{0.4pt}
+{\LARGE\bfseries What Follows From What? Argument Lab}\par\vspace{0.05em}
+{\large\scshape Week 1: Whately on Logic and Reasoning}\par\vspace{0.1em}
+\rule{0.78\textwidth}{0.5pt}\par\vspace{0.15em}
 \end{center}
 
-\section*{Name: \rule{2.4in}{0.4pt} \hfill Date: \rule{1.3in}{0.4pt}}
+\noindent\textbf{Purpose:} This lab helps you practice the structure of an argument: the conclusion, the stated reason, the hidden assumption, and the test of whether the conclusion actually follows. Use your marked Whately reading handout while you work. Your answers should focus on reasoning, not just whether you agree with the topic.
 
-\section*{Purpose}
-Whately says logic studies reasoning. Today you will practice finding the structure of an argument: the conclusion, the stated reason, the hidden assumption, and the question of whether the conclusion actually follows. The first item repeats a pattern from the reading. The rest are new arguments.
+\vspace{0.3em}
 
-\section*{Part I: One Model From the Reading}
-Use this example to remember the four steps.
+\section*{Part 1: Model the Four-Step Test}
 
-\subsection*{Example}
-\textbf{Argument:} "This rule is popular with most students, so it must be fair."
+\textbf{Part 1 Q1:} Read the model argument below. Then explain, in your own words, how the four-step test works. Your answer must mention the \textbf{conclusion}, the \textbf{stated reason}, the \textbf{hidden assumption}, and the question of whether the conclusion \textbf{follows}.
 
-\begin{itemize}[leftmargin=*]
+\vspace{0.15em}
+\noindent\textbf{Model argument:} ``This rule is popular with most students, so it must be fair.''
+
+\begin{itemize}[leftmargin=*, itemsep=0.08em, topsep=0.08em, parsep=0pt]
 \item \textbf{Conclusion:} The rule must be fair.
 \item \textbf{Stated reason:} Most students like it.
 \item \textbf{Hidden assumption:} Whatever most students like is fair.
 \item \textbf{Test:} The conclusion does not necessarily follow. Popularity and fairness are not the same thing.
 \end{itemize}
 
-\section*{Part II: Fresh Arguments}
-For each argument, name the parts and test the reasoning. Some arguments are weak. At least one is stronger than it first appears. Mark one response with a star as a possible portfolio artifact.
+\argumentbox{Part 1 Q1 ARGUMENT BOX}{2.25in}
 
-\subsection*{1. Argument}
-"The city placed a bronze statue of this man in the town square, so he must have lived nobly."
+\newpage
 
-\textbf{Conclusion:}\studentline
-\textbf{Stated reason:}\studentline
-\textbf{Hidden assumption:}\studentline
-\textbf{Does the conclusion follow? Why or why not?}\studentline\studentline
+\section*{Part 2: Test Fresh Arguments}
 
-\subsection*{2. Argument}
-"The first essay uses more difficult words than the second essay, so the first essay must have better reasoning."
+\textbf{Part 2 Q1:} Analyze this argument: ``The city placed a bronze statue of this man in the town square, so he must have lived nobly.'' Identify the conclusion, stated reason, hidden assumption, and whether the conclusion follows.
 
-\textbf{Conclusion:}\studentline
-\textbf{Stated reason:}\studentline
-\textbf{Hidden assumption:}\studentline
-\textbf{Does the conclusion follow? Why or why not?}\studentline\studentline
+\argumentbox{Part 2 Q1 ARGUMENT BOX}{2.45in}
 
-\subsection*{3. Argument}
-"Our class has always done the assignment this way, so this way must be the best way to do it."
+\textbf{Part 2 Q2:} Analyze this argument: ``The first essay uses more difficult words than the second essay, so the first essay must have better reasoning.'' Identify the conclusion, stated reason, hidden assumption, and whether the conclusion follows.
 
-\textbf{Conclusion:}\studentline
-\textbf{Stated reason:}\studentline
-\textbf{Hidden assumption:}\studentline
-\textbf{Does the conclusion follow? Why or why not?}\studentline\studentline
+\argumentbox{Part 2 Q2 ARGUMENT BOX}{2.45in}
 
-\subsection*{4. Argument}
-"Every just rule should treat the same action the same way. This rule punishes one student and excuses another student for the same action. Therefore, this rule is not just."
+\newpage
 
-\textbf{Conclusion:}\studentline
-\textbf{Stated reason:}\studentline
-\textbf{Hidden assumption:}\studentline
-\textbf{Does the conclusion follow? Why or why not?}\studentline\studentline
+\textbf{Part 2 Q3:} Analyze this argument: ``Our class has always done the assignment this way, so this way must be the best way to do it.'' Identify the conclusion, stated reason, hidden assumption, and whether the conclusion follows.
 
-\subsection*{5. Literary Anchor: Macbeth or Caesar}
-Choose one claim below and analyze it with the four-step test.
+\argumentbox{Part 2 Q3 ARGUMENT BOX}{2.45in}
 
-\textbf{Macbeth claim:} "The witches predicted Macbeth's future, so Macbeth is not responsible for what he later chooses."
+\textbf{Part 2 Q4:} Analyze this argument: ``Every just rule should treat the same action the same way. This rule punishes one student and excuses another student for the same action. Therefore, this rule is not just.'' Identify the conclusion, stated reason, hidden assumption, and whether the conclusion follows.
 
-\textbf{Caesar claim:} "Caesar may become dangerous later, so Brutus is justified in killing him now."
+\argumentbox{Part 2 Q4 ARGUMENT BOX}{2.45in}
 
-\textbf{Conclusion:}\studentline
-\textbf{Stated reason:}\studentline
-\textbf{Hidden assumption:}\studentline
-\textbf{Does the conclusion follow? Why or why not?}\studentline\studentline
+\newpage
 
-\section*{Part III: Repair the Reasoning}
-Choose \textbf{one weak argument} from Part II. Rewrite it so that the conclusion is either better supported or more careful. You may change the conclusion, add a missing reason, or narrow the claim.
+\section*{Part 3: Literary Anchor}
 
-\focusbox{Weak argument number: \rule{0.8in}{0.4pt}\hfill My repaired version:}
-\vspace{1.35in}
+\textbf{Part 3 Q1:} Choose \textbf{one} of the claims below and analyze it with the four-step test. Your answer must identify the conclusion, stated reason, hidden assumption, and whether the conclusion follows.
 
-\section*{Part IV: Create Your Own Test Case}
-Write one original argument about a school rule, a speaker in \textit{Macbeth} or \textit{Julius Caesar}, a public speech, a sports decision, or a family disagreement. Then analyze your own argument.
+\begin{itemize}[leftmargin=*, itemsep=0.08em, topsep=0.08em, parsep=0pt]
+\item \textbf{Macbeth claim:} ``The witches predicted Macbeth's future, so Macbeth is not responsible for what he later chooses.''
+\item \textbf{Caesar claim:} ``Caesar may become dangerous later, so Brutus is justified in killing him now.''
+\end{itemize}
 
-\textbf{My argument:}\studentline\studentline
-\textbf{Conclusion:}\shortline
-\textbf{Stated reason:}\shortline
-\textbf{Hidden assumption:}\shortline
-\textbf{Does the conclusion follow? Why or why not?}\studentline
+\argumentbox{Part 3 Q1 ARGUMENT BOX}{2.75in}
 
-\section*{Exit Claim}
-Complete this claim in one strong paragraph:
+\section*{Part 4: Repair and Create}
 
-\focusbox{\textbf{Portfolio exit claim:} Logic helps a reader most when \rule{2.0in}{0.4pt} because \rule{2.2in}{0.4pt}. Use one example from Whately, \textit{Macbeth}, or \textit{Julius Caesar}.}
+\textbf{Part 4 Q1:} Choose \textbf{one weak argument} from Part 2. Rewrite it so that the conclusion is better supported or more careful. You may change the conclusion, add a missing reason, or narrow the claim.
 
-\vspace{1.2in}
+\argumentbox{Part 4 Q1 ARGUMENT BOX}{1.8in}
+
+\newpage
+
+\textbf{Part 4 Q2:} Write one original argument about a school rule, a speaker in \textit{Macbeth} or \textit{Julius Caesar}, a public speech, a sports decision, or a family disagreement. Then analyze your own argument with the four-step test.
+
+\argumentbox{Part 4 Q2 ARGUMENT BOX}{2.65in}
+
+\section*{Part 5: Exit Claim}
+
+\textbf{Part 5 Q1:} Complete this claim in one strong paragraph: \textbf{Logic helps a reader most when \underline{\hspace{1.25in}} because \underline{\hspace{1.6in}}.} Use one example from Whately, \textit{Macbeth}, or \textit{Julius Caesar}.
+
+\argumentbox{Part 5 Q1 ARGUMENT BOX}{2.35in}
+
 \end{document}
