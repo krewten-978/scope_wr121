@@ -18,8 +18,10 @@ Students begin by reading a modernized, student-facing adaptation drawn heavily 
 - `pdfs/Whately_Logic_Week1_Student_Reading.pdf`
 - `pdfs/Whately_Logic_Week1_Argument_Lab.pdf`
 - `pdfs/Whately_Logic_Week1_Macbeth_Lit_Anchor.pdf`
+- `pdfs/Whately_Logic_Week1_Macbeth_Anchor_Worksheet.pdf` (U1L1AW)
 - `pdfs/Whately_Logic_Week1_Logic_Test.pdf`
 - LaTeX sources in `tex/`
+- `answer-keys/U1L1AL.md` and `answer-keys/U1L1AW.md` at the repository root for AI-evaluable grading
 - Source notes in `source-notes/`
 
 ## Source Base
@@ -35,5 +37,6 @@ latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week1_Student_Reading.tex
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week1_Argument_Lab.tex
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week1_Macbeth_Lit_Anchor.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week1_Macbeth_Anchor_Worksheet.tex
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week1_Logic_Test.tex
 ```

@@ -14,7 +14,12 @@ A lit-anchor is not a general literature worksheet. It is a bridge between:
 
 ## Required format
 
-Each lit-anchor should be a single self-contained student-facing handout unless a later lesson becomes too large and needs to be split.
+Each lit-anchor may be a single self-contained student-facing handout when the work is not being graded by the AI evaluator. When a lit-anchor is intended for AI evaluation, split it into two student-facing products:
+
+1. a lit-anchor reading handout containing the literary passages, purpose, central question, light glosses, and any non-written reading focus; and
+2. an anchor worksheet using the same evaluator-safe format as the focus labs: repeated `Student Name` / `Assignment ID` / `Page X of Y` header, stable `Part X QY:` prompt labels, and matching `Part X QY ANSWER BOX` labels.
+
+For Week 1, the anchor worksheet assignment ID is `U1L1AW`.
 
 Required sections:
 
@@ -48,6 +53,7 @@ Required sections:
 8. **Portfolio Artifact**
    - Clearly label the artifact students may save.
    - Connect it to the portfolio category for the week.
+   - In split AI-evaluable versions, move this written artifact to the anchor worksheet and give it stable Part/Q labels.
 
 9. **Closing Synthesis**
    - Return explicitly to Whately and the week's logic habit.
