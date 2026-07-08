@@ -7,15 +7,16 @@ This answer key is based on the paired Week 1 Argument Lab (`units/elements-of-l
 ## Question 1: Part 1 Q1 – Model the four-step argument test (1 point)
 
 **Expected Answer:**  
-A strong answer explains the four labels students should use when testing an argument. The **Conclusion** is the claim the argument wants the reader to accept. The **Stated reason** is the explicit support given for that conclusion. The **Hidden assumption** is the unstated bridge that would have to connect the reason to the conclusion. **Follows** asks whether the stated reason, together with the hidden assumption, actually supports the conclusion or whether there is a gap in the reasoning.
+A strong answer applies the four-step test to the model argument, "This rule is popular with most students, so it must be fair." Conclusion: the rule must be fair. Stated reason: the rule is popular with most students. Hidden assumption: what is popular with most students is fair, or majority approval is a reliable sign of fairness. Follows: the conclusion does not necessarily follow. Popularity may be relevant, but it does not prove fairness; a rule can be popular with most students and still be unfair to some students, especially a minority or less powerful group.
 
 **Rubric:**
-- 1 pt: Fully correct and complete — uses the required labels (Conclusion, Stated reason, Hidden assumption, Follows) and accurately explains what each part does in testing an argument
-- 0 pts: Incorrect, missing, or does not explain the four-part test
+- 1 pt: Fully correct and complete — uses the required labels (Conclusion, Stated reason, Hidden assumption, Follows) and accurately applies them to the model argument about popularity and fairness
+- 0 pts: Incorrect, missing, unlabeled, or only defines the four-part test without applying it to the model argument
 
 **Notes for grading:**
-- Do not require the student to give the actual answer to the model argument, since the model uses placeholders.
-- The response must show that logic tests the movement from reason to conclusion, not just whether the student likes the claim.
+- Accept clear paraphrases of the four labels and the model argument's parts.
+- Do not require the exact word "minority," but a full-credit answer should recognize that popularity alone does not prove fairness.
+- The response must show that logic tests the movement from reason to conclusion, not just whether the student likes the rule.
 
 ## Question 2: Part 2 Q1 – Statue argument (1 point)
 
