@@ -7,4 +7,4 @@ Whately *Elements of Logic* curriculum (WR121).
 - Answer keys: `answer-keys/U#L#LL.md` (same grader format as scope_tenth)
 - Format: `docs/logic-lab-format.md`
 
-Week folders: `units/elements-of-logic-week1/README.md` (**U1L1LL**), `units/elements-of-logic-week2/README.md` (**U1L2LL**), `units/elements-of-logic-week3/README.md` (**U1L3LL**).
+Week folders: `units/elements-of-logic-week1/README.md` (**U1L1LL**) through `units/elements-of-logic-week6/README.md` (**U1L6LL**).
