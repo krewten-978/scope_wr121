@@ -1,0 +1,127 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{lastpage}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.25em}
+\setlength{\headheight}{26pt}
+
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{%
+\footnotesize
+Student Name: \hspace{2.3in} \quad Assignment ID: U1L2LL \quad Page \thepage\ of \pageref{LastPage}
+}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\newcommand{\answerbox}[2]{%
+\vspace{0.15em}
+\noindent\textbf{#1}\par
+\vspace{0.05em}
+\noindent\fbox{%
+\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
+\rule{\textwidth}{0pt}
+\vspace{#2}
+\end{minipage}
+}\par
+\vspace{0.25em}
+}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries Week 2 Logic Lab}\par\vspace{0.05em}
+{\large\scshape Terms, Ambiguity, and Equivocation}\par\vspace{0.1em}
+\rule{0.78\textwidth}{0.5pt}\par\vspace{0.15em}
+\end{center}
+
+\noindent\textbf{Purpose:} Practice Week 2 skills on \textbf{new} examples. Find when a word carries more than one idea, name the senses, spot equivocation, and \textbf{fix the term} before judging whether a conclusion follows. Do not reuse the bank, liberal, equal, or tolerance examples from the reading handout.
+
+\vspace{0.3em}
+
+\section*{Part 1: Two Meanings in Context}
+
+\textbf{Part 1 Q1:} In this sentence, the word \textbf{screen} is used twice with two different meanings: ``The IT office will screen the new app before it appears on the welcome screen in the lobby.'' State both meanings of \textbf{screen} as used here.
+
+\answerbox{Part 1 Q1 ANSWER BOX}{1.55in}
+
+\textbf{Part 1 Q2:} In this mini-argument, one word is used in two different senses: ``A bright student should lead the project. The stage lights were bright enough to hurt your eyes. Therefore the stage lights should lead the project.'' Which word shifts meaning? Give both senses.
+
+\answerbox{Part 1 Q2 ANSWER BOX}{1.65in}
+
+\newpage
+
+\section*{Part 2: Spot the Equivocation}
+
+\textbf{Part 2 Q1:} ``No patient should be left in the cold. The new band's song is cold. Therefore patients should not listen to that song.'' Identify the shifting term, both meanings, and explain why the conclusion does not really follow.
+
+\answerbox{Part 2 Q1 ANSWER BOX}{2.45in}
+
+\textbf{Part 2 Q2:} ``Democracy requires open debate. The gate was left open all night. Therefore democracy was left open all night.'' Identify the shifting term, both meanings, and explain why the argument fails.
+
+\answerbox{Part 2 Q2 ANSWER BOX}{2.45in}
+
+\newpage
+
+\section*{Part 3: Fix the Term}
+
+\textbf{Part 3 Q1:} ``Equality requires fair rules for everyone. These twins are equal in height. Therefore fair rules require everyone to be the same height.'' For the word \textbf{equal}, state one clear meaning for each use (or fix the term for each clause). Then say whether the conclusion follows once the meanings are fixed.
+
+\answerbox{Part 3 Q1 ANSWER BOX}{2.55in}
+
+\newpage
+
+\section*{Part 4: Argument in a Paragraph}
+
+\textbf{Part 4 Q1:} Read the paragraph. Ignore scene details that are not part of the main reasoning. Find where \textbf{interest} shifts meaning, name both senses, and explain why the final conclusion is unreliable.
+
+\vspace{0.2em}
+
+\noindent\fbox{%
+\begin{minipage}{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
+\vspace{0.35em}
+The finance committee met after lunch while a jazz trio practiced in the hallway. The chair joked that she had lost interest in long meetings years ago. The treasurer then said the city should protect the public interest by limiting late fees on student loans. A parent added that her daughter's art club finally held the community's interest after months of poor attendance. The committee's written finding, sent at 4 p.m., was that anyone who ignores public interest must also ignore interest on savings accounts.
+\vspace{0.35em}
+\end{minipage}
+}
+
+\answerbox{Part 4 Q1 ANSWER BOX}{2.75in}
+
+\newpage
+
+\section*{Part 5: Review — Week 1 Four-Step Test}
+
+\textbf{Part 5 Q1:} ``The mayor has served in office longer than any other council member, so the mayor's new zoning plan must be lawful.'' Use the four-step test: conclusion, stated reason, hidden assumption, follows.
+
+\answerbox{Part 5 Q1 ANSWER BOX}{2.35in}
+
+\textbf{Part 5 Q2:} ``This clinic received the highest patient satisfaction scores, so its medical advice must be scientifically correct.'' Use the four-step test: conclusion, stated reason, hidden assumption, follows.
+
+\answerbox{Part 5 Q2 ANSWER BOX}{2.35in}
+
+\newpage
+
+\textbf{Part 5 Q3:} Read the paragraph. Ignore distractors. Parse the main argument with the four-step test (conclusion, stated reason, hidden assumption, follows).
+
+\vspace{0.2em}
+
+\noindent\fbox{%
+\begin{minipage}{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
+\vspace{0.35em}
+The hiring panel ate lunch in the courtyard while interns rearranged chairs. One member said her cousin dislikes early interviews. The panel chair noted that the finalist had answered every technical question correctly and that no other candidate had completed the same skills trial. A board observer posted a meme about trick questions online. The panel's official note said the finalist should be hired because proven test performance guarantees long-term success in the role.
+\vspace{0.35em}
+\end{minipage}
+}
+
+\answerbox{Part 5 Q3 ANSWER BOX}{2.85in}
+
+\end{document}

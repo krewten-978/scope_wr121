@@ -20,7 +20,8 @@ Logic labs are companion worksheets for Whately student reading handouts. They u
 
 - Transfer the week's logic habit into **fresh** sentences and scenarios—not recap or summary of the reading.
 - Do not reuse the reading handout's worked examples; build new practice material.
-- Start with easier identification tasks; increase difficulty (full four-step test, weaker assumptions, original argument + self-diagnosis).
+- Start with easier identification tasks; increase difficulty (full four-step test, weaker assumptions, repair/narrow claims, original short argument + self-diagnosis).
+- **Review section (required from Week 2 onward):** End every logic lab with **Part 5** (or final part) containing **2--3** questions that reuse skills from **prior** logic labs (same answer-box format). Use **fresh** sentences, not prompts copied from earlier worksheets.
 - Real-world, school, civic, and everyday arguments are preferred unless the week targets literary application elsewhere.
 
 ## Repo layout
