@@ -25,14 +25,14 @@ The student reading is **adapted and modernized** rather than quoted continuousl
 
 After Wayne reviewed the first version, the student reading was expanded so that the argument-lab procedure is taught inside the reading before students are asked to use it. The revised reading now amplifies conclusion, stated reason, hidden assumption, and test with multiple examples: popularity/justice, Macbeth and prediction, old ideas, and confidence versus proof.
 
-## Lit-anchor and anchor worksheet note
+## Macbeth lit-anchor note
 
-Lesson 1 now splits the Macbeth lit-anchor into a reading handout and an AI-evaluable worksheet. `Whately_Logic_Week1_Macbeth_Lit_Anchor` is the reading handout. It uses original Shakespeare text with light side-note glosses, not modernized replacement text. It includes both Week 1 Macbeth reading sections: *Macbeth* Act 1, Scene 3, where Macbeth hears the witches' prophecy and begins interpreting it, and Act 1, Scene 7, Macbeth's soliloquy before Duncan's murder. The source text was checked against the public MIT Shakespeare edition:
+`Whately_Logic_Week1_Macbeth_Lit_Anchor` is the Week 1 Macbeth literary anchor handout. It uses original Shakespeare text with light side-note glosses, not modernized replacement text. It includes *Macbeth* Act 1, Scene 3 and Act 1, Scene 7. The source text was checked against the public MIT Shakespeare edition:
 
 - Act 1, Scene 3: `https://shakespeare.mit.edu/macbeth/macbeth.1.3.html`
 - Act 1, Scene 7: `https://shakespeare.mit.edu/macbeth/macbeth.1.7.html`
 
-`Whately_Logic_Week1_Macbeth_Anchor_Worksheet` is the paired U1L1AW anchor worksheet. It follows the scope-style AI-evaluator format: repeated Student Name / Assignment ID / Page header, `Part X QY:` prompt labels, and matching `Part X QY ANSWER BOX` labels. The root answer key is `answer-keys/U1L1AW.md`. The core Lesson 1 insight remains: prediction is not permission; possibility is not command; desire is not proof.
+The former split anchor worksheet (U1L1AW) and argument lab (U1L1AL) were removed; companion worksheet rules are being redesigned.
 
 ## Logic test note
 

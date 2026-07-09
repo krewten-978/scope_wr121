@@ -16,11 +16,12 @@ The Macbeth lit-anchor for this week focuses on the manhood exchange in *Macbeth
 
 - `pdfs/Whately_Logic_Week3_Teacher_Guide.pdf`
 - `pdfs/Whately_Logic_Week3_Student_Reading.pdf`
-- `pdfs/Whately_Logic_Week3_Argument_Lab.pdf`
 - `pdfs/Whately_Logic_Week3_Logic_Test.pdf`
 - `pdfs/Whately_Logic_Week3_Macbeth_Lit_Anchor.pdf`
 - LaTeX sources in `tex/`
 - Source notes in `source-notes/`
+
+Argument labs were removed (fresh worksheet rules TBD).
 
 ## Portfolio Artifact
 
@@ -35,7 +36,6 @@ From this folder:
 ```bash
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week3_Teacher_Guide.tex
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week3_Student_Reading.tex
-latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week3_Argument_Lab.tex
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week3_Logic_Test.tex
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week3_Macbeth_Lit_Anchor.tex
 ```
