@@ -91,10 +91,10 @@ Person A left **quantity** unclear (**all** vs. **some** coaches). If **all**, B
 - 1 pt: Four elements; follows = no
 - 0 pts: Incorrect or missing
 
-## Question 10: Part 5 Q2 – Review: legal vs. right (1 point)
+## Question 10: Part 5 Q2 – Review: right to appeal vs. right answer (1 point)
 
 **Expected Answer:**  
-**Right:** (1) legal/permitted; (2) morally correct.
+**Right:** (1) **entitlement / permission** (right to appeal); (2) **correct / true** (answer is right).
 
 **Rubric:**
 - 1 pt: Both senses
