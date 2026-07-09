@@ -1,6 +1,6 @@
 # U1L3LL – Logic Lab Answer Key & Rubric
 
-**Total Points:** 14
+**Total Points:** 12
 
 **Paired worksheet:** `units/elements-of-logic-week3/logic-labs/U1L3LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L3LL**).
 
@@ -100,16 +100,6 @@ Person A left **quantity** unclear (**all** vs. **some** coaches). If **all**, B
 - 1 pt: Both senses
 - 0 pts: Incorrect or missing
 
-## Question 11: Part 5 Q3 – Review: mammals syllogism (2 points)
-
-**Expected Answer:**  
-Premises and conclusion **A** form (All mammals…; All whales are mammals; All whales are warm-blooded). **Follows:** Yes / valid.
-
-**Rubric:**
-- 2 pts: A forms identified and follows yes
-- 1 pt: Partial
-- 0 pts: Incorrect or missing
-
 **Overall Notes for Grading This Lab:**  
 - Whole points only.  
-- Total: 1+1+1+1+1+1+2+2+1+1+2 = 14 points.
+- Total: 1+1+1+1+1+1+2+2+1+1 = 12 points.
