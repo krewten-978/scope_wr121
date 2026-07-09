@@ -16,12 +16,14 @@ Students begin by reading a modernized, student-facing adaptation drawn heavily 
 
 - `pdfs/Whately_Logic_Week1_Teacher_Guide.pdf`
 - `pdfs/Whately_Logic_Week1_Student_Reading.pdf`
+- `logic-labs/U1L1LL_logic_lab.pdf` (Week 1 logic lab companion)
 - `pdfs/Whately_Logic_Week1_Macbeth_Lit_Anchor.pdf`
 - `pdfs/Whately_Logic_Week1_Logic_Test.pdf`
 - LaTeX sources in `tex/`
+- Logic lab sources in `logic-labs/`
 - Source notes in `source-notes/`
 
-Argument labs and the split anchor-worksheet model were removed (fresh worksheet rules TBD).
+Logic lab format: `docs/logic-lab-format.md` (Assignment ID **U# L# LL**).
 
 ## Source Base
 
@@ -36,4 +38,5 @@ latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week1_Student_Reading.tex
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week1_Macbeth_Lit_Anchor.tex
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week1_Logic_Test.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error logic-labs/U1L1LL_logic_lab.tex
 ```

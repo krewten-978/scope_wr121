@@ -5,6 +5,7 @@ This repo is currently being used for the Richard Whately / *Elements of Logic* 
 Start here:
 
 - `docs/logic-unit-scope-and-sequence.md` — proposed full-unit arc and review questions.
+- `docs/logic-lab-format.md` — logic lab (U# L# LL) worksheet rules for reading companions.
 - `units/elements-of-logic-week1/README.md` — first built week and current deliverables.
 - `units/elements-of-logic-week2/README.md` — ambiguity/equivocation week and current deliverables.
 - `units/elements-of-logic-week3/README.md` — propositions and clear claims week.
