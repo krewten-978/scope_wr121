@@ -1,14 +1,7 @@
-# Congo Curriculum Repository
+# scope_wr121
 
-This repo is currently being used for the Richard Whately / *Elements of Logic* CUE test run.
+Whately *Elements of Logic* curriculum (WR121).
 
-Start here:
-
-- `docs/logic-unit-scope-and-sequence.md` — proposed full-unit arc and review questions.
-- `docs/logic-lab-format.md` — logic lab (U# L# LL) worksheet rules for reading companions.
-- `units/elements-of-logic-week1/README.md` — first built week and current deliverables.
-- `units/elements-of-logic-week2/README.md` — ambiguity/equivocation week and current deliverables.
-- `units/elements-of-logic-week3/README.md` — propositions and clear claims week.
-- `units/elements-of-logic-week4/README.md` — practical syllogism reading and argument lab.
-- `units/elements-of-logic-week5/README.md` — mood-and-figure lesson with Julius Caesar lit-anchor and teacher guide.
-- `units/elements-of-logic-week6/README.md` — validity/truth lesson with Julius Caesar lit-anchor and teacher guide.
+- Student reading PDFs: `units/elements-of-logic-weekN/student-packets/`
+- Logic lab worksheets: `units/elements-of-logic-weekN/logic-labs/` (ID pattern **U# L# LL**)
+- Format: `docs/logic-lab-format.md`
