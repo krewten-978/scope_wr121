@@ -19,7 +19,8 @@ Second **right**: **correct / true** (right about the policy).
 - 0 pts: Incorrect or missing
 
 **Notes for grading:**  
-- Accept “legal right” vs. “factually correct.”
+- Accept “legal right” vs. “factually correct.”  
+- Worksheet does not name the shifting word in the prompt; student must identify *right*.
 
 ## Question 2: Part 1 Q2 – Free country vs. free admission (1 point)
 
@@ -81,9 +82,12 @@ Senses: (1) **no one / not anybody** (“nobody is perfect” = no person is per
 The flyer’s claim that Jordan “must be perfect” does **not** follow reliably — it equivocates by treating “nobody” in the universal sense as if it applied to Jordan as an insignificant person.
 
 **Rubric:**
-- 2 pts: Both senses and explains the bad inference; may credit Jordan’s reply in the paragraph
+- 2 pts: Both senses and explains the bad inference
 - 1 pt: Partial
 - 0 pts: Incorrect or missing
+
+**Notes for grading:**  
+- Jordan’s reply in the paragraph is intentionally non-spoiling on the worksheet; students must find *nobody* themselves.
 
 ## Question 7: Part 5 Q1 – Review: mayor tenure and lawful plan (1 point)
 
