@@ -36,7 +36,9 @@ Both must exit 0 when adding or editing keys.
 
 ## Authoring
 
-- Logic labs: `docs/logic-lab-format.md` and Hermes skill `logic-labs`
+- **scope_wr121 logic labs (start here):** `docs/logic-lab-authoring-guide.md`
+- Layout / pedagogy summary: `docs/logic-lab-format.md`
+- Hermes skill: `logic-labs` (high-level; repo guide wins for WR121)
 - Focus-lab reference (layout only): `classical-unit-engine` → `references/focus-lab-answer-keys.md`
 
 Student worksheets show **Part X QY** only; `Question N` exists in the key for the evaluator, not on the PDF.

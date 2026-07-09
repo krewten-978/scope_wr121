@@ -6,5 +6,6 @@ Whately *Elements of Logic* curriculum (WR121).
 - Logic lab worksheets: `units/elements-of-logic-weekN/logic-labs/` (ID pattern **U# L# LL**)
 - Answer keys: `answer-keys/U#L#LL.md` (same grader format as scope_tenth)
 - Format: `docs/logic-lab-format.md`
+- **Authoring (new labs / AI handoff):** `docs/logic-lab-authoring-guide.md`
 
 Week folders: `units/elements-of-logic-week1/README.md` (**U1L1LL**) through `units/elements-of-logic-week6/README.md` (**U1L6LL**).

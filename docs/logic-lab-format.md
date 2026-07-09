@@ -1,5 +1,7 @@
 # Logic Lab Format — scope_wr121
 
+**Full authoring instructions (AI + humans):** [`logic-lab-authoring-guide.md`](logic-lab-authoring-guide.md)
+
 Logic labs are companion worksheets for Whately student reading handouts. They use the same OCR-oriented layout as scope_tenth focus labs, but they are a **separate** product line with their own IDs and pedagogy.
 
 ## Assignment ID
