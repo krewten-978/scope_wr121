@@ -26,7 +26,8 @@ Logic labs are companion worksheets for Whately student reading handouts. They u
 ## Repo layout
 
 - Per week folder: `logic-labs/U#L#L_logic_lab.tex` and matching `.pdf`.
-- Keep student reading handouts in `tex/`; logic labs stay in `logic-labs/`.
+- Student reading PDFs: `student-packets/` (when shipped PDF-only).
+- Answer keys: `answer-keys/U#L#LL.md` at repo root — **same Markdown contract as scope_tenth** (`## Question N: Part X QY – … (Z points)`). Run `scripts/validate-answer-key-headings.py` and `scripts/audit-answer-key-totals.py` before commit.
 
 ## Related
 

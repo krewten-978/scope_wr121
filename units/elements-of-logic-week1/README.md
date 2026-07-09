@@ -11,6 +11,8 @@
 
 Format rules: `docs/logic-lab-format.md`
 
+Answer key: `answer-keys/U1L1LL.md` — validate with `python3 scripts/validate-answer-key-headings.py answer-keys` from repo root.
+
 ## Build logic lab
 
 From this folder:
