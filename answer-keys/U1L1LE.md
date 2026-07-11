@@ -8,6 +8,17 @@
 
 **Purpose:** Students apply the Week 1 Whately four-step method to two Macbeth passages. Grade for logical structure and textual grounding, not for plot summary. Accept varied phrasing when the logical roles are clear.
 
+## Grading Vocabulary for This Key
+
+Use these terms consistently when evaluating student answers:
+
+- **Conclusion:** the claim the speaker is trying to prove, justify, or move toward.
+- **Stated reason:** the evidence, fact, observation, or support the speaker actually gives.
+- **Hidden assumption:** the unstated idea that must be true for the stated reason to prove the conclusion.
+- **Follow-test:** the student's judgment about whether the conclusion really follows from the stated reason once the hidden assumption is made visible. A follow-test may say **yes**, **no**, or **only partly**, but it must explain the logical connection rather than merely state an opinion.
+
+Do not require students to use these exact labels if their logical roles are clear. Do require the grader to interpret “follow-test” in this precise sense throughout the rubric.
+
 ## Question 1: Part 1 Q1 – Macbeth's first inference from prophecy (2 points)
 
 **Expected Answer:**  
