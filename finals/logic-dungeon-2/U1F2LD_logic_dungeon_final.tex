@@ -8,7 +8,6 @@
 \usepackage{array}
 \usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
-
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.22em}
 \setlength{\headheight}{26pt}
@@ -18,167 +17,139 @@
 \fancyhead[C]{\footnotesize Student Name: \hspace{1.75in} \quad Assignment ID: U1F2LD \quad Page \thepage\ of \pageref{LastPage}}
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\footrulewidth}{0pt}
-
-\newcommand{\answerbox}[2]{\par\vspace{0.12em}\noindent\textbf{#1}\par\vspace{0.04em}\noindent\fbox{\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}\rule{\textwidth}{0pt}\vspace{#2}\end{minipage}}\par\vspace{0.22em}}
-\newcommand{\cluebox}[1]{\noindent\fbox{\begin{minipage}{\dimexpr\textwidth-2\fboxsep-2\fboxrule}\vspace{0.3em}#1\vspace{0.3em}\end{minipage}}}
-
+\newcommand{\answerbox}[2]{\par\vspace{0.1em}\noindent\textbf{#1}\par\vspace{0.03em}\noindent\fbox{\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}\rule{\textwidth}{0pt}\vspace{#2}\end{minipage}}\par\vspace{0.18em}}
+\newcommand{\cluebox}[1]{\par\noindent\fbox{\begin{minipage}{\dimexpr\textwidth-2\fboxsep-2\fboxrule}\vspace{0.25em}#1\vspace{0.25em}\end{minipage}}\par}
 \begin{document}
 \begin{center}
 {\LARGE\bfseries Logic Dungeon II}\par\vspace{0.04em}
 {\large\scshape The Syllogism Labyrinth}\par\vspace{0.08em}
-\rule{0.78\textwidth}{0.5pt}\par\vspace{0.12em}
+\rule{0.78\textwidth}{0.5pt}\par
 \end{center}
-
 \textbf{Purpose:} Use the logic tools from Weeks 4--6 to select the best-supported route through the labyrinth.
-
 \section*{The Second Seal}
-
-Beyond the Hall of Inscriptions, the expedition reaches a circular chamber. The next seal lies in the \textbf{Upper Archive}. Three routes leave the chamber:
-
-\begin{itemize}[leftmargin=1.5em,itemsep=0.1em]
-\item \textbf{Raven Stair} --- an upward arrow is cut beneath a raven seal.
+Beyond the Hall of Inscriptions, twenty adventurers reach a circular chamber. The next seal lies in the \textbf{Upper Archive}. Three routes leave the chamber:
+\begin{itemize}[leftmargin=1.5em,itemsep=0.08em]
+\item \textbf{Raven Stair} --- an upward arrow is cut beneath an old raven seal.
 \item \textbf{Well Passage} --- cold air flows through a round stone opening.
 \item \textbf{Lantern Gallery} --- a blue survey thread disappears around its first turn.
 \end{itemize}
+No route may be accepted merely because it looks promising. At each station, the company must make a limited decision: record a clue, mark a route provisional, send a scout, avoid a trap, or repair a mistake.
 
-Each route has an argument in its favor. A valid form may rest on a bad premise. A true conclusion may be supported by an invalid argument. The expedition must test both the bridge and the ground beneath it.
+\cluebox{\textbf{Two-test rule:} First apply the \emph{form test}: if the premises were granted, would the conclusion follow? Then apply the \emph{fact test}: are the premises established, doubtful, or false? A route can be best supported without being guaranteed safe.}
 
-\cluebox{\textbf{Two-test rule:} First apply the \emph{form test}: if the premises were granted, would the conclusion follow? Then apply the \emph{fact test}: are the premises true, verified, doubtful, or false? The best route needs the strongest combination of form and facts.}
-
-\vspace{0.3em}
-\textbf{Tools available:} premises and conclusion; major, minor, and middle terms; practical syllogism map; A/E/I/O mood; figure; undistributed middle; two negative premises; validity; truth; soundness; premise pressure point.
-
+\textbf{Tools:} premises and conclusion; major, minor, and middle terms; practical syllogism map; A/E/I/O mood; figure; undistributed middle; two negative premises; validity; premise pressure point; soundness.
 \vfill
 \begin{center}\textit{A perfect bridge drawn on rotten paper will not carry an expedition.}\end{center}
 
 \newpage
 \section*{Part 1: The Raven Inscription}
-
 \cluebox{All routes bearing an Archive seal are routes that reach the Upper Archive.\\
 The Raven Stair is a route bearing an Archive seal.\\
 Therefore, the Raven Stair is a route that reaches the Upper Archive.}
 
-\textbf{Part 1 Q1:} List the major premise, minor premise, and conclusion. Name the major, minor, and middle terms.
-\answerbox{Part 1 Q1 ANSWER BOX}{2.0in}
+\textbf{Part 1 Q1:} List the major premise, minor premise, and conclusion. Name the major, minor, and middle terms. Identify the mood and figure, then apply the form test.
+\answerbox{Part 1 Q1 ANSWER BOX}{2.25in}
 
-\textbf{Part 1 Q2:} Explain how the middle term is supposed to connect Raven to the Upper Archive. What premise becomes the pressure point for the route decision, and what evidence would test it?
-\answerbox{Part 1 Q2 ANSWER BOX}{1.6in}
+\textbf{Part 1 Q2:} Identify the pressure-point premise and evidence that would test it. What may the company record now, and should Raven be accepted, rejected, or marked provisional?
+\answerbox{Part 1 Q2 ANSWER BOX}{1.65in}
 
 \newpage
-\section*{Part 2: The Breath of the Well --- Danger Station}
-
-A guard places a hand in the cold draft and argues:
-
+\section*{Part 2: The Breath of the Well}
+A guard places a hand in the draft and argues:
 \cluebox{All passages opening from the Upper Archive carry cold air.\\
 The Well Passage carries cold air.\\
 Therefore, the Well Passage opens from the Upper Archive.}
 
-\textbf{Part 2 Q1:} Identify the mood and the placement of the middle term. Is the form valid? Explain whether the middle term connects the route to the Archive.
-\answerbox{Part 2 Q1 ANSWER BOX}{2.45in}
+\textbf{Part 2 Q1:} Let S = Well, P = passages opening from the Archive, and M = passages carrying cold air. Write the M/P/S pattern, identify mood and figure, and explain whether M connects S to P.
+\answerbox{Part 2 Q1 ANSWER BOX}{2.1in}
 
-\textbf{Part 2 Q2:} What may the expedition record about Well after the form test? Preserve any true observation, but state what the argument has not proved.
-\answerbox{Part 2 Q2 ANSWER BOX}{1.8in}
+\textbf{Part 2 Q2:} A scout can safely examine only the first turn. What observation may the company preserve, what has not been proved, and what limited investigation (if any) is justified?
+\answerbox{Part 2 Q2 ANSWER BOX}{1.75in}
 
 \newpage
 \section*{Part 3: The Blue-Thread Rule}
+A dated card in the survey cabinet states:
+\cluebox{\textbf{Record A --- Chief Surveyor's Rule:} ``Every route carrying an unbroken blue thread from this cabinet was inspected today and terminates in the Upper Archive.'' The signature and cabinet seal match today's log.\\[0.25em]
+At Lantern, the company can see blue thread entering the gallery, but cannot yet tell which spool it came from or whether it remains unbroken.}
 
-A polished brass plaque beside Lantern reads:
+\textbf{Part 3 Q1:} Map the proposed Lantern argument: All M are P; All S are M; therefore All S are P. Identify S, P, M, mood, figure, and the form-test result.
+\answerbox{Part 3 Q1 ANSWER BOX}{1.8in}
 
-\cluebox{All routes marked by current blue survey thread are routes that lead to the Upper Archive.\\
-The Lantern Gallery is marked by current blue survey thread.\\
-Therefore, the Lantern Gallery leads to the Upper Archive.}
-
-\textbf{Part 3 Q1:} Identify the mood and figure pattern using M, P, and S. Apply the form test.
-\answerbox{Part 3 Q1 ANSWER BOX}{1.75in}
-
-\textbf{Part 3 Q2:} Apply the fact test using only what is known so far. Classify each premise as established or doubtful, identify the pressure point, and give the argument's present diagnosis: sound, unsound, or not yet proved.
+\textbf{Part 3 Q2:} Apply the fact test. Which premise is established, which remains doubtful, and what is the present diagnosis? Choose and justify one action: reject Lantern, accept it for all twenty, or send two scouts only far enough to inspect the thread.
 \answerbox{Part 3 Q2 ANSWER BOX}{1.8in}
 
 \newpage
-\section*{Part 4: The Survey Cabinet}
+\section*{Part 4: The Fork of False Bridges}
+The two Lantern scouts reach a fork. One path descends toward standing water; the other rises beside a narrow ledge. Two warnings are carved there.
 
-The expedition opens a locked cabinet bearing today's date. Inside are three records:
-
-\cluebox{\textbf{Record A --- Chief Surveyor's Rule:} ``Every route carrying an unbroken blue thread from this cabinet was inspected today and terminates in the Upper Archive.'' The seal and signature match the cabinet log.
-
-\textbf{Record B --- Thread Check:} ``Blue thread spool 3 runs unbroken from this cabinet into Lantern Gallery.'' Two surveyors signed the check.
-
-\textbf{Record C --- Mason's Note:} ``Raven seals mark routes proposed for Archive access during the old construction. Some were completed; some were abandoned.''}
-
-\textbf{Part 4 Q1:} Use Records A and B to rebuild the Lantern syllogism in standard order. Identify its mood, middle term, and whether it now passes both the form and fact tests.
-\answerbox{Part 4 Q1 ANSWER BOX}{1.95in}
-
-\textbf{Part 4 Q2:} How does Record C affect the Raven argument? State whether the form changes, whether the pressure-point premise is established, and what the expedition may now record about Raven.
-\answerbox{Part 4 Q2 ANSWER BOX}{1.55in}
-
-\newpage
-\section*{Part 5: Two Tempting Shortcuts}
-
-\textbf{Shortcut A:}
+\textbf{Flooded-fork warning:}
 \cluebox{No flooded passages are dry passages.\\
-No Lantern routes are flooded passages.\\
-Therefore, all Lantern routes are dry passages.}
+No ledge routes are flooded passages.\\
+Therefore, all ledge routes are dry passages.}
 
-\textbf{Part 5 Q1:} State the mood. Is the form valid? Explain what two negative premises fail to connect. Does this argument add dependable support for Lantern?
-\answerbox{Part 5 Q1 ANSWER BOX}{2.15in}
+\textbf{Part 4 Q1:} State the mood and test the form. Explain what two negative premises fail to connect. What trap decision should the scouts make about assuming the ledge is dry?
+\answerbox{Part 4 Q1 ANSWER BOX}{1.75in}
 
-\textbf{Shortcut B:}
+\textbf{Rising-path warning:}
 \cluebox{All routes to the Upper Archive rise.\\
-The Lantern Gallery rises.\\
-Therefore, the Lantern Gallery leads to the Upper Archive.}
+This ledge route rises.\\
+Therefore, this ledge route goes to the Upper Archive.}
 
-\textbf{Part 5 Q2:} Explain why this is weak proof even if Lantern really does reach the Archive. Identify the form error and distinguish a true conclusion from a good argument.
-\answerbox{Part 5 Q2 ANSWER BOX}{2.15in}
+\textbf{Part 4 Q2:} Identify the figure and form error. Explain why a true conclusion would still not make this good proof, and state the scouts' justified next action.
+\answerbox{Part 4 Q2 ANSWER BOX}{1.65in}
 
 \newpage
-\section*{Part 6: The Cistern Report}
+\section*{Part 5: Records That Change the Field}
+The scouts return safely after marking the fork \emph{unproved}. Meanwhile, the main company recovers two current maintenance records.
 
-A maintenance report states: ``The Well Passage crosses above an ice cistern. The cistern sends cold air into several passages on both upper and lower levels.'' The report is current and signed.
+\cluebox{\textbf{Record B --- Mason's Ledger:} ``Raven seals marked routes proposed for Archive access during the old construction. Some were completed; some were abandoned. The visible seals were never recut to show which.''\\[0.25em]
+\textbf{Record C --- Cistern Report:} ``The Well Passage crosses above an ice cistern. The cistern sends cold air into passages on both upper and lower levels.'' The airflow reading beside Well is current.}
 
-\textbf{Part 6 Q1:} Apply the fact test to the Well argument. Is the cold-air premise true, false, or doubtful? Does the new fact repair the invalid form? Explain what the report contributes to the route decision.
-\answerbox{Part 6 Q1 ANSWER BOX}{1.95in}
+\textbf{Part 5 Q1:} How does Record B change Raven's fact test without changing its form? Give Raven's present diagnosis and the company's route consequence.
+\answerbox{Part 5 Q1 ANSWER BOX}{1.75in}
 
-\textbf{Part 6 Q2:} Compare these diagnoses: \emph{valid but doubtful}, \emph{invalid with a true observation}, and \emph{sound}. Assign each diagnosis to Raven, Well, or Lantern using the strongest evidence now available.
-\answerbox{Part 6 Q2 ANSWER BOX}{1.65in}
+\textbf{Part 5 Q2:} What does Record C establish about Well, and why does it fail to repair the argument? Give Well's present diagnosis and route consequence.
+\answerbox{Part 5 Q2 ANSWER BOX}{1.75in}
+
+\newpage
+\section*{Part 6: The Recovered Spool}
+Near the false fork, a scout's marker cord catches a loose stone. The company uses a retreat line and recovers the scout without committing the other eighteen. Behind the stone is the missing spool ledger:
+
+\cluebox{\textbf{Record D --- Thread Check:} ``Spool 3 runs from today's sealed survey cabinet into Lantern Gallery and remains unbroken through the first fork to the Upper Archive landing.'' Two surveyors signed the entry. The number stamped on the visible Lantern thread is 3.}
+
+\textbf{Part 6 Q1:} Rebuild the Lantern syllogism in standard order using Records A and D. Identify premises, conclusion, S/P/M, mood, figure, form judgment, and fact status.
+\answerbox{Part 6 Q1 ANSWER BOX}{2.2in}
+
+\textbf{Part 6 Q2:} What new decision is justified now that was not justified in Part 3? Distinguish reaching the Archive from safety, and propose a limited-risk movement for the twenty adventurers.
+\answerbox{Part 6 Q2 ANSWER BOX}{1.45in}
 
 \newpage
 \section*{Part 7: Labyrinth Evidence Chart}
-
-\renewcommand{\arraystretch}{1.45}
-\begin{tabular}{|p{0.13\textwidth}|p{0.19\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|p{0.18\textwidth}|}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabular}{|p{0.12\textwidth}|p{0.18\textwidth}|p{0.2\textwidth}|p{0.21\textwidth}|p{0.19\textwidth}|}
 \hline
-\textbf{Route} & \textbf{Form} & \textbf{Pressure point} & \textbf{Fact status} & \textbf{Final diagnosis}\\ \hline
-Raven & & & & \\[0.38in] \hline
-Well & & & & \\[0.38in] \hline
-Lantern & & & & \\[0.38in] \hline
+\textbf{Route} & \textbf{Form} & \textbf{Pressure point} & \textbf{Fact status} & \textbf{Diagnosis}\\ \hline
+Raven & & & & \\[0.43in] \hline
+Well & & & & \\[0.43in] \hline
+Lantern & & & & \\[0.43in] \hline
 \end{tabular}
 
-\vspace{0.3em}
-\textbf{Part 7 Q1:} Beneath the chart, identify one valid argument with a weak premise, one invalid argument containing a true fact, and the strongest sound argument. Explain why these are different.
+\textbf{Part 7 Q1:} Complete the chart. Then identify the valid argument with a doubtful premise, the invalid argument containing a true observation, and the sound argument. Explain why these differ.
 \answerbox{Part 7 Q1 ANSWER BOX}{1.35in}
 
-\newpage
-\section*{Part 8: The Route Decision}
+\textbf{Part 7 Q2:} Which route is now best supported? Use at least three pieces of evidence from different parts and explain why each rejected route has weaker proof.
+\answerbox{Part 7 Q2 ANSWER BOX}{1.45in}
 
-\textbf{Part 8 Q1:} Which route is best supported as the way to the Upper Archive? Use at least three pieces of evidence from different parts. Explain why each rejected route has weaker proof.
+\newpage
+\section*{Part 8: The Company's Decision}
+The stone guide declares: ``Lantern's argument is valid. Therefore its premises must be true, and the route must be safe.'' The company pauses before moving all twenty adventurers.
+
+\textbf{Part 8 Q1:} Separate and repair the guide's claims. State what the valid form establishes only when combined with the records, what is best supported, and what remains unguaranteed.
 \answerbox{Part 8 Q1 ANSWER BOX}{2.0in}
 
-\textbf{Part 8 Q2:} Name the next observation that would most improve confidence before the expedition commits all twenty adventurers. Then explain what logic has established and what it has not guaranteed.
-\answerbox{Part 8 Q2 ANSWER BOX}{1.5in}
-
-\newpage
-\section*{Part 9: The Last Voice in the Labyrinth}
-
-As the company prepares to enter Lantern, the stone guide says:
-
-\cluebox{``The Lantern argument is valid. Therefore every premise on the plaque must be true, and the route must be safe.''}
-
-\textbf{Part 9 Q1:} Separate the guide's claims. Explain why validity does not establish premise truth or route safety. Repair the statement into a conclusion the evidence supports.
-\answerbox{Part 9 Q1 ANSWER BOX}{2.45in}
-
-\textbf{Part 9 Q2:} In 2--3 sentences, explain why the expedition needed both the form test and the fact test to escape the Syllogism Labyrinth.
-\answerbox{Part 9 Q2 ANSWER BOX}{1.75in}
+\textbf{Part 8 Q2:} Give the company's final movement plan. Include one observation or safety check, one repair or retreat provision, and a 2--3 sentence explanation of why both the form test and fact test were needed.
+\answerbox{Part 8 Q2 ANSWER BOX}{2.0in}
 
 \vfill
-\begin{center}\textit{The blue thread passes through the chosen arch. The second seal waits above.}\end{center}
+\begin{center}\textit{The company follows the evidence, not the loudest sign. The second seal waits above.}\end{center}
 \end{document}
