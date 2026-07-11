@@ -1,0 +1,210 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{lastpage}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.22em}
+\setlength{\headheight}{26pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{%
+\footnotesize
+Student Name: \hspace{2.0in} \quad Assignment ID: U1F1 \quad Page \thepage\ of \pageref{LastPage}
+}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\newcommand{\answerbox}[2]{%
+\vspace{0.12em}
+\noindent\textbf{#1}\par
+\vspace{0.04em}
+\noindent\fbox{%
+\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
+\rule{\textwidth}{0pt}
+\vspace{#2}
+\end{minipage}
+}\par
+\vspace{0.22em}
+}
+
+\newcommand{\evidencebox}[1]{%
+\noindent\fbox{%
+\begin{minipage}{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
+\vspace{0.3em}
+#1
+\vspace{0.3em}
+\end{minipage}}
+}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries Logic Dungeon I}\par\vspace{0.04em}
+{\large\scshape The Hall of Inscriptions}\par\vspace{0.08em}
+\rule{0.78\textwidth}{0.5pt}\par\vspace{0.12em}
+\end{center}
+
+\textbf{Purpose:} Apply the logic tools from Weeks 1--3 to one unfamiliar case.
+
+\section*{Opening: The Twenty Adventurers}
+
+Twenty adventurers enter the first underground passage toward \textit{Castrum Malae Ratiocinationis}. The Hall of Inscriptions contains three possible exits: the \textbf{Laurel Tunnel}, the \textbf{Echo Tunnel}, and the \textbf{Slate Tunnel}. Some inscriptions are true but prove less than travelers think. Others use unstable words or claims broader than the evidence.
+
+Use only the supplied evidence. If a fact cannot be settled from it, say so. At a danger station, careful diagnosis or repair rescues the endangered adventurer.
+
+\evidencebox{
+\textbf{Tools available:} conclusion, stated reason, hidden assumption, follow-test; stable terms and shifting meanings; subject and predicate; quality and quantity; A/E/I/O forms; careful scope; the limits of logic.
+}
+
+\vspace{0.25em}
+\evidencebox{
+\textbf{Route marks:}
+\begin{itemize}[leftmargin=1.4em,itemsep=0.1em,topsep=0.15em]
+\item Laurel doors bear a leaf mark.
+\item Echo doors bear a bell mark.
+\item Slate doors bear a square mark.
+\item The evidence at later stations will determine which marks are supported, disputed, or still unknown.
+\end{itemize}
+}
+
+\vfill
+\textit{Proceed carefully. Decoration, confidence, and repetition are not proof.}
+
+\newpage
+
+\section*{Part 1: The Gate of Applause --- Danger Station}
+
+Above the Laurel entrance, an inscription reads:
+
+\evidencebox{``Travelers have applauded the Laurel Tunnel for a hundred years. Therefore the Laurel Tunnel is the wisest route for our company.''}
+
+\textbf{Part 1 Q1:} Identify the conclusion, stated reason, and hidden assumption. Decide whether the conclusion follows.
+
+\answerbox{Part 1 Q1 ANSWER BOX}{2.45in}
+
+\textbf{Part 1 Q2:} Rewrite the conclusion so it states only what the applause actually supports. Then name one kind of evidence needed to judge whether the tunnel is wise or safe.
+
+\answerbox{Part 1 Q2 ANSWER BOX}{1.8in}
+
+\newpage
+
+\section*{Part 2: The Two-Voiced Guide --- Danger Station}
+
+A guide stands beside the Echo entrance and argues:
+
+\evidencebox{``The Echo passage is sound; the masons found no cracks in its first chamber. Every sound choice deserves our trust. Therefore choosing the Echo passage deserves our trust.''}
+
+\textbf{Part 2 Q1:} Identify the word that changes meaning. Explain both meanings.
+
+\answerbox{Part 2 Q1 ANSWER BOX}{1.65in}
+
+\textbf{Part 2 Q2:} Rewrite the guide's argument so the key word has one stable meaning. Decide whether the rewritten conclusion follows from the supplied reason.
+
+\answerbox{Part 2 Q2 ANSWER BOX}{2.35in}
+
+\newpage
+
+\section*{Part 3: The Beast Ledger --- Danger Station}
+
+The expedition finds a ledger labeled \textbf{Sample from the first chamber only}. It records eight observed tunnel creatures:
+
+\evidencebox{
+\begin{tabular}{lll}
+1. ash moth --- winged & 2. ash moth --- winged & 3. cave beetle --- winged \\
+4. cave beetle --- not winged & 5. blind cricket --- not winged & 6. blind cricket --- not winged \\
+7. glass ant --- winged & 8. glass ant --- not winged &
+\end{tabular}
+}
+
+A clerk adds four claims:
+
+\begin{enumerate}[label=\Alph*.,leftmargin=2em,itemsep=0.12em]
+\item All observed ash moths are winged creatures.
+\item No observed cave beetles are winged creatures.
+\item Some observed glass ants are winged creatures.
+\item Most creatures in the entire Hall are winged creatures.
+\end{enumerate}
+
+\textbf{Part 3 Q1:} For Claims A, B, and C, identify the standard form (A, E, I, or O), quality, and quantity. For Claim C, also identify its subject and predicate.
+
+\answerbox{Part 3 Q1 ANSWER BOX}{2.15in}
+
+\textbf{Part 3 Q2:} Which claims are contradicted by the ledger or reach beyond it? Explain, then repair one unsafe claim without inventing evidence.
+
+\answerbox{Part 3 Q2 ANSWER BOX}{2.15in}
+
+\newpage
+
+\section*{Part 4: The Shortcut Inscription}
+
+A Slate inscription reads:
+
+\evidencebox{``Some doors marked with a square open toward the upper road.''}
+
+The scout concludes: ``Therefore all square-marked doors open toward the upper road, and none lead downward.''
+
+\textbf{Part 4 Q1:} State the inscription in standard form and identify its subject, predicate, quality, quantity, and A/E/I/O letter.
+
+\answerbox{Part 4 Q1 ANSWER BOX}{2.0in}
+
+\textbf{Part 4 Q2:} Explain exactly what follows and what does not. Repair the scout's conclusion so it stays within the inscription's scope.
+
+\answerbox{Part 4 Q2 ANSWER BOX}{2.25in}
+
+\newpage
+
+\section*{Part 5: The Mapmaker's Oath}
+
+The mapmaker says:
+
+\evidencebox{``I copied every line carefully from an older map. Therefore this map gives the true condition of all three tunnels today.''}
+
+No one in the company has inspected the tunnels beyond their first chambers. The older map's date and maker are unknown.
+
+\textbf{Part 5 Q1:} Use the four-step test. Then distinguish what logic can decide here from what requires observation, testimony, or corroboration.
+
+\answerbox{Part 5 Q1 ANSWER BOX}{2.7in}
+
+\newpage
+
+\section*{Part 6: The Door of Narrow Claims --- Rescue Station}
+
+\textbf{Part 6 Q1:} Repair both claims below. Keep each claim's subject matter, but make its terms stable and its scope no broader than the supplied evidence.
+
+\begin{enumerate}[label=\alph*.,leftmargin=2em,itemsep=0.15em]
+\item ``The Echo passage is sound, so it is a sound decision.''
+\item ``Most creatures in the Hall are winged.''
+\end{enumerate}
+
+\answerbox{Part 6 Q1 ANSWER BOX}{2.1in}
+
+\newpage
+
+\section*{Part 7: Final Decision --- The Supported Tunnel}
+
+Before deciding, the company confirms two final observations:
+
+\evidencebox{
+\begin{itemize}[leftmargin=1.4em,itemsep=0.12em,topsep=0.15em]
+\item One square-marked door was opened and observed to rise toward daylight.
+\item No tunnel has been inspected all the way to its exit.
+\end{itemize}
+}
+
+\textbf{Part 7 Q1:} Which route is best supported for the company's next cautious step: Laurel, Echo, or Slate? Cite at least two earlier stations. Explain one rejected route, state what remains unknown, and name the next observation that would most improve the decision.
+
+\answerbox{Part 7 Q1 ANSWER BOX}{3.15in}
+
+\textbf{Part 7 Q2:} Complete the reflection with specific details: ``Logic helped the expedition decide \rule{1.8in}{0.4pt}, but it could not by itself establish \rule{1.8in}{0.4pt}.''
+
+\answerbox{Part 7 Q2 ANSWER BOX}{1.35in}
+
+\end{document}
