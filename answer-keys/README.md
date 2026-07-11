@@ -3,6 +3,7 @@
 Markdown rubrics for the krewone-style AI student evaluator. File names match **Assignment ID** on student PDFs:
 
 - `U#L#LL.md` — logic lab (paired `logic-labs/U#L#LL_logic_lab`)
+- `U#L#LE.md` — lit example worksheet (paired `lit-examples/U#L#LE_lit_example_worksheet`; **do not** use Lit Anchor / `LA` / `AW` naming)
 
 Same heading contract as `scope_tenth/answer-keys/README.md`.
 
