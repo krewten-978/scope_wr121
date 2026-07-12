@@ -2,7 +2,7 @@
 
 This README preserves the recovered semester-scale course plan for `scope_wr121`. It was originally stored as `docs/logic-unit-scope-and-sequence.md` and was removed during a later content reset. The plan below is restored from git history at commit `80e9fc543aa12678b34a8b25dc0d5225f788296e`, with light terminology updates so it points to the current **logic lab** structure rather than the retired argument-lab model.
 
-Current prepared materials on `main`: Weeks 1–7. The plan below extends the intended Whately sequence through Week 19.
+Current prepared materials on `main`: Weeks 1–9. The plan below extends the intended Whately sequence through Week 19.
 
 ---
 
@@ -130,7 +130,7 @@ The official final product is a **Logic Portfolio**. Students should build it th
 
 ## Existing sequence status
 
-Current main has the first seven weeks prepared as student packets, logic labs, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
+Current main has the first nine weeks prepared as student packets, logic labs, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
 
 ### Week 1 — Logic Is Not Magic
 
@@ -258,6 +258,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Macbeth / Caesar application:** analyze “fair is foul,” the witches' equivocations, or Antony's repeated “honorable men.”
 - **Portfolio artifact:** ambiguous-middle diagnosis and repaired version.
 - **Why it belongs here:** This revisits Week 2 at a higher level. Students first learned to fix terms; now they see why term-shifts corrupt full arguments.
+- **Current repo status:** built — student reading, logic lab **U1L8LL**, lit example **U1L8LE** (Macbeth), and answer keys.
 
 ### Week 9 — When the Proof Secretly Assumes the Answer
 
@@ -270,6 +271,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Macbeth / Caesar application:** test whether claims about ambition, tyranny, loyalty, or manhood depend on assumptions the speaker has not proved.
 - **Portfolio artifact:** circular-argument rewrite.
 - **Why it belongs here:** It deepens the hidden-assumption work from Week 1 and gives students a common tool for essay revision.
+- **Current repo status:** built — student reading, logic lab **U1L9LL**, lit example **U1L9LE** (Julius Caesar), and answer keys.
 
 ### Week 10 — Answering a Question No One Asked
 

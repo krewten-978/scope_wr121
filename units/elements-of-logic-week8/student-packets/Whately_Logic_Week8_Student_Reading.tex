@@ -1,0 +1,155 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\setlength{\columnsep}{0.28in}
+\setlength{\parindent}{1.1em}
+\setlength{\parskip}{0.32em}
+\setlength{\headheight}{15pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\newcommand{\focusbox}[1]{\par\vspace{0.4em}\noindent\begingroup\setlength{\fboxsep}{6pt}\colorbox{gray!12}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}#1\end{minipage}}\endgroup\par\vspace{0.5em}}
+
+\fancyhead[L]{Whately: Equivocation}
+\fancyhead[R]{Student Reading}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Equivocation and the Ambiguous Middle}\par\vspace{0.25em}
+{\large\scshape Week 8: The Word That Changed Meaning Halfway Through}\par\vspace{0.5em}
+{Adapted and modernized from Richard Whately, \textit{Elements of Logic}}\par\vspace{0.6em}
+\rule{0.82\textwidth}{0.4pt}
+\end{center}
+
+\section*{Central Question}
+How can a single shifting word make an argument appear valid?
+
+\section*{Vocabulary Preview}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*, itemsep=0.18em]
+\item \textbf{Equivocation}: using one word in two different senses inside a single argument.
+\item \textbf{Ambiguous middle}: a middle term that looks shared but actually changes meaning between premises.
+\item \textbf{Verbal ambiguity}: uncertainty caused by language rather than by the facts alone.
+\item \textbf{Same word / different idea}: the surface term matches; the underlying idea does not.
+\item \textbf{Fixed meaning}: one clear sense chosen for a term before the argument is tested.
+\item \textbf{Disambiguate}: separate the two senses and rewrite the argument with each sense held steady.
+\item \textbf{Apparent connection}: the look of a valid chain created only by the shifting word.
+\item \textbf{Repair}: rewrite the argument so each key term keeps one meaning.
+\item \textbf{Syllogistic middle}: the term meant to link the two premises.
+\item \textbf{Term shift}: movement from one ordinary sense to another without notice.
+\item \textbf{Stable term}: a word kept in one sense throughout the argument.
+\item \textbf{Fallacy of language}: a failure of proof caused by verbal confusion rather than open falsehood alone.
+\end{itemize}
+\end{multicols}
+
+\section*{Introduction}
+In Week 2 you learned to spot a shifting term and fix its meaning. In Weeks 4--6 you learned how a middle term is supposed to join two premises into a real conclusion. This week joins those habits at a higher level.
+
+Whately treats many fallacies of language as cases in which an argument \textit{seems} to connect claims only because a key word quietly changes sense. The most important version for your syllogism work is the \textit{ambiguous middle}: the middle term looks shared on the page, but it is not one idea. The argument appears valid until the senses are fixed. Then the chain breaks.
+
+\focusbox{\textbf{Source note:} Adapted and modernized from Whately's treatment of ambiguity and fallacies involving language. Classroom examples are original adaptations. This week revisits Week 2 term-fixing after students can already map premises, middle terms, and form.}
+
+\begin{multicols}{2}
+\section*{Reading}
+
+\subsection*{1. Week 2 Was Not Enough by Itself}
+It is useful to notice that ``light'' can mean \textit{not heavy} or \textit{bright}. But the deeper danger appears when a shifting term is doing the work of a middle term in a full argument. Then the argument does not merely sound clever. It looks like proof.
+
+\subsection*{2. What an Honest Middle Term Does}
+In a clean syllogism, the middle term is the bridge:
+\begin{itemize}[leftmargin=*]
+\item All M are P.
+\item All S are M.
+\item Therefore all S are P.
+\end{itemize}
+That bridge works only if \textit{M} means the same thing both times. If the first \textit{M} is one idea and the second \textit{M} is another, there is no real shared class. There is only a shared spelling.
+
+\subsection*{3. The Ambiguous Middle}
+Consider this classroom-style argument:
+\begin{itemize}[leftmargin=*]
+\item No \textbf{bank} is safe from thieves.
+\item The edge of the river is a \textbf{bank}.
+\item Therefore the edge of the river is not safe from thieves.
+\end{itemize}
+The form looks like a middle-term argument. But \textit{bank} moves from financial institution to river edge. Once the senses are fixed, the conclusion does not follow from one continuous idea.
+
+A more serious case:
+\begin{itemize}[leftmargin=*]
+\item All \textbf{free} societies protect open debate.
+\item The festival admission is \textbf{free}.
+\item Therefore the festival admission is protected open debate.
+\end{itemize}
+No careful speaker would accept that conclusion. The second \textit{free} means \textit{without charge}, not \textit{politically free}. The middle has split.
+
+\subsection*{4. Why the Shift Is Hard to See}
+Equivocation is often invisible because both senses are ordinary English. No one needs a joke definition. The first sense is natural in one sentence; the second sense is natural in another. The fallacy appears when the argument treats them as one continuous meaning.
+
+That is why Whately cares about language. A term is not a magic object. It stands for an idea. If the idea changes, the reasoning must be rechecked.
+
+\subsection*{5. How to Expose the Shift}
+Use this sequence:
+\begin{enumerate}[leftmargin=*,itemsep=0.12em]
+\item Find the term that seems to join the premises.
+\item State sense A as used in the first premise.
+\item State sense B as used in the second premise (or conclusion).
+\item Rewrite the argument twice, once with each sense fixed.
+\item Ask whether either rewritten argument still supports the original conclusion.
+\end{enumerate}
+Usually neither rewrite preserves the original force. That is the diagnosis.
+
+\subsection*{6. Ambiguous Middle Versus Mere False Premise}
+Do not collapse every bad argument into ``false premise.'' Sometimes both senses are locally true and still fail as a bridge:
+\begin{itemize}[leftmargin=*]
+\item Feathers are light (low weight) --- true in that sense.
+\item What is light cannot be dark (brightness) --- true in that other sense.
+\end{itemize}
+The failure is the illegitimate joining of the two senses, not simply that someone lied.
+
+\subsection*{7. Public and Literary Language}
+Civic arguments often slide on words such as \textit{right}, \textit{free}, \textit{equal}, \textit{security}, and \textit{honor}. Literary arguments do the same. In \textit{Macbeth}, \textit{fair} and \textit{foul} are forced together; later the witches' promises use words that sound safe in one sense and deadly in another. In \textit{Julius Caesar}, \textit{honourable} can praise, pressure, or hollow out a reputation depending on tone and context.
+
+The disciplined reader does not stop at ``the word is repeated.'' The reader asks whether the \textit{idea} is stable enough to carry the inference.
+
+\subsection*{8. Repair}
+A repaired version does one of two things:
+\begin{itemize}[leftmargin=*]
+\item keeps one sense and rewrites the other claim so the argument becomes honest; or
+\item abandons the original conclusion and states only what each sense can support.
+\end{itemize}
+Repair is not decoration. It is the test that the diagnosis was real.
+
+\subsection*{9. What This Week Adds}
+Week 8 upgrades term-work from local ambiguity spotting to full-argument diagnosis. A complete Week 8 answer should include:
+\begin{itemize}[leftmargin=*,itemsep=0.12em]
+\item the shifting term;
+\item both ordinary senses;
+\item where each sense appears;
+\item why the middle no longer joins the premises;
+\item a fixed-meaning rewrite or narrowed conclusion.
+\end{itemize}
+
+\section*{Reading Focus}
+\begin{enumerate}[leftmargin=*]
+\item What is an ambiguous middle?
+\item Why must a middle term keep one meaning to support a valid chain?
+\item How is Week 8 different from simply noticing that a word has two dictionary senses?
+\item List the steps for exposing a term shift in a full argument.
+\item Why can both senses be ``true'' in isolation while the argument still fails?
+\item Give one civic word that often shifts in public argument and explain both senses.
+\item How might literary language use a repeated word without keeping one idea?
+\end{enumerate}
+
+\section*{Handout Summary}
+Write 5--7 sentences explaining how a shifting middle term can make an argument look stronger than it is. Your summary must include the words \textit{equivocation}, \textit{middle}, \textit{sense}, and \textit{rewrite}.
+\end{multicols}
+\end{document}

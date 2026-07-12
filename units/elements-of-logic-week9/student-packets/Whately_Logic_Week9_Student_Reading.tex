@@ -1,0 +1,146 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\setlength{\columnsep}{0.28in}
+\setlength{\parindent}{1.1em}
+\setlength{\parskip}{0.32em}
+\setlength{\headheight}{15pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\newcommand{\focusbox}[1]{\par\vspace{0.4em}\noindent\begingroup\setlength{\fboxsep}{6pt}\colorbox{gray!12}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}#1\end{minipage}}\endgroup\par\vspace{0.5em}}
+
+\fancyhead[L]{Whately: Circular Reasoning}
+\fancyhead[R]{Student Reading}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Circular Reasoning and Begging the Question}\par\vspace{0.25em}
+{\large\scshape Week 9: When the Proof Secretly Assumes the Answer}\par\vspace{0.5em}
+{Adapted and modernized from Richard Whately, \textit{Elements of Logic}}\par\vspace{0.6em}
+\rule{0.82\textwidth}{0.4pt}
+\end{center}
+
+\section*{Central Question}
+How can an argument sound like proof while merely repeating its conclusion?
+
+\section*{Vocabulary Preview}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*, itemsep=0.18em]
+\item \textbf{Circular reasoning}: an argument whose reason depends on already accepting the conclusion.
+\item \textbf{Begging the question}: assuming in the premises the very point that needs proof (petitio principii).
+\item \textbf{Assumed conclusion}: the claim that is treated as settled before independent support is given.
+\item \textbf{Independent support}: a reason that could be accepted without already granting the conclusion.
+\item \textbf{Hidden premise}: an unstated assumption that the argument needs.
+\item \textbf{Restatement}: saying the conclusion again in different words and calling it a reason.
+\item \textbf{Loaded definition}: a definition that smuggles the conclusion into the meaning of a key term.
+\item \textbf{Question-begging epithet}: a descriptive label that assumes guilt, virtue, or proof.
+\item \textbf{Rewrite}: rebuilding the argument so the reason can be tested apart from the conclusion.
+\item \textbf{Petitio principii}: the traditional name for begging the question.
+\item \textbf{Proof burden}: what the speaker still owes the hearer.
+\item \textbf{Essay trap:} writing that restates the thesis as if restating were evidence.
+\end{itemize}
+\end{multicols}
+
+\section*{Introduction}
+In Week 1 you learned to find hidden assumptions. In Week 7 you learned that some arguments only \textit{look} like proof. This week names a common family of that failure: the argument that assumes what it was supposed to prove.
+
+Whately and the older logical tradition call this \textit{petitio principii}---begging the question. The phrase does not mean ``this raises a further question'' in casual modern speech. In logic, it means the reasoning takes the conclusion for granted inside the support.
+
+\focusbox{\textbf{Source note:} Adapted and modernized from Whately's treatment of arguments that assume what they must prove. Classroom examples are original. This week deepens Week 1's hidden-assumption work and Week 7's fallacy autopsy for a specific defect pattern.}
+
+\begin{multicols}{2}
+\section*{Reading}
+
+\subsection*{1. What Circular Reasoning Is}
+An argument is circular when the reason only works if the conclusion is already accepted. The speaker seems to move from support to claim, but the support secretly contains the claim.
+
+Simple form:
+\begin{itemize}[leftmargin=*]
+\item The policy is wise because it is the smart choice.
+\end{itemize}
+``Smart choice'' is often just another way of saying ``wise policy.'' Nothing independent has been offered.
+
+\subsection*{2. Restatement Is Not Evidence}
+Students meet this problem constantly in essays:
+\begin{itemize}[leftmargin=*]
+\item Thesis: Macbeth is ambitious.
+\item ``Support'': Macbeth wants power more than anything.
+\end{itemize}
+That may be a restatement, not a proof. A non-circular version would point to choices, speeches, or actions that a reader could accept without already granting the thesis word-for-word.
+
+\subsection*{3. Loaded Definitions}
+Sometimes the circle hides in a definition:
+\begin{itemize}[leftmargin=*]
+\item A true fan never criticizes the coach.
+\item You criticized the coach.
+\item Therefore you are not a true fan.
+\end{itemize}
+If ``true fan'' has been defined as ``person who never criticizes the coach,'' the conclusion was built into the definition. The argument did not discover your status; it assumed a definition that forces the result.
+
+\subsection*{4. Question-Begging Labels}
+Labels can do the same work: \textit{traitor}, \textit{real teammate}, \textit{obviously guilty}, \textit{anti-school}, \textit{natural leader}. If the label assumes the verdict, it cannot be used as neutral proof of the verdict.
+
+\subsection*{5. How to Test for Circularity}
+Ask:
+\begin{enumerate}[leftmargin=*,itemsep=0.12em]
+\item What is the conclusion?
+\item What reason is offered?
+\item Could a fair opponent accept the reason without already accepting the conclusion?
+\item If not, what independent evidence would actually be needed?
+\end{enumerate}
+If the reason cannot be accepted first, the argument is begging the question.
+
+\subsection*{6. Circular Versus Merely Weak}
+Not every weak argument is circular. ``The cafeteria was loud; therefore the dress code is unfair'' is a bad inference, but it does not necessarily restate the conclusion. Circular reasoning is the special case where the conclusion is smuggled into the support.
+
+Not every circular argument uses identical words. Often the circle uses a synonym, a loaded definition, or a moral title.
+
+\subsection*{7. Why Circular Arguments Feel Strong}
+They feel strong because they are coherent. They do not openly contradict themselves. They sound settled. In a speech, they can use confidence and identity pressure. But coherence is not independent proof.
+
+\subsection*{8. Literary Cases}
+In \textit{Macbeth}, manhood language can become circular: daring the murder is treated as what it means to be a man, and being a man is treated as the reason to dare the murder. In \textit{Julius Caesar}, claims about honor, conspiracy, or tyranny can assume the verdict that still needed proof. The literary task is not to accuse every character of a textbook label. The task is to ask whether a speaker's reason can be granted without already granting the conclusion.
+
+\subsection*{9. Repair}
+A repaired argument replaces the circular reason with independent support, or it narrows the claim to what has actually been shown. Example:
+\begin{itemize}[leftmargin=*]
+\item Circular: ``The rule is necessary because we must have this rule.''
+\item Better: ``The rule is necessary because late arrivals delayed three labs last week; here is the attendance log.''
+\end{itemize}
+
+\subsection*{10. What This Week Adds}
+A complete Week 9 diagnosis should include:
+\begin{itemize}[leftmargin=*,itemsep=0.12em]
+\item the conclusion;
+\item the offered reason;
+\item where the conclusion is assumed (restatement, loaded definition, or label);
+\item what independent support would be needed;
+\item a rewritten non-circular version or a narrowed claim.
+\end{itemize}
+
+\section*{Reading Focus}
+\begin{enumerate}[leftmargin=*]
+\item In logical vocabulary, what does ``begging the question'' mean?
+\item How is circular reasoning different from a merely weak leap?
+\item Why is restating a thesis not the same as supporting it?
+\item What is a loaded definition? Give an original example.
+\item List the four test questions for circularity.
+\item Why can circular arguments feel coherent and still fail as proof?
+\item How might manhood or honor language become circular in Shakespeare?
+\end{enumerate}
+
+\section*{Handout Summary}
+Write 5--7 sentences explaining how an argument can assume its own conclusion and how a writer should repair that failure. Your summary must include the words \textit{circular}, \textit{assumption}, \textit{independent}, and \textit{rewrite}.
+\end{multicols}
+\end{document}

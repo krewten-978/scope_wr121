@@ -1,0 +1,101 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{lastpage}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.25em}
+\setlength{\headheight}{26pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\footnotesize Student Name: \hspace{2.3in} \quad Assignment ID: U1L9LL \quad Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.5pt}
+
+\newcommand{\answerbox}[2]{%
+\vspace{0.15em}
+\noindent\textbf{#1}\par
+\vspace{0.05em}
+\noindent\fbox{%
+\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
+\rule{\textwidth}{0pt}
+\vspace{#2}
+\end{minipage}
+}\par
+\vspace{0.25em}
+}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries Week 9 Logic Lab}\par\vspace{0.05em}
+{\large\scshape Circular Reasoning and Begging the Question}\par\vspace{0.1em}
+\rule{0.78\textwidth}{0.5pt}\par\vspace{0.15em}
+\end{center}
+
+\noindent\textbf{Purpose:} Apply Week 9 skills to new examples. Do not copy examples from the reading handout.
+
+\vspace{0.3em}
+
+\section*{Part 1: Spot the Circle}
+
+\textbf{Part 1 Q1:} ``The new schedule is efficient because it is the most efficient schedule available.'' Explain why this reason is circular.
+
+\answerbox{Part 1 Q1 ANSWER BOX}{2.15in}
+
+\textbf{Part 1 Q2:} ``We can trust the report because it comes from a trustworthy source.'' What would independent support look like?
+
+\answerbox{Part 1 Q2 ANSWER BOX}{2.15in}
+
+\newpage
+
+\section*{Part 2: Loaded Definition}
+
+\textbf{Part 2 Q1:} ``A serious student never questions the rubric. You questioned the rubric. Therefore you are not a serious student.'' Where is the conclusion assumed?
+
+\answerbox{Part 2 Q1 ANSWER BOX}{2.45in}
+
+\newpage
+
+\section*{Part 3: Rewrite}
+
+\textbf{Part 3 Q1:} Rewrite this argument so the reason does not assume the conclusion: ``The election rule is fair because fair elections use this rule.'' Keep a clear conclusion and give independent support or a narrowed claim.
+
+\answerbox{Part 3 Q1 ANSWER BOX}{2.85in}
+
+\newpage
+
+\section*{Part 4: Argument in a Paragraph}
+
+\textbf{Part 4 Q1:} Read the paragraph. Identify the main conclusion, the circular reason, and one independent support that would be better.
+
+\vspace{0.2em}
+
+\noindent\fbox{%
+\begin{minipage}{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
+\vspace{0.35em}
+At the budget hearing, a speaker said the stadium lights project must be approved because it is the project this community needs. Someone in the back asked about the cost of replacing the library roof. The speaker answered that real supporters of the school already know the lights are necessary, and only people who do not support the school keep asking for more proof. He sat down while the projector warmed up.
+\vspace{0.35em}
+\end{minipage}
+}
+
+\answerbox{Part 4 Q1 ANSWER BOX}{2.55in}
+
+\newpage
+
+\section*{Part 5: Review}
+
+\textbf{Part 5 Q1:} ``All bats sleep upside down in caves. The coach ordered new bats. Therefore the coach ordered new animals that sleep upside down in caves.'' Identify the shifting term and both meanings.
+
+\answerbox{Part 5 Q1 ANSWER BOX}{2.15in}
+
+\textbf{Part 5 Q2:} ``Anyone who questions the spirit-week schedule is against school pride. You questioned the schedule. Therefore you are against school pride.'' Name the conclusion and the main defect.
+
+\answerbox{Part 5 Q2 ANSWER BOX}{1.85in}
+
+\end{document}

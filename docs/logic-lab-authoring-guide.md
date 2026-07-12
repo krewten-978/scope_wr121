@@ -85,6 +85,8 @@ Do not commit `*.aux`, `*.log`, `*.fls`, `*.fdb_latexmk`, `*.out` (see root `.gi
 | 5 | U1L5LL | Mood, formal validity / invalidity (undistributed middle, two negatives, illicit process) |
 | 6 | U1L6LL | Form test vs fact test, soundness, valid-but-unsound, weak proof |
 | 7 | U1L7LL | Fallacy as appearance of proof; false claim vs bad inference; emotional/rhetorical force; fallacy autopsy |
+| 8 | U1L8LL | Equivocation and ambiguous middle; fixed-meaning rewrite of full arguments |
+| 9 | U1L9LL | Circular reasoning / begging the question; loaded definitions; independent support rewrite |
 
 Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) before authoring.
 
@@ -124,3 +126,5 @@ Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) befor
 | U1L3LL | `41f9cfb` | Part 5 = 2 review items only (no current-week syllogism review) |
 | U1L4LL–U1L6LL | `d6531da` | Weeks 4–6 complete |
 | U1L7LL / U1L7LE | Week 7 | Fallacy intro + Macbeth LE |
+| U1L8LL / U1L8LE | Week 8 | Ambiguous middle + Macbeth LE |
+| U1L9LL / U1L9LE | Week 9 | Circular reasoning + Julius Caesar LE |
