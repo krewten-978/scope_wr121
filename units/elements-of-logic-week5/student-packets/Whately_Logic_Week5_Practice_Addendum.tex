@@ -1,0 +1,760 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.55in,top=0.75in,bottom=0.5in]{geometry}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{lastpage}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.28em}
+\setlength{\headheight}{24pt}
+\setlist[enumerate]{leftmargin=*,itemsep=0.35em,topsep=0.25em}
+\setlist[itemize]{leftmargin=*,itemsep=0.15em,topsep=0.15em}
+
+\titleformat{\section}{\normalsize\bfseries\scshape}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{%
+\footnotesize
+Student Name: \hspace{2.1in} \quad Practice Addendum: Week 5 \quad Page \thepage\ of \pageref{LastPage}
+}
+\renewcommand{\headrulewidth}{0.5pt}
+
+% Short write-on line
+\newcommand{\ansline}{\par\vspace{0.15em}\noindent\rule{\linewidth}{0.4pt}\par\vspace{0.08em}}
+\newcommand{\twolines}{\ansline\ansline}
+\newcommand{\threelines}{\ansline\ansline\ansline}
+
+\newcommand{\syllblock}[3]{%
+\begin{itemize}[leftmargin=1.2em]
+\item #1
+\item #2
+\item #3
+\end{itemize}
+}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries Week 5 Practice Addendum}\par\vspace{0.05em}
+{\large\scshape Mood, Figure, Validity --- High-Rep Practice}\par\vspace{0.08em}
+{\small Paired with: \textit{Whately Logic Week 5 Student Reading}}\par\vspace{0.08em}
+\rule{0.82\textwidth}{0.5pt}
+\end{center}
+
+\noindent\textbf{Purpose.}
+This packet is \textbf{practice}, not the Logic Lab. Use it to get your hands around mood, form, and validity through many short examples. Work in pencil. Check your work with your teacher using the teacher guide. Do \textbf{not} copy examples from the student reading handout or from Logic Lab U1L5LL.
+
+\vspace{0.2em}
+\noindent\textbf{How to read each three-line argument.}
+Unless a note says otherwise, treat the lines in this order:
+\begin{enumerate}[label=\arabic*., leftmargin=1.6em, itemsep=0.05em]
+\item \textbf{Major premise} (contains the major term --- the predicate of the conclusion)
+\item \textbf{Minor premise} (contains the minor term --- the subject of the conclusion)
+\item \textbf{Conclusion}
+\end{enumerate}
+\textbf{Mood} = the A/E/I/O letter of those three lines, written major--minor--conclusion (example: A-E-E).
+
+\vspace{0.15em}
+\noindent\textbf{Proposition letters (review).}
+\begin{itemize}
+\item \textbf{A:} All S are P \quad \textbf{E:} No S are P \quad \textbf{I:} Some S are P \quad \textbf{O:} Some S are not P
+\end{itemize}
+
+%======================================================
+\section*{Part A --- Proposition Warm-Up (A/E/I/O only)}
+%======================================================
+\noindent For each sentence, write \textbf{A}, \textbf{E}, \textbf{I}, or \textbf{O}. Rewrite in your head as a standard form if needed.
+
+\begin{enumerate}
+\item All varsity athletes in this school are students who passed the physical.
+\hfill Letter: \underline{\hspace{0.7in}}
+
+\item No hallway locker is a place to store lab chemicals.
+\hfill Letter: \underline{\hspace{0.7in}}
+
+\item Some debate rounds are matches that run past 9 p.m.
+\hfill Letter: \underline{\hspace{0.7in}}
+
+\item Some cafeteria trays are not items that got washed twice.
+\hfill Letter: \underline{\hspace{0.7in}}
+
+\item Every smartphone on the test table is a device set to airplane mode.
+\hfill Letter: \underline{\hspace{0.7in}}
+
+\item None of the emergency exits is a blocked doorway.
+\hfill Letter: \underline{\hspace{0.7in}}
+
+\item At least one club officer is a senior.
+\hfill Letter: \underline{\hspace{0.7in}}
+
+\item Not every volunteer finished the training module. (Treat as particular negative about volunteers.)
+\hfill Letter: \underline{\hspace{0.7in}}
+\end{enumerate}
+
+\newpage
+%======================================================
+\section*{Part B --- Full Labels + Mood (the main habit)}
+%======================================================
+\noindent For \textbf{each} argument below, complete the full card:
+
+\begin{itemize}
+\item \textbf{Minor term (S):} subject of the conclusion
+\item \textbf{Major term (P):} predicate of the conclusion
+\item \textbf{Middle term (M):} appears in both premises, not in the conclusion
+\item \textbf{Mood:} three letters, major--minor--conclusion
+\end{itemize}
+
+\subsection*{B1}
+\syllblock
+{All mammals are warm-blooded animals.}
+{All dogs are mammals.}
+{Therefore, all dogs are warm-blooded animals.}
+S: \underline{\hspace{1.7in}}
+P: \underline{\hspace{1.7in}}
+M: \underline{\hspace{1.7in}}
+Mood: \underline{\hspace{1.0in}}
+
+\subsection*{B2}
+\syllblock
+{No reptiles are fur-bearing animals.}
+{All snakes are reptiles.}
+{Therefore, no snakes are fur-bearing animals.}
+S: \underline{\hspace{1.7in}}
+P: \underline{\hspace{1.7in}}
+M: \underline{\hspace{1.7in}}
+Mood: \underline{\hspace{1.0in}}
+
+\subsection*{B3}
+\syllblock
+{All registered voters are citizens with a current address on file.}
+{Some night-shift workers are registered voters.}
+{Therefore, some night-shift workers are citizens with a current address on file.}
+S: \underline{\hspace{1.7in}}
+P: \underline{\hspace{1.7in}}
+M: \underline{\hspace{1.7in}}
+Mood: \underline{\hspace{1.0in}}
+
+\subsection*{B4}
+\syllblock
+{No expired parking permit is a valid dashboard display.}
+{Some stickers on that windshield are expired parking permits.}
+{Therefore, some stickers on that windshield are not valid dashboard displays.}
+S: \underline{\hspace{1.7in}}
+P: \underline{\hspace{1.7in}}
+M: \underline{\hspace{1.7in}}
+Mood: \underline{\hspace{1.0in}}
+
+\subsection*{B5}
+\syllblock
+{All emergency drills are procedures that clear the stairwells.}
+{All fire alarms in this building trigger emergency drills.}
+{Therefore, all fire alarms in this building trigger procedures that clear the stairwells.}
+S: \underline{\hspace{1.7in}}
+P: \underline{\hspace{1.7in}}
+M: \underline{\hspace{1.7in}}
+Mood: \underline{\hspace{1.0in}}
+
+\subsection*{B6}
+\syllblock
+{No unpaid cafeteria debt is a cleared lunch account.}
+{All of Jordan's lunch holds are unpaid cafeteria debts.}
+{Therefore, none of Jordan's lunch holds is a cleared lunch account.}
+S: \underline{\hspace{1.7in}}
+P: \underline{\hspace{1.7in}}
+M: \underline{\hspace{1.7in}}
+Mood: \underline{\hspace{1.0in}}
+
+\newpage
+\subsection*{B7}
+\syllblock
+{All certified lifeguards are people trained in CPR.}
+{Some pool staff members are certified lifeguards.}
+{Therefore, some pool staff members are people trained in CPR.}
+S: \underline{\hspace{1.7in}}
+P: \underline{\hspace{1.7in}}
+M: \underline{\hspace{1.7in}}
+Mood: \underline{\hspace{1.0in}}
+
+\subsection*{B8}
+\syllblock
+{No locked server closet is an open student workspace.}
+{Some rooms on the first floor are locked server closets.}
+{Therefore, some rooms on the first floor are not open student workspaces.}
+S: \underline{\hspace{1.7in}}
+P: \underline{\hspace{1.7in}}
+M: \underline{\hspace{1.7in}}
+Mood: \underline{\hspace{1.0in}}
+
+\subsection*{B9}
+\syllblock
+{All scholarship finalists are students with complete applications.}
+{Maya is a scholarship finalist.}
+{Therefore, Maya is a student with a complete application.}
+\textit{(Treat the minor premise and conclusion as singular A-style claims about Maya.)}
+S: \underline{\hspace{1.7in}}
+P: \underline{\hspace{1.7in}}
+M: \underline{\hspace{1.7in}}
+Mood: \underline{\hspace{1.0in}}
+
+\subsection*{B10}
+\syllblock
+{No banned substance is an allowed competition aid.}
+{This powder is a banned substance.}
+{Therefore, this powder is not an allowed competition aid.}
+\textit{(Treat singular lines as universal in form for mood.)}
+S: \underline{\hspace{1.7in}}
+P: \underline{\hspace{1.7in}}
+M: \underline{\hspace{1.7in}}
+Mood: \underline{\hspace{1.0in}}
+
+\subsection*{B11 --- Messier wording}
+\syllblock
+{Every tablet checked out from the cart must be returned before last period.}
+{The tablet on Row C is a tablet checked out from the cart.}
+{So the tablet on Row C must be returned before last period.}
+S: \underline{\hspace{1.7in}}
+P: \underline{\hspace{1.7in}}
+M: \underline{\hspace{1.7in}}
+Mood: \underline{\hspace{1.0in}}
+
+\subsection*{B12 --- Messier wording}
+\syllblock
+{None of the late bus routes stops at the north lot.}
+{Route 14 is a late bus route.}
+{Therefore Route 14 does not stop at the north lot.}
+S: \underline{\hspace{1.7in}}
+P: \underline{\hspace{1.7in}}
+M: \underline{\hspace{1.7in}}
+Mood: \underline{\hspace{1.0in}}
+
+%======================================================
+\section*{Part C --- Mood Only (speed round)}
+%======================================================
+\noindent Write only the \textbf{mood} (three letters). Assume standard major / minor / conclusion order.
+
+\begin{enumerate}
+\item All coaches are school employees. All varsity mentors are coaches. Therefore all varsity mentors are school employees.\\
+Mood: \underline{\hspace{1.0in}}
+
+\item No metal water bottle is a glass container. All of these lab bottles are metal water bottles. Therefore no lab bottle here is a glass container.\\
+Mood: \underline{\hspace{1.0in}}
+
+\item All honor-roll students are people eligible for the field trip. Some sophomores are honor-roll students. Therefore some sophomores are people eligible for the field trip.\\
+Mood: \underline{\hspace{1.0in}}
+
+\item No cracked helmet is safe gear. Some shelf items are cracked helmets. Therefore some shelf items are not safe gear.\\
+Mood: \underline{\hspace{1.0in}}
+
+\item All backup generators are machines that start during an outage. No machine that starts during an outage is a silent device. Therefore no backup generator is a silent device.\\
+\textit{(Watch order: still major, then minor, then conclusion as printed.)}\\
+Mood: \underline{\hspace{1.0in}}
+
+\item Some essays are not papers turned in on time. All of these essays are English assignments. Therefore some English assignments are not papers turned in on time.\\
+\textit{(Here the printed order may not match ``major first.'' First find the conclusion; then identify which premise has the conclusion's predicate.)}\\
+Mood: \underline{\hspace{1.0in}} \quad
+\textit{(optional note on order:)} \underline{\hspace{2.4in}}
+
+\item All library holds are notices that freeze checkout. No overdue account is a library hold. Therefore no overdue account is a notice that freezes checkout.\\
+Mood: \underline{\hspace{1.0in}}
+
+\item Some campus maps are not up-to-date guides. All campus maps are free handouts. Therefore some free handouts are not up-to-date guides.\\
+Mood: \underline{\hspace{1.0in}}
+
+\item All diesel vans in the fleet are vehicles inspected in March. All activity vans are diesel vans in the fleet. Therefore all activity vans are vehicles inspected in March.\\
+Mood: \underline{\hspace{1.0in}}
+
+\item No temporary ID is a permanent badge. Some front-desk cards are temporary IDs. Therefore some front-desk cards are not permanent badges.\\
+Mood: \underline{\hspace{1.0in}}
+\end{enumerate}
+
+\newpage
+%======================================================
+\section*{Part D --- The Four Strong First-Figure Forms}
+%======================================================
+\noindent Traditional logicians gave special names to four \textbf{first-figure} forms that work cleanly. You do \textbf{not} need the whole medieval poem. You \textbf{do} need these four as a reliable home base.
+
+\vspace{0.15em}
+\noindent In \textbf{first figure}, the middle term is:
+\begin{itemize}
+\item \textbf{subject} of the major premise, and
+\item \textbf{predicate} of the minor premise.
+\end{itemize}
+Pattern of the premises:
+\begin{itemize}
+\item Major: \textbf{M -- P}
+\item Minor: \textbf{S -- M}
+\item Conclusion: \textbf{S -- P}
+\end{itemize}
+That layout lets the middle term act like a chain: S links to M, M links to P, so S links to P (with the right A/E/I/O pattern).
+
+\vspace{0.2em}
+\noindent\textbf{Learn these four names and moods} (all first figure):
+
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\textwidth}{|l|c|X|}
+\hline
+\textbf{Name} & \textbf{Mood} & \textbf{Why it is strong (plain English)} \\
+\hline
+\textbf{Barbara} & A-A-A & If all M are P, and all S are M, then all S are P. Full chain of ``all.'' \\
+\hline
+\textbf{Celarent} & E-A-E & If no M is P, and all S are M, then no S is P. Full exclusion chain. \\
+\hline
+\textbf{Darii} & A-I-I & If all M are P, and some S are M, then some S are P. Partial S still inherits P. \\
+\hline
+\textbf{Ferio} & E-I-O & If no M is P, and some S are M, then some S are not P. Partial S still inherits the exclusion. \\
+\hline
+\end{tabularx}
+
+\vspace{0.25em}
+\noindent\textit{Spelling note:} Older books write \textbf{Celarent}, \textbf{Darii}, \textbf{Ferio}. Use those spellings.
+
+\subsection*{D1 --- Model recognition}
+\noindent Match each modernized argument to its name. Write Barbara, Celarent, Darii, or Ferio.
+
+\begin{enumerate}
+\item
+\syllblock
+{All fleet drivers are people with a clean safety record.}
+{All shuttle drivers are fleet drivers.}
+{Therefore, all shuttle drivers are people with a clean safety record.}
+Name: \underline{\hspace{1.4in}}
+Mood: \underline{\hspace{0.9in}}
+
+\item
+\syllblock
+{No lab acid is a chemical stored in open cups.}
+{All bottle A samples are lab acids.}
+{Therefore, no bottle A sample is a chemical stored in an open cup.}
+Name: \underline{\hspace{1.4in}}
+Mood: \underline{\hspace{0.9in}}
+
+\item
+\syllblock
+{All free-throw shooters in the final are players who completed warm-ups.}
+{Some substitutes are free-throw shooters in the final.}
+{Therefore, some substitutes are players who completed warm-ups.}
+Name: \underline{\hspace{1.4in}}
+Mood: \underline{\hspace{0.9in}}
+
+\item
+\syllblock
+{No expired coupon is a valid checkout code.}
+{Some paper slips in the drawer are expired coupons.}
+{Therefore, some paper slips in the drawer are not valid checkout codes.}
+Name: \underline{\hspace{1.4in}}
+Mood: \underline{\hspace{0.9in}}
+\end{enumerate}
+
+\subsection*{D2 --- Build the missing line (first figure only)}
+\noindent Each item is missing one line. Keep first-figure shape (M--P major; S--M minor). Fill the blank line so the named form is complete and valid.
+
+\begin{enumerate}
+\item \textbf{Barbara (A-A-A)}\\
+Major: All student journalists are people who verify quotations.\\
+Minor: All yearbook editors are student journalists.\\
+Conclusion: \underline{\hspace{4.6in}}
+
+\item \textbf{Celarent (E-A-E)}\\
+Major: No unlocked bike is a bike left safely overnight.\\
+Minor: All bikes in Rack 3 are unlocked bikes.\\
+Conclusion: \underline{\hspace{4.6in}}
+
+\item \textbf{Darii (A-I-I)}\\
+Major: All certified tutors are people allowed in the quiet room after 4.\\
+Minor: \underline{\hspace{4.6in}}\\
+Conclusion: Some seniors are people allowed in the quiet room after 4.
+
+\item \textbf{Ferio (E-I-O)}\\
+Major: \underline{\hspace{4.6in}}\\
+Minor: Some cafeteria desserts are peanut desserts.\\
+Conclusion: Some cafeteria desserts are not safe snacks for that allergy table.
+\end{enumerate}
+
+\subsection*{D3 --- Why first figure feels ``strong''}
+\noindent Answer in 3--5 sentences.
+
+\begin{enumerate}
+\item In your own words, why does the first-figure chain (S to M to P) make Barbara and Celarent easy to trust when the premises are granted?
+\twolines
+\twolines
+
+\item Darii and Ferio only prove something about \textbf{some} S, not \textbf{all} S. Why is that still a strong result rather than a weak guess?
+\twolines
+\end{enumerate}
+
+\newpage
+%======================================================
+\section*{Part E --- Valid or Invalid? (form only)}
+%======================================================
+\noindent For each argument: (1) write the \textbf{mood}, (2) circle \textbf{Valid} or \textbf{Invalid}, (3) if invalid, name the flaw from this bank when it fits:
+
+\begin{itemize}
+\item undistributed middle
+\item two negative premises
+\item illicit process (major or minor term over-extended)
+\item affirmative conclusion with a negative premise
+\item particular premise with a universal conclusion (over-strong conclusion)
+\item other / explain
+\end{itemize}
+\noindent Do \textbf{not} decide whether the premises are true. Form only.
+
+\begin{enumerate}
+\item
+\syllblock
+{All roses are plants.}
+{All tulips are plants.}
+{Therefore, all tulips are roses.}
+Mood: \underline{\hspace{0.9in}}
+Valid / Invalid: \underline{\hspace{1.0in}}
+If invalid, flaw: \underline{\hspace{3.2in}}
+
+\item
+\syllblock
+{No streaming show is a live theater performance.}
+{No school assembly is a live theater performance.}
+{Therefore, no school assembly is a streaming show.}
+Mood: \underline{\hspace{0.9in}}
+Valid / Invalid: \underline{\hspace{1.0in}}
+If invalid, flaw: \underline{\hspace{3.2in}}
+
+\item
+\syllblock
+{All federal judges are government officials.}
+{No city council members are federal judges.}
+{Therefore, no city council members are government officials.}
+Mood: \underline{\hspace{0.9in}}
+Valid / Invalid: \underline{\hspace{1.0in}}
+If invalid, flaw: \underline{\hspace{3.2in}}
+
+\item
+\syllblock
+{All emergency exits are unlocked doors during school hours.}
+{All north-wing exits are emergency exits.}
+{Therefore, all north-wing exits are unlocked doors during school hours.}
+Mood: \underline{\hspace{0.9in}}
+Valid / Invalid: \underline{\hspace{1.0in}}
+If invalid, flaw: \underline{\hspace{3.2in}}
+
+\item
+\syllblock
+{No plastic utensil is a dishwasher-safe metal tool.}
+{All of these cafeteria forks are plastic utensils.}
+{Therefore, none of these cafeteria forks is a dishwasher-safe metal tool.}
+Mood: \underline{\hspace{0.9in}}
+Valid / Invalid: \underline{\hspace{1.0in}}
+If invalid, flaw: \underline{\hspace{3.2in}}
+
+\item
+\syllblock
+{All honor society members are students with community hours.}
+{Some juniors are students with community hours.}
+{Therefore, some juniors are honor society members.}
+Mood: \underline{\hspace{0.9in}}
+Valid / Invalid: \underline{\hspace{1.0in}}
+If invalid, flaw: \underline{\hspace{3.2in}}
+
+\item
+\syllblock
+{No cracked chromebook is a device cleared for checkout.}
+{Some cart devices are cracked chromebooks.}
+{Therefore, some cart devices are not devices cleared for checkout.}
+Mood: \underline{\hspace{0.9in}}
+Valid / Invalid: \underline{\hspace{1.0in}}
+If invalid, flaw: \underline{\hspace{3.2in}}
+
+\item
+\syllblock
+{All students who scored above 90 are people invited to the review dinner.}
+{No one invited to the review dinner is a person barred from the field trip.}
+{Therefore, no student who scored above 90 is a person barred from the field trip.}
+Mood: \underline{\hspace{0.9in}}
+Valid / Invalid: \underline{\hspace{1.0in}}
+If invalid, flaw: \underline{\hspace{3.2in}}
+\textit{(Harder: check figure/placement; if unsure, say valid/invalid and explain in words.)}
+
+\item
+\syllblock
+{Some bus riders are students who miss first period.}
+{All students who miss first period are people marked tardy.}
+{Therefore, all bus riders are people marked tardy.}
+Mood: \underline{\hspace{0.9in}}
+Valid / Invalid: \underline{\hspace{1.0in}}
+If invalid, flaw: \underline{\hspace{3.2in}}
+
+\item
+\syllblock
+{No library fine is a cleared record.}
+{No sports fee is a library fine.}
+{Therefore, no sports fee is a cleared record.}
+Mood: \underline{\hspace{0.9in}}
+Valid / Invalid: \underline{\hspace{1.0in}}
+If invalid, flaw: \underline{\hspace{3.2in}}
+
+\item
+\syllblock
+{All stage lights are ceiling fixtures.}
+{All safety cameras are ceiling fixtures.}
+{Therefore, all safety cameras are stage lights.}
+Mood: \underline{\hspace{0.9in}}
+Valid / Invalid: \underline{\hspace{1.0in}}
+If invalid, flaw: \underline{\hspace{3.2in}}
+
+\item
+\syllblock
+{All band members are students with instrument lockers.}
+{Some ninth graders are band members.}
+{Therefore, some ninth graders are students with instrument lockers.}
+Mood: \underline{\hspace{0.9in}}
+Valid / Invalid: \underline{\hspace{1.0in}}
+If invalid, flaw: \underline{\hspace{3.2in}}
+\end{enumerate}
+
+\newpage
+%======================================================
+\section*{Part F --- Same Shape, Different Subject}
+%======================================================
+\noindent Each pair (or trio) is built to share a form. For each set: (1) write the shared mood if the forms match, (2) say whether that form is valid, (3) one sentence on what the examples prove about ``shape vs topic.''
+
+\subsection*{F1}
+\textbf{Argument 1}
+\syllblock
+{All eagles are birds.}
+{All birds are animals with feathers.}
+{Therefore, all eagles are animals with feathers.}
+\textit{(If needed, reorder mentally into standard major/minor; focus on whether the chain is A-A-A first-figure style.)}
+
+\textbf{Argument 2}
+\syllblock
+{All password resets are security steps.}
+{All security steps are actions logged by the system.}
+{Therefore, all password resets are actions logged by the system.}
+
+Shared mood / form note: \underline{\hspace{3.8in}}\\
+Valid or invalid form? \underline{\hspace{1.4in}}\\
+What does the pair show? \twolines
+
+\subsection*{F2}
+\textbf{Argument 1}
+\syllblock
+{All criminals live in cities.}
+{All mayors live in cities.}
+{Therefore, all mayors are criminals.}
+
+\textbf{Argument 2}
+\syllblock
+{All soccer captains attend morning practice.}
+{All exchange students attend morning practice.}
+{Therefore, all exchange students are soccer captains.}
+
+Shared flaw name: \underline{\hspace{3.2in}}\\
+Valid or invalid? \underline{\hspace{1.4in}}\\
+What does the pair show? \twolines
+
+\subsection*{F3}
+\textbf{Argument 1}
+\syllblock
+{No birds are mammals.}
+{No bats are birds.}
+{Therefore, no bats are mammals.}
+
+\textbf{Argument 2}
+\syllblock
+{No hall passes are permanent IDs.}
+{No lunch tickets are hall passes.}
+{Therefore, no lunch tickets are permanent IDs.}
+
+Shared flaw name: \underline{\hspace{3.2in}}\\
+Valid or invalid? \underline{\hspace{1.4in}}\\
+What does the pair show? \twolines
+
+%======================================================
+\section*{Part G --- Light Figure Work}
+%======================================================
+\noindent Figure tracks \textbf{where the middle term sits} in the two premises. You are not required to master all four traditional figures. For each item:
+
+\begin{itemize}
+\item Underline or rewrite the middle term.
+\item Mark major premise: Is M the \textbf{subject} or the \textbf{predicate}?
+\item Mark minor premise: Is M the \textbf{subject} or the \textbf{predicate}?
+\item Circle: \textbf{First-figure pattern?} Yes / No\\
+(First figure: M subject of major, M predicate of minor.)
+\end{itemize}
+
+\begin{enumerate}
+\item
+\syllblock
+{All M are P: All sealed packages are items safe for the trip.}
+{All S are M: All bag lunches on Table A are sealed packages.}
+{Therefore all S are P: All bag lunches on Table A are items safe for the trip.}
+Major: M is subject / predicate \quad
+Minor: M is subject / predicate \quad
+First figure? Yes / No
+
+\item
+\syllblock
+{All varsity runners stretch before practice.}
+{All cross-country managers stretch before practice.}
+{Therefore, all cross-country managers are varsity runners.}
+Middle term: \underline{\hspace{2.6in}}\\
+Major: M is subject / predicate \quad
+Minor: M is subject / predicate \quad
+First figure? Yes / No
+
+\item
+\syllblock
+{No reptiles are warm-blooded animals.}
+{All lizards are reptiles.}
+{Therefore, no lizards are warm-blooded animals.}
+Middle term: \underline{\hspace{2.6in}}\\
+Major: M is subject / predicate \quad
+Minor: M is subject / predicate \quad
+First figure? Yes / No
+
+\item
+\syllblock
+{All smartphones are devices that use batteries.}
+{No wall clocks are smartphones.}
+{Therefore, no wall clocks are devices that use batteries.}
+Middle term: \underline{\hspace{2.6in}}\\
+Major: M is subject / predicate \quad
+Minor: M is subject / predicate \quad
+First figure? Yes / No\\
+(Also: valid or invalid? \underline{\hspace{1.2in}} Why? \underline{\hspace{2.4in}})
+\end{enumerate}
+
+\newpage
+%======================================================
+\section*{Part H --- Repair the Form}
+%======================================================
+\noindent Each argument is invalid (or at least not safe as written). Repair it in \textbf{one} of these ways:
+\begin{itemize}
+\item change one premise so a first-figure valid form appears, or
+\item weaken the conclusion so it no longer overclaims, or
+\item explain why no small patch can save this conclusion from these premises.
+\end{itemize}
+Write the repaired three lines \textbf{or} a clear explanation.
+
+\begin{enumerate}
+\item
+\syllblock
+{All nurses are people who work at the hospital.}
+{All surgeons are people who work at the hospital.}
+{Therefore, all surgeons are nurses.}
+Repair / explanation:\\
+\threelines
+
+\item
+\syllblock
+{No freshmen are varsity captains.}
+{No sophomores are varsity captains.}
+{Therefore, no sophomores are freshmen.}
+Repair / explanation:\\
+\threelines
+
+\item
+\syllblock
+{All scholarship winners are students with strong essays.}
+{No transfer student is a scholarship winner.}
+{Therefore, no transfer student is a student with a strong essay.}
+Repair / explanation:\\
+\threelines
+
+\item
+\syllblock
+{Some club members are students who skipped the fundraiser.}
+{All students who skipped the fundraiser are people barred from the party.}
+{Therefore, all club members are people barred from the party.}
+Repair / explanation:\\
+\threelines
+
+\item
+\syllblock
+{All fire drills are events that empty the building.}
+{The event at 10:15 was an event that emptied the building.}
+{Therefore, the event at 10:15 was a fire drill.}
+Repair / explanation:\\
+\threelines
+\end{enumerate}
+
+%======================================================
+\section*{Part I --- Buried Syllogisms (bridge to the Logic Lab)}
+%======================================================
+\noindent For each paragraph: (1) extract the main three-claim syllogism, (2) state mood, (3) valid or invalid + short reason.
+
+\subsection*{I1}
+The athletic office printed new schedules and ordered extra ice packs. A posted rule says that every athlete who failed the concussion screen sits out the next game. The trainer's sheet shows that Rivera failed the concussion screen. The coach told the team Rivera sits out the next game. Someone also joked about the popcorn machine.
+
+Extracted major: \twolines
+Extracted minor: \ansline
+Conclusion: \ansline
+Mood: \underline{\hspace{1.0in}} \quad Valid / Invalid: \underline{\hspace{1.2in}}\\
+Reason: \twolines
+
+\subsection*{I2}
+During advisory, two students argued about the elevator key. One said: ``Nobody without a medical pass may use the elevator before 3:00. Sam has no medical pass. So Sam may not use the elevator before 3:00.'' Another student replied that the elevator smelled like paint.
+
+Extracted major: \twolines
+Extracted minor: \ansline
+Conclusion: \ansline
+Mood: \underline{\hspace{1.0in}} \quad Valid / Invalid: \underline{\hspace{1.2in}}\\
+Reason: \twolines
+
+\subsection*{I3}
+A poster in the counseling center claims that all students who complete six college essays are applicants ready for early decision. Jordan completed six college essays. The poster concludes that Jordan is an applicant ready for early decision. A different poster reminds students about lunch prices.
+
+Extracted major: \twolines
+Extracted minor: \ansline
+Conclusion: \ansline
+Mood: \underline{\hspace{1.0in}} \quad Valid / Invalid: \underline{\hspace{1.2in}}\\
+Reason: \twolines
+
+\subsection*{I4}
+Two friends insist: ``All students who sit in the front row pay attention. All students who get A's pay attention. Therefore all students who get A's sit in the front row.'' They high-five as if this settles seating policy.
+
+Extracted major: \twolines
+Extracted minor: \ansline
+Conclusion: \ansline
+Mood: \underline{\hspace{1.0in}} \quad Valid / Invalid: \underline{\hspace{1.2in}}\\
+Reason: \twolines
+
+\newpage
+%======================================================
+\section*{Part J --- Quick Reference You May Keep}
+%======================================================
+\noindent Fill this card from memory at the end of practice (or after checking the teacher guide). This is your portable Week 5 sheet.
+
+\begin{enumerate}
+\item Mood means: \twolines
+
+\item First-figure premise pattern (M and S and P): \twolines
+
+\item Barbara mood: \underline{\hspace{0.8in}} \quad Celarent: \underline{\hspace{0.8in}} \quad Darii: \underline{\hspace{0.8in}} \quad Ferio: \underline{\hspace{0.8in}}
+
+\item Undistributed middle means (own words): \twolines
+
+\item Why two negative premises fail: \twolines
+
+\item Form test asks: \ansline
+
+\item Fact test asks (preview of Week 6): \ansline
+\end{enumerate}
+
+\vspace{0.4em}
+\noindent\textbf{Suggested order of work:} A $\rightarrow$ B $\rightarrow$ C $\rightarrow$ D $\rightarrow$ E $\rightarrow$ F $\rightarrow$ G $\rightarrow$ H $\rightarrow$ I $\rightarrow$ J.\\
+\textbf{After this packet:} complete Logic Lab \textbf{U1L5LL} (graded transfer practice on new examples).
+
+\vspace{0.5em}
+\begin{center}
+\textit{End of Practice Addendum --- Week 5}
+\end{center}
+
+\end{document}
