@@ -84,6 +84,7 @@ Do not commit `*.aux`, `*.log`, `*.fls`, `*.fdb_latexmk`, `*.out` (see root `.gi
 | 4 | U1L4LL | Syllogism map: premises, conclusion, middle/major/minor |
 | 5 | U1L5LL | Mood, formal validity / invalidity (undistributed middle, two negatives, illicit process) |
 | 6 | U1L6LL | Form test vs fact test, soundness, valid-but-unsound, weak proof |
+| 7 | U1L7LL | Fallacy as appearance of proof; false claim vs bad inference; emotional/rhetorical force; fallacy autopsy |
 
 Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) before authoring.
 
@@ -122,3 +123,4 @@ Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) befor
 | U1L2LL | `edf669d` / `dd22afd` | Standard equivocation examples; minimal prompts |
 | U1L3LL | `41f9cfb` | Part 5 = 2 review items only (no current-week syllogism review) |
 | U1L4LL–U1L6LL | `d6531da` | Weeks 4–6 complete |
+| U1L7LL / U1L7LE | Week 7 | Fallacy intro + Macbeth LE |

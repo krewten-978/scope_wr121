@@ -10,6 +10,6 @@ Whately *Elements of Logic* curriculum (WR121).
 - Logic Dungeon plan: `docs/logic-dungeon-assessment-plan.md`
 - Format: `docs/logic-lab-format.md`
 - **Authoring (new labs / AI handoff):** `docs/logic-lab-authoring-guide.md`
-- **Full-course plan:** `docs/full-course-plan/README.md` (recovered 19-week Whately sequence; Weeks 1–6 currently prepared)
+- **Full-course plan:** `docs/full-course-plan/README.md` (recovered 19-week Whately sequence; Weeks 1–7 currently prepared)
 
-Week folders: `units/elements-of-logic-week1/README.md` (**U1L1LL**) through `units/elements-of-logic-week6/README.md` (**U1L6LL**).
+Week folders: `units/elements-of-logic-week1/README.md` (**U1L1LL**) through `units/elements-of-logic-week7/README.md` (**U1L7LL**).
