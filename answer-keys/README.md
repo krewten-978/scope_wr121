@@ -4,7 +4,7 @@ Markdown rubrics for the krewone-style AI student evaluator. File names match **
 
 - `U#L#LL.md` — logic lab (paired `logic-labs/U#L#LL_logic_lab`)
 - `U#L#LE.md` — lit example worksheet (paired `lit-examples/U#L#LE_lit_example_worksheet`; **do not** use Lit Anchor / `LA` / `AW` naming)
-- `U1F1.md` / `U1F#LD.md` — Logic Dungeon final (paired student artifact under `finals/`; six-character `U1F#LD` IDs begin with Dungeon II)
+- `U1F#LD.md` — Logic Dungeon final (paired student artifact under `finals/`; six-character pattern for all dungeons, e.g. `U1F1LD`)
 
 Same heading contract as `scope_tenth/answer-keys/README.md`.
 

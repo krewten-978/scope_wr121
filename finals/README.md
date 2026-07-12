@@ -6,7 +6,7 @@ Cumulative puzzle assessments for the `scope_wr121` Whately logic course live in
 
 | Assignment | Placement | Title | Status |
 |---|---|---|---|
-| **U1F1** | After Weeks 1–3 | Logic Dungeon I: The Hall of Inscriptions | Prototype built |
+| **U1F1LD** | After Weeks 1–3 | Logic Dungeon I: The Hall of Inscriptions | Built |
 | **U1F2LD** | After Weeks 4–6 | Logic Dungeon II: The Surveyor's Rotunda | Built |
 | **U1F3LD** | After Weeks 7–9 | Logic Dungeon III: The Court of the False Oracle | Built |
 | **U1F4LD** | After Weeks 10–12 | Logic Dungeon IV: The Archive of Broken Proofs | Provisional |
@@ -25,18 +25,18 @@ Finals use the established OCR worksheet conventions:
 - no more than two graded prompts per page
 - self-contained Markdown key matching the assignment ID
 
-Beginning with Logic Dungeon II, final IDs use the six-character pattern **U1F#LD** so they remain distinct from weekly **U1L#LL** and **U1L#LE** assignments. U1F1 retains its original prototype ID.
+All Logic Dungeon final IDs use the six-character pattern **U1F#LD** so they remain distinct from weekly **U1L#LL** and **U1L#LE** assignments.
 
-## U1F1 files
+## U1F1LD files
 
-- `logic-dungeon-1/U1F1_logic_dungeon_final.tex`
-- `logic-dungeon-1/U1F1_logic_dungeon_final.pdf`
-- Answer key: `../answer-keys/U1F1.md`
+- `logic-dungeon-1/U1F1LD_logic_dungeon_final.tex`
+- `logic-dungeon-1/U1F1LD_logic_dungeon_final.pdf`
+- Answer key: `../answer-keys/U1F1LD.md`
 
 Build from `finals/logic-dungeon-1/`:
 
 ```bash
-latexmk -pdf -interaction=nonstopmode -halt-on-error U1F1_logic_dungeon_final.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error U1F1LD_logic_dungeon_final.tex
 ```
 
 ## U1F2LD files
