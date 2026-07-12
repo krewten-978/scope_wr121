@@ -8,7 +8,7 @@ Cumulative puzzle assessments for the `scope_wr121` Whately logic course live in
 |---|---|---|---|
 | **U1F1** | After Weeks 1–3 | Logic Dungeon I: The Hall of Inscriptions | Prototype built |
 | **U1F2LD** | After Weeks 4–6 | Logic Dungeon II: The Surveyor's Rotunda | Built |
-| **U1F3LD** | After Weeks 7–9 | Logic Dungeon III: The Court of the False Oracle | Provisional |
+| **U1F3LD** | After Weeks 7–9 | Logic Dungeon III: The Court of the False Oracle | Built |
 | **U1F4LD** | After Weeks 10–12 | Logic Dungeon IV: The Archive of Broken Proofs | Provisional |
 | **U1F5LD** | After Week 17 | Logic Dungeon V: The Gates of Castrum Malae Ratiocinationis | Final cumulative assessment; provisional content |
 
@@ -49,6 +49,19 @@ Build from `finals/logic-dungeon-2/`:
 
 ```bash
 latexmk -pdf -interaction=nonstopmode -halt-on-error U1F2LD_logic_dungeon_final.tex
+```
+
+## U1F3LD files
+
+- `logic-dungeon-3/U1F3LD_logic_dungeon_final.tex`
+- `logic-dungeon-3/U1F3LD_logic_dungeon_final.pdf`
+- Answer key: `../answer-keys/U1F3LD.md`
+- Lore bible (design, not student-facing): `../docs/lore-court-of-the-false-oracle.md`
+
+Build from `finals/logic-dungeon-3/`:
+
+```bash
+latexmk -pdf -interaction=nonstopmode -halt-on-error U1F3LD_logic_dungeon_final.tex
 ```
 
 Validate keys from the repository root:
