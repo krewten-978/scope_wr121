@@ -1,5 +1,5 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.75in,top=0.8in,bottom=0.65in]{geometry}
+\usepackage[margin=0.65in,top=0.7in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
 \usepackage{fancyhdr}
@@ -9,33 +9,36 @@
 \usepackage[hidelinks]{hyperref}
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.38em}
+\setlength{\parskip}{0.28em}
 \setlength{\headheight}{26pt}
-\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+\raggedbottom
+\titleformat{\section}{\normalsize\bfseries\scshape}{}{0pt}{}
 \titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{0.55em}{0.2em}
+\titlespacing*{\subsection}{0pt}{0.4em}{0.15em}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[C]{\footnotesize Lit Example Reader \quad Assignment ID: U1L6LE \quad Page \thepage\ of \pageref{LastPage}}
 \renewcommand{\headrulewidth}{0.5pt}
 
-\newenvironment{playpassage}{\begin{quote}\small\setlength{\parskip}{0.25em}}{\end{quote}}
+\newenvironment{playpassage}{\begin{quote}\small\setlength{\parskip}{0.18em}\setlength{\parindent}{0pt}}{\end{quote}}
 \newcommand{\speaker}[1]{\textbf{#1.}}
 
 \begin{document}
 
 \begin{center}
-{\LARGE\bfseries Week 6 Lit Example Reader}\par\vspace{0.05em}
-{\large\scshape Julius Caesar: Valid Form, Unproved Premise}\par\vspace{0.15em}
+{\LARGE\bfseries Week 6 Lit Example Reader}\par\vspace{0.03em}
+{\large\scshape Julius Caesar: Valid Form, Unproved Premise}\par\vspace{0.1em}
 \rule{0.78\textwidth}{0.5pt}
 \end{center}
 
-\textbf{Purpose:} This reader gives Julius Caesar passages for applying Week 6's logic habit: separate validity from truth and soundness. A valid argument can still fail if an important premise is false, doubtful, or unproved.
+\textbf{Purpose:} Julius Caesar passages for Week 6: separate validity from truth and soundness. A valid argument can still fail if a premise is false, doubtful, or unproved.
 
-\textbf{What to watch for:} Brutus can arrange his defense into a valid shape. Antony's reply matters because it challenges the factual pressure point. Week 6 asks you to run both tests: form first, fact second.
+\textbf{What to watch for:} Brutus can use a valid form; Antony challenges the factual pressure point. Run form first, fact second.
 
 \section*{Before the Passages: The Week 6 Logic Tool}
 
-\begin{itemize}[leftmargin=1.5em,itemsep=0.2em]
+\begin{itemize}[leftmargin=1.4em,itemsep=0.12em,topsep=0.15em,parsep=0.05em]
 \item \textbf{Form test:} If the premises were true, would the conclusion have to follow?
 \item \textbf{Fact test:} Are the premises actually true, adequately supported, or at least reasonable?
 \item \textbf{Sound argument:} valid form plus true premises.
@@ -48,17 +51,17 @@ Do not call an argument sound simply because the conclusion sounds important. Do
 \textbf{Context:} Brutus tells Rome why Caesar was killed. The speech can be reconstructed in a valid form, but the form does not prove every premise.
 
 \begin{playpassage}
-\speaker{Brutus} If then that friend demand why Brutus rose against Caesar,\par
-this is my answer:---Not that I loved Caesar less, but that I\par
-loved Rome more. Had you rather Caesar were living and die all\par
-slaves, than that Caesar were dead, to live all free men?\par
-As Caesar loved me, I weep for him; as he was fortunate, I rejoice\par
-at it; as he was valiant, I honour him: but, as he was ambitious,\par
-I slew him. There is tears for his love; joy for his fortune;\par
-honour for his valour; and death for his ambition.\par
-Who is here so base that would be a bondman? If any, speak;\par
-for him have I offended. Who is here so rude that would not be a Roman?\par
-If any, speak; for him have I offended. Who is here so vile that\par
+\speaker{Brutus} If then that friend demand why Brutus rose against Caesar,\\
+this is my answer:---Not that I loved Caesar less, but that I\\
+loved Rome more. Had you rather Caesar were living and die all\\
+slaves, than that Caesar were dead, to live all free men?\\
+As Caesar loved me, I weep for him; as he was fortunate, I rejoice\\
+at it; as he was valiant, I honour him: but, as he was ambitious,\\
+I slew him. There is tears for his love; joy for his fortune;\\
+honour for his valour; and death for his ambition.\\
+Who is here so base that would be a bondman? If any, speak;\\
+for him have I offended. Who is here so rude that would not be a Roman?\\
+If any, speak; for him have I offended. Who is here so vile that\\
 will not love his country? If any, speak; for him have I offended.
 \end{playpassage}
 
@@ -75,23 +78,23 @@ Here is your most assisted example. Brutus's argument can pass a form test if re
 \textbf{Context:} Antony does not mainly say Brutus's form is invalid. He gives reasons to doubt whether Caesar fits Brutus's pressure-point premise.
 
 \begin{playpassage}
-\speaker{Antony} The noble Brutus\par
-Hath told you Caesar was ambitious:\par
-If it were so, it was a grievous fault,\par
-And grievously hath Caesar answer'd it.\par
-He was my friend, faithful and just to me:\par
-But Brutus says he was ambitious;\par
-And Brutus is an honourable man.\par
-He hath brought many captives home to Rome\par
-Whose ransoms did the general coffers fill:\par
-Did this in Caesar seem ambitious?\par
-When that the poor have cried, Caesar hath wept:\par
-Ambition should be made of sterner stuff:\par
-Yet Brutus says he was ambitious;\par
-And Brutus is an honourable man.\par
-You all did see that on the Lupercal\par
-I thrice presented him a kingly crown,\par
-Which he did thrice refuse: was this ambition?\par
+\speaker{Antony} The noble Brutus\\
+Hath told you Caesar was ambitious:\\
+If it were so, it was a grievous fault,\\
+And grievously hath Caesar answer'd it.\\
+He was my friend, faithful and just to me:\\
+But Brutus says he was ambitious;\\
+And Brutus is an honourable man.\\
+He hath brought many captives home to Rome\\
+Whose ransoms did the general coffers fill:\\
+Did this in Caesar seem ambitious?\\
+When that the poor have cried, Caesar hath wept:\\
+Ambition should be made of sterner stuff:\\
+Yet Brutus says he was ambitious;\\
+And Brutus is an honourable man.\\
+You all did see that on the Lupercal\\
+I thrice presented him a kingly crown,\\
+Which he did thrice refuse: was this ambition?\\
 Yet Brutus says he was ambitious.
 \end{playpassage}
 
