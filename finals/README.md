@@ -7,7 +7,7 @@ Cumulative puzzle assessments for the `scope_wr121` Whately logic course live in
 | Assignment | Placement | Title | Status |
 |---|---|---|---|
 | **U1F1** | After Weeks 1–3 | Logic Dungeon I: The Hall of Inscriptions | Prototype built |
-| **U1F2LD** | After Weeks 4–6 | Logic Dungeon II: The Syllogism Labyrinth | Built |
+| **U1F2LD** | After Weeks 4–6 | Logic Dungeon II: The Surveyor's Rotunda | Built |
 | **U1F3LD** | After Weeks 7–9 | Logic Dungeon III: The Court of the False Oracle | Provisional |
 | **U1F4LD** | After Weeks 10–12 | Logic Dungeon IV: The Archive of Broken Proofs | Provisional |
 | **U1F5LD** | After Week 17 | Logic Dungeon V: The Gates of Castrum Malae Ratiocinationis | Final cumulative assessment; provisional content |
