@@ -12,11 +12,13 @@ Logic labs are companion worksheets for Whately student reading handouts. They u
 
 ## Layout (matches focus-lab OCR standard)
 
-- Plain bold label **above** each box: `Part # Q# ANSWER BOX`.
+- Printed question heading above each prompt: `Question N.M`, followed immediately by the prompt text.
+- Plain bold OCR label **above** each box: `ANSWER LABEL: Part N QN`.
 - Full-width empty `\answerbox` frames; no background colors on the worksheet.
-- Numbered **Parts** with **Part X QY** prompts.
+- Numbered **Parts** with student-facing `Question N.M` prompts; keep canonical `Part X QY` labels only in answer labels and answer-key headings.
 - No window notes, drawings, or picture tasks.
 - Prefer no more than two graded prompts per page; use `\newpage` between pairs when needed.
+- Do not use legacy `Part X QY:` prompt headings or `Part X QY ANSWER BOX` labels on new answer-key-backed worksheets.
 
 ## Pedagogy
 

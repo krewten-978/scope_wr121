@@ -24,9 +24,17 @@ units/elements-of-logic-weekN/
 answer-keys/U1LNLL.md
 ```
 
-Copy LaTeX shell from an existing lab (e.g. `units/elements-of-logic-week3/logic-labs/U1L3LL_logic_lab.tex`): `article` 12pt, geometry, `fancyhdr` with **Student Name** + **Assignment ID: U1LNLL** + **Page X of Y**, `\answerbox{Part X QY ANSWER BOX}{height}`, numbered **Parts**, bold **Part X QY:** prompts.
+Copy LaTeX shell from the latest migrated lab (e.g. `units/elements-of-logic-week9/logic-labs/U1L9LL_logic_lab.tex` or later): `article` 12pt, geometry, `fancyhdr` with **Student Name** + **Assignment ID: U1LNLL** + **Page X of Y**, numbered **Parts**, printed question headings, and split OCR answer labels.
 
-**OCR rules:** Label **above** each box exactly `Part X QY ANSWER BOX`. No colored backgrounds. Prefer ≤2 graded prompts per page; `\newpage` between pairs when needed.
+**Current OCR rules for worksheets with answer keys:** keep the printed prompt heading separate from the extraction label:
+
+```tex
+\textbf{Question N.M}\\[-0.15em]
+<student-facing prompt text>
+\answerbox{ANSWER LABEL: Part N QN}{height}
+```
+
+No legacy `Part X QY:` prompt headings and no `Part X QY ANSWER BOX` labels should remain in new answer-key-backed worksheets. Keep answer-key headings in the evaluator format (`## Question N: Part X QY – ...`). No colored backgrounds. Prefer ≤2 graded prompts per page; `\newpage` between pairs when needed, and keep each question with its answer label/box on the same page.
 
 ## Pedagogy
 
@@ -87,6 +95,7 @@ Do not commit `*.aux`, `*.log`, `*.fls`, `*.fdb_latexmk`, `*.out` (see root `.gi
 | 7 | U1L7LL | Fallacy as appearance of proof; false claim vs bad inference; emotional/rhetorical force; fallacy autopsy |
 | 8 | U1L8LL | Equivocation and ambiguous middle; fixed-meaning rewrite of full arguments |
 | 9 | U1L9LL | Circular reasoning / begging the question; loaded definitions; independent support rewrite |
+| 10 | U1L10LL | Irrelevant proof / missing the point; point at issue; nearby claim; proof-to-claim match |
 
 Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) before authoring.
 

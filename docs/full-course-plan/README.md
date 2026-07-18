@@ -2,7 +2,7 @@
 
 This README preserves the recovered semester-scale course plan for `scope_wr121`. It was originally stored as `docs/logic-unit-scope-and-sequence.md` and was removed during a later content reset. The plan below is restored from git history at commit `80e9fc543aa12678b34a8b25dc0d5225f788296e`, with light terminology updates so it points to the current **logic lab** structure rather than the retired argument-lab model.
 
-Current prepared materials on `main`: Weeks 1–9. The plan below extends the intended Whately sequence through Week 19.
+Current prepared materials on `main`: Weeks 1–10. The plan below extends the intended Whately sequence through Week 19.
 
 ---
 
@@ -130,7 +130,7 @@ The official final product is a **Logic Portfolio**. Students should build it th
 
 ## Existing sequence status
 
-Current main has the first nine weeks prepared as student packets, logic labs, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
+Current main has the first ten weeks prepared as student packets, logic labs, lit examples, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
 
 ### Week 1 — Logic Is Not Magic
 
@@ -284,6 +284,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Macbeth / Caesar application:** distinguish proving that Caesar is powerful from proving that Caesar must be killed; distinguish proving Macbeth is tempted from proving Macbeth is compelled.
 - **Portfolio artifact:** prompt-match diagnosis: claim, actual proof, missing question, repaired proof.
 - **Why it belongs here:** This connects directly to student writing. Many weak essays prove a nearby claim instead of the assigned claim.
+- **Current repo status:** built — student reading, logic lab **U1L10LL**, lit example **U1L10LE** (Julius Caesar), and answer keys.
 
 ### Week 11 — When Comparisons Prove Too Much
 
