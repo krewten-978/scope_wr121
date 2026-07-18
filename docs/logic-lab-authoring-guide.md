@@ -96,6 +96,7 @@ Do not commit `*.aux`, `*.log`, `*.fls`, `*.fdb_latexmk`, `*.out` (see root `.gi
 | 8 | U1L8LL | Equivocation and ambiguous middle; fixed-meaning rewrite of full arguments |
 | 9 | U1L9LL | Circular reasoning / begging the question; loaded definitions; independent support rewrite |
 | 10 | U1L10LL | Irrelevant proof / missing the point; point at issue; nearby claim; proof-to-claim match |
+| 11 | U1L11LL | Analogy; source/target cases; relevant similarity; disanalogy; overextension |
 
 Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) before authoring.
 
@@ -137,3 +138,5 @@ Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) befor
 | U1L7LL / U1L7LE | Week 7 | Fallacy intro + Macbeth LE |
 | U1L8LL / U1L8LE | Week 8 | Ambiguous middle + Macbeth LE |
 | U1L9LL / U1L9LE | Week 9 | Circular reasoning + Julius Caesar LE |
+| U1L10LL / U1L10LE | Week 10 | Irrelevant proof + Julius Caesar funeral speeches LE |
+| U1L11LL / U1L11LE | Week 11 | Analogy and relevant similarity + Caesar serpent's egg / Macbeth bear-like comparisons LE |

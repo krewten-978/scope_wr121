@@ -2,7 +2,7 @@
 
 This README preserves the recovered semester-scale course plan for `scope_wr121`. It was originally stored as `docs/logic-unit-scope-and-sequence.md` and was removed during a later content reset. The plan below is restored from git history at commit `80e9fc543aa12678b34a8b25dc0d5225f788296e`, with light terminology updates so it points to the current **logic lab** structure rather than the retired argument-lab model.
 
-Current prepared materials on `main`: Weeks 1–10. The plan below extends the intended Whately sequence through Week 19.
+Current prepared materials on `main`: Weeks 1–11. The plan below extends the intended Whately sequence through Week 19.
 
 ---
 
@@ -130,7 +130,7 @@ The official final product is a **Logic Portfolio**. Students should build it th
 
 ## Existing sequence status
 
-Current main has the first ten weeks prepared as student packets, logic labs, lit examples, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
+Current main has the first eleven weeks prepared as student packets, logic labs, lit examples, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
 
 ### Week 1 — Logic Is Not Magic
 
@@ -296,6 +296,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Student skill:** test whether an analogy proves the claim or merely decorates it.
 - **Macbeth / Caesar application:** evaluate comparisons used to describe Caesar as a serpent's egg or Macbeth as a trapped/fated man.
 - **Portfolio artifact:** analogy test.
+- **Current repo status:** built — student reading, logic lab **U1L11LL**, lit example **U1L11LE** (Julius Caesar and Macbeth), and answer keys.
 - **Why it belongs here:** Students often reason by analogy in essays. This week teaches them to test comparisons rather than merely admire them.
 
 ### Week 12 — Finding Evidence Is Not the Same as Proving a Claim
