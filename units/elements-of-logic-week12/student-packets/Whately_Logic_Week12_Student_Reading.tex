@@ -1,0 +1,142 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\setlength{\columnsep}{0.28in}
+\setlength{\parindent}{1.1em}
+\setlength{\parskip}{0.32em}
+\setlength{\headheight}{15pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\newcommand{\focusbox}[1]{\par\vspace{0.4em}\noindent\begingroup\setlength{\fboxsep}{6pt}\colorbox{gray!12}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}#1\end{minipage}}\endgroup\par\vspace{0.5em}}
+
+\fancyhead[L]{Whately: Induction}
+\fancyhead[R]{Student Reading}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Induction, Examples, and General Claims}\par\vspace{0.25em}
+{\large\scshape Week 12: Finding Evidence Is Not the Same as Proving a Claim}\par\vspace{0.5em}
+{Adapted and modernized from Richard Whately, \textit{Elements of Logic}}\par\vspace{0.6em}
+\rule{0.82\textwidth}{0.4pt}
+\end{center}
+
+\section*{Central Question}
+When do examples justify a general conclusion?
+
+\section*{Vocabulary Preview}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*, itemsep=0.18em]
+\item \textbf{Induction}: reasoning from observed cases toward a broader claim.
+\item \textbf{Example}: a particular case offered as evidence.
+\item \textbf{Generalization}: a claim about a larger group or pattern.
+\item \textbf{Sample}: the set of examples actually examined.
+\item \textbf{Representative sample}: examples that fairly reflect the group being judged.
+\item \textbf{Cherry-picking}: selecting only examples that favor one conclusion.
+\item \textbf{Counterexample}: a case that challenges or disproves an overlarge claim.
+\item \textbf{Overclaim}: a conclusion broader than the evidence supports.
+\item \textbf{Evidence ladder}: example, pattern, limited claim, overclaim, revised claim.
+\item \textbf{Degree of support}: how strongly the evidence makes the conclusion probable.
+\end{itemize}
+\end{multicols}
+
+\section*{Introduction}
+Weeks 4--6 trained you to test whether a conclusion follows from premises. Weeks 7--11 trained you to spot fallacies and proof that overreaches. Week 12 turns to a different kind of reasoning: induction.
+
+Induction does not usually give the same kind of necessity as a valid syllogism. It asks how much a set of examples, observations, or cases supports a broader claim. This kind of reasoning matters in essays, history, science, public policy, and ordinary judgment.
+
+\focusbox{\textbf{Source note:} Adapted and modernized from Whately's discussion of induction and probable reasoning, with light support from Bacon's emphasis on careful observation. Classroom examples are original. The goal is not a statistics unit; it is a disciplined habit for matching evidence to the size of a claim.}
+
+\begin{multicols}{2}
+\section*{Reading}
+
+\subsection*{1. Deduction and Induction}
+Deduction tests whether a conclusion follows from stated premises. If the form is valid and the premises are true, the conclusion must be true.
+
+Induction moves from observed cases to a broader conclusion. The conclusion may be strong, weak, or rash depending on the evidence. Induction often speaks in terms like \textit{probably}, \textit{usually}, \textit{many}, \textit{some}, \textit{likely}, and \textit{so far}.
+
+\subsection*{2. Examples Are Not Automatically Proof}
+One example can be important. But one example rarely proves a universal claim.
+
+If one student improved after changing study habits, that example may suggest a useful method. It does not prove that the method works for every student in every class. A disciplined thinker asks how many cases have been observed, whether they are representative, and whether other explanations are possible.
+
+\subsection*{3. The Size of the Claim}
+Evidence must fit the size of the conclusion:
+\begin{itemize}[leftmargin=*]
+\item \textit{One case:} may support ``this happened once.''
+\item \textit{Several varied cases:} may support ``this often happens.''
+\item \textit{Broad, fair evidence:} may support a larger generalization.
+\item \textit{Every/all/none claims:} require especially strong evidence because one counterexample can break them.
+\end{itemize}
+
+\subsection*{4. Representative Samples}
+A sample is representative when it fairly reflects the group being judged. If you ask only students who already joined theater whether the school should fund theater, you may learn something real about theater students. You have not learned what the whole school thinks.
+
+Representative evidence does not mean perfect evidence. It means the evidence was gathered in a way that gives the conclusion a fair chance to be true or false.
+
+\subsection*{5. Cherry-Picking}
+Cherry-picking selects only favorable examples and hides the rest. It can make a weak pattern look strong.
+
+A writer might quote three lines where a character sounds brave while ignoring scenes of fear, doubt, or cruelty. A public speaker might cite one successful program and ignore ten failed attempts. Week 12 asks you to ask: what evidence is missing?
+
+\subsection*{6. Counterexamples}
+A counterexample is a case that challenges the general claim. If someone says, ``No students revise after peer review,'' one student who seriously revises is enough to disprove the universal claim.
+
+Counterexamples do not always destroy a more modest claim. They may force a revision from ``all'' to ``many,'' from ``never'' to ``rarely,'' or from ``this always works'' to ``this worked under these conditions.''
+
+\subsection*{7. The Evidence Ladder}
+Use this ladder:
+\begin{enumerate}[leftmargin=*,itemsep=0.12em]
+\item Name the examples or observations.
+\item State the pattern they seem to show.
+\item Write a limited claim the evidence can support.
+\item Identify the overclaim the evidence cannot yet support.
+\item Revise the conclusion or add the missing evidence.
+\end{enumerate}
+
+\subsection*{8. Literary Cases}
+In literature, readers often generalize about a character from one speech or action. That can be useful, but it must be tested. One brave action may support ``brave in battle'' more strongly than ``always virtuous.'' One persuasive speech may support ``skillful speaker'' more strongly than ``trustworthy leader.'' One prophecy coming true may support ``the prophecy was partly accurate'' more strongly than ``the speaker is reliable in every respect.''
+
+\subsection*{9. Repairing an Inductive Argument}
+There are two honest repairs:
+\begin{itemize}[leftmargin=*]
+\item Gather more varied evidence.
+\item Narrow the conclusion to match the evidence already gathered.
+\end{itemize}
+The second repair is often the fastest way to improve an essay paragraph.
+
+\subsection*{10. What This Week Adds}
+A complete Week 12 diagnosis should include:
+\begin{itemize}[leftmargin=*,itemsep=0.12em]
+\item the examples or observations;
+\item the general claim;
+\item the size of the claim;
+\item possible missing cases or counterexamples;
+\item a revised claim that fits the evidence.
+\end{itemize}
+
+\section*{Reading Focus}
+\begin{enumerate}[leftmargin=*]
+\item How is induction different from deduction?
+\item Why does one example rarely prove a universal claim?
+\item What makes a sample representative?
+\item What is cherry-picking?
+\item How can a counterexample change a claim without destroying every part of it?
+\item List the five steps of the evidence ladder.
+\item Give one literary example where a reader should narrow a claim about a character.
+\end{enumerate}
+
+\section*{Handout Summary}
+Write 5--7 sentences explaining how examples can support a general claim without proving too much. Your summary must include the words \textit{sample}, \textit{pattern}, \textit{counterexample}, and \textit{revise}.
+\end{multicols}
+\end{document}

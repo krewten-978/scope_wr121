@@ -74,10 +74,13 @@ Reference: `scope_tenth/answer-keys/README.md`, `~/.hermes/skills/productivity/c
 
 ## Build PDF
 
-From `units/elements-of-logic-weekN/`:
+From `units/elements-of-logic-weekN/`, use explicit output directories so PDFs stay next to their `.tex` files:
 
 ```bash
-latexmk -pdf -interaction=nonstopmode -halt-on-error logic-labs/U1LNLL_logic_lab.tex
+latexmk -lualatex -output-directory=student-packets -interaction=nonstopmode -halt-on-error student-packets/Whately_Logic_WeekN_Student_Reading.tex
+latexmk -pdf -output-directory=logic-labs -interaction=nonstopmode -halt-on-error logic-labs/U1LNLL_logic_lab.tex
+latexmk -pdf -output-directory=lit-examples -interaction=nonstopmode -halt-on-error lit-examples/U1LNLE_lit_example_reader.tex
+latexmk -pdf -output-directory=lit-examples -interaction=nonstopmode -halt-on-error lit-examples/U1LNLE_lit_example_worksheet.tex
 ```
 
 Do not commit `*.aux`, `*.log`, `*.fls`, `*.fdb_latexmk`, `*.out` (see root `.gitignore`).
@@ -97,6 +100,7 @@ Do not commit `*.aux`, `*.log`, `*.fls`, `*.fdb_latexmk`, `*.out` (see root `.gi
 | 9 | U1L9LL | Circular reasoning / begging the question; loaded definitions; independent support rewrite |
 | 10 | U1L10LL | Irrelevant proof / missing the point; point at issue; nearby claim; proof-to-claim match |
 | 11 | U1L11LL | Analogy; source/target cases; relevant similarity; disanalogy; overextension |
+| 12 | U1L12LL | Induction; examples; general claims; representative samples; counterexamples; revised claims |
 
 Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) before authoring.
 
@@ -140,3 +144,4 @@ Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) befor
 | U1L9LL / U1L9LE | Week 9 | Circular reasoning + Julius Caesar LE |
 | U1L10LL / U1L10LE | Week 10 | Irrelevant proof + Julius Caesar funeral speeches LE |
 | U1L11LL / U1L11LE | Week 11 | Analogy and relevant similarity + Caesar serpent's egg / Macbeth bear-like comparisons LE |
+| U1L12LL / U1L12LE | Week 12 | Induction and general claims + Cassius anecdotes / Lady Macbeth character-claim LE |

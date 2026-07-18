@@ -2,7 +2,7 @@
 
 This README preserves the recovered semester-scale course plan for `scope_wr121`. It was originally stored as `docs/logic-unit-scope-and-sequence.md` and was removed during a later content reset. The plan below is restored from git history at commit `80e9fc543aa12678b34a8b25dc0d5225f788296e`, with light terminology updates so it points to the current **logic lab** structure rather than the retired argument-lab model.
 
-Current prepared materials on `main`: Weeks 1–11. The plan below extends the intended Whately sequence through Week 19.
+Current prepared materials on `main`: Weeks 1–12. The plan below extends the intended Whately sequence through Week 19.
 
 ---
 
@@ -130,7 +130,7 @@ The official final product is a **Logic Portfolio**. Students should build it th
 
 ## Existing sequence status
 
-Current main has the first eleven weeks prepared as student packets, logic labs, lit examples, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
+Current main has the first twelve weeks prepared as student packets, logic labs, lit examples, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
 
 ### Week 1 — Logic Is Not Magic
 
@@ -309,6 +309,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Student skill:** judge whether evidence supports the size of the conclusion being drawn.
 - **Macbeth / Caesar application:** ask whether one act, one speech, or one prophecy is enough evidence for a general claim about character.
 - **Portfolio artifact:** evidence ladder: example, pattern, limited claim, overclaim, revised claim.
+- **Current repo status:** built — student reading, logic lab **U1L12LL**, lit example **U1L12LE** (Julius Caesar and Macbeth), and answer keys.
 - **Why it belongs here:** It moves from deductive form to the kind of evidence students often use in literary, historical, and civic argument.
 
 ### Week 13 — Whom Should We Trust?

@@ -1,0 +1,118 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{lastpage}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.25em}
+\setlength{\headheight}{26pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\footnotesize Student Name: \hspace{2.3in} \quad Assignment ID: U1L12LL \quad Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.5pt}
+
+\newcommand{\answerbox}[2]{%
+\vspace{0.15em}
+\noindent\textbf{#1}\par
+\vspace{0.05em}
+\noindent\fbox{%
+\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
+\rule{\textwidth}{0pt}
+\vspace{#2}
+\end{minipage}
+}\par
+\vspace{0.25em}
+}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries Week 12 Logic Lab}\par\vspace{0.05em}
+{\large\scshape Induction, Examples, and General Claims}\par\vspace{0.1em}
+\rule{0.78\textwidth}{0.5pt}\par\vspace{0.15em}
+\end{center}
+
+\noindent\textbf{Purpose:} Apply Week 12 skills to new examples. Do not copy examples from the reading handout.
+
+\vspace{0.3em}
+
+\section*{Part 1: Examples and Claims}
+
+\textbf{Question 1.1}\\[-0.15em]
+A student says, ``I used flash cards before the last vocabulary quiz and scored higher than usual. Flash cards are the best study method for everyone.'' Identify the example, the general claim, and the size of the claim.
+
+\answerbox{ANSWER LABEL: Part 1 Q1}{2.35in}
+
+\textbf{Question 1.2}\\[-0.15em]
+A club officer says, ``At three meetings this month, attendance was higher when reminders were sent the morning of the meeting. Same-day reminders probably help attendance.'' Identify the examples and the limited claim.
+
+\answerbox{ANSWER LABEL: Part 1 Q2}{2.35in}
+
+\newpage
+
+\section*{Part 2: Sample and Missing Evidence}
+
+\textbf{Question 2.1}\\[-0.15em]
+A restaurant survey asked only people waiting in line for dessert whether the town needs more bakeries. What does this sample show, and what larger conclusion would need better evidence?
+
+\answerbox{ANSWER LABEL: Part 2 Q1}{2.55in}
+
+\textbf{Question 2.2}\\[-0.15em]
+A principal reads five complaints about parking from seniors and concludes, ``The entire student body wants the parking rules changed immediately.'' Explain what evidence is missing or unrepresentative.
+
+\answerbox{ANSWER LABEL: Part 2 Q2}{2.55in}
+
+\newpage
+
+\section*{Part 3: Counterexamples and Revision}
+
+\textbf{Question 3.1}\\[-0.15em]
+``Every group project fails because one person always does all the work.'' Give a possible counterexample and revise the claim so it is still useful but no longer overstates the evidence.
+
+\answerbox{ANSWER LABEL: Part 3 Q1}{2.75in}
+
+\textbf{Question 3.2}\\[-0.15em]
+``No online tutorial can teach a difficult skill.'' The speaker has tried two weak tutorials. What conclusion can those examples support, and what conclusion can they not support?
+
+\answerbox{ANSWER LABEL: Part 3 Q2}{2.75in}
+
+\newpage
+
+\section*{Part 4: Evidence Ladder in a Paragraph}
+
+\textbf{Question 4.1}\\[-0.15em]
+Read the paragraph. Apply the evidence ladder: name the observations, the pattern, the limited claim, the overclaim, and a revised conclusion.
+
+\vspace{0.2em}
+
+\noindent\fbox{%
+\begin{minipage}{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
+\vspace{0.35em}
+During the first month of school, the writing center stayed open after school on four Thursdays. On three of those Thursdays, more students came after 3:30 than during lunch. The students who came after school mostly wanted help with long essays, while lunch visitors mostly asked quick citation questions. The tutoring coordinator concluded, ``Lunch tutoring is useless, so all writing-center hours should move after school.''
+\vspace{0.35em}
+\end{minipage}
+}
+
+\answerbox{ANSWER LABEL: Part 4 Q1}{3.0in}
+
+\newpage
+
+\section*{Part 5: Review}
+
+\textbf{Question 5.1}\\[-0.15em]
+``Running a classroom is like steering a boat: both require one person to keep order when conditions change. Therefore a teacher should give clearer directions during transitions.'' Identify the source case, target case, and relevant similarity.
+
+\answerbox{ANSWER LABEL: Part 5 Q1}{2.0in}
+
+\textbf{Question 5.2}\\[-0.15em]
+``The speech proved the candidate is energetic and funny. Therefore the speech proved the candidate has the best transportation plan.'' Name the earlier-week defect and explain it briefly.
+
+\answerbox{ANSWER LABEL: Part 5 Q2}{2.0in}
+
+\end{document}
