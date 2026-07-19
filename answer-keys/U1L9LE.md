@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week9/lit-examples/U1L9LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week9/lit-examples/U1L9LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L9LE**).
+**Paired worksheet:** `graded-assignments/U1L9LE/worksheet.tex` / `.pdf` (Assignment ID **U1L9LE**).
 
 **Purpose:** Students apply Week 9 circular-reasoning / begging-the-question diagnosis to Brutus’s private deliberation and public defense in *Julius Caesar*.
 
