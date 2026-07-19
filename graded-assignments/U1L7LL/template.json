@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "assignment_id": "U1L7LL",
+  "template_revision": 1,
+  "pdf": "graded-assignments/U1L7LL/worksheet.pdf",
+  "pdf_sha256": "b46d22e8234ad782ca770b5da425ca7c716279685d8c7a284fdc84cf44f90e62",
+  "page_count": 5,
+  "coordinate_system": {
+    "units": "pt",
+    "origin": "top-left",
+    "axis": "x right, y down",
+    "box_format": "[x0, y0, x1, y1]"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 2,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 3,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 4,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 5,
+      "width": 612.0,
+      "height": 792.0
+    }
+  ],
+  "answer_boxes": [
+    {
+      "label": "Part 1 Q1",
+      "page": 1,
+      "rect_topleft": [
+        43.2,
+        322.99,
+        568.8,
+        484.17
+      ]
+    },
+    {
+      "label": "Part 1 Q2",
+      "page": 1,
+      "rect_topleft": [
+        43.2,
+        559.48,
+        568.8,
+        720.66
+      ]
+    },
+    {
+      "label": "Part 2 Q1",
+      "page": 2,
+      "rect_topleft": [
+        43.2,
+        224.48,
+        568.8,
+        407.26
+      ]
+    },
+    {
+      "label": "Part 3 Q1",
+      "page": 3,
+      "rect_topleft": [
+        43.2,
+        224.48,
+        568.8,
+        457.66
+      ]
+    },
+    {
+      "label": "Part 4 Q1",
+      "page": 4,
+      "rect_topleft": [
+        43.2,
+        296.66,
+        568.8,
+        486.63
+      ]
+    },
+    {
+      "label": "Part 5 Q1",
+      "page": 5,
+      "rect_topleft": [
+        43.2,
+        224.48,
+        568.8,
+        385.66
+      ]
+    },
+    {
+      "label": "Part 5 Q2",
+      "page": 5,
+      "rect_topleft": [
+        43.2,
+        460.97,
+        568.8,
+        600.55
+      ]
+    }
+  ]
+}

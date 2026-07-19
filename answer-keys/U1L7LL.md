@@ -2,7 +2,7 @@
 
 **Total Points:** 12
 
-**Paired worksheet:** `units/elements-of-logic-week7/logic-labs/U1L7LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L7LL**).
+**Paired worksheet:** `graded-assignments/U1L7LL/worksheet.tex` / `.pdf` (Assignment ID **U1L7LL**).
 
 **Paired reading:** Week 7 — fallacy as appearance of proof; false claim vs bad inference; emotional/rhetorical force; fallacy autopsy.
 

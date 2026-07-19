@@ -1,40 +1,18 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
-\setlength{\headheight}{26pt}
 
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{%
-\footnotesize
-Student Name: \hspace{2.3in} \quad Assignment ID: U1L7LL \quad Page \thepage\ of \pageref{LastPage}
-}
-\renewcommand{\headrulewidth}{0.5pt}
-\renewcommand{\footrulewidth}{0pt}
-
-\newcommand{\answerbox}[2]{%
-\vspace{0.15em}
-\noindent\textbf{#1}\par
-\vspace{0.05em}
-\noindent\fbox{%
-\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
-\rule{\textwidth}{0pt}
-\vspace{#2}
-\end{minipage}
-}\par
-\vspace{0.25em}
-}
+\GraderSetup{assignment-id=U1L7LL,template-revision=1}
 
 \begin{document}
 
@@ -53,12 +31,12 @@ Student Name: \hspace{2.3in} \quad Assignment ID: U1L7LL \quad Page \thepage\ of
 \textbf{Question 1.1}\\[-0.15em]
 ``All transfer students skip advisory. Maya is a transfer student. Therefore Maya skips advisory.'' Is the main failure a false claim, a bad inference, or both? Explain briefly.
 
-\answerbox{ANSWER LABEL: Part 1 Q1}{2.15in}
+\GraderAnswerBox{Part 1 Q1}{2.15in}
 
 \textbf{Question 1.2}\\[-0.15em]
 ``Devon spoke against the new phone policy in the forum. Therefore Devon does not care about learning.'' Is the main failure a false claim, a bad inference, or both? Explain briefly.
 
-\answerbox{ANSWER LABEL: Part 1 Q2}{2.15in}
+\GraderAnswerBox{Part 1 Q2}{2.15in}
 
 \newpage
 
@@ -67,7 +45,7 @@ Student Name: \hspace{2.3in} \quad Assignment ID: U1L7LL \quad Page \thepage\ of
 \textbf{Question 2.1}\\[-0.15em]
 ``Anyone who questions the spirit-week schedule is against school pride. You questioned the schedule. Therefore you are against school pride.'' What gives this argument its appearance of strength, and where does the reasoning fail?
 
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.45in}
+\GraderAnswerBox{Part 2 Q1}{2.45in}
 
 \newpage
 
@@ -76,7 +54,7 @@ Student Name: \hspace{2.3in} \quad Assignment ID: U1L7LL \quad Page \thepage\ of
 \textbf{Question 3.1}\\[-0.15em]
 Perform a fallacy autopsy on this argument: ``If you were a real teammate, you would vote for overnight training camp. You voted against it. Therefore you are not a real teammate.'' State (1) the conclusion, (2) the apparent proof, (3) the defect, and (4) a repaired or narrowed claim.
 
-\answerbox{ANSWER LABEL: Part 3 Q1}{3.15in}
+\GraderAnswerBox{Part 3 Q1}{3.15in}
 
 \newpage
 
@@ -95,7 +73,7 @@ The cafeteria was loud during fifth lunch. Then the student council president st
 \end{minipage}
 }
 
-\answerbox{ANSWER LABEL: Part 4 Q1}{2.55in}
+\GraderAnswerBox{Part 4 Q1}{2.55in}
 
 \newpage
 
@@ -104,11 +82,11 @@ The cafeteria was loud during fifth lunch. Then the student council president st
 \textbf{Question 5.1}\\[-0.15em]
 ``All songbirds are animals that can fly long distances over open water. All albatrosses are songbirds. Therefore all albatrosses are animals that can fly long distances over open water.'' Apply the form test, then name the main problem on the fact test.
 
-\answerbox{ANSWER LABEL: Part 5 Q1}{2.15in}
+\GraderAnswerBox{Part 5 Q1}{2.15in}
 
 \textbf{Question 5.2}\\[-0.15em]
 ``All maples are trees. All oaks are trees. Therefore all oaks are maples.'' Is this argument formally valid? Explain briefly.
 
-\answerbox{ANSWER LABEL: Part 5 Q2}{1.85in}
+\GraderAnswerBox{Part 5 Q2}{1.85in}
 
 \end{document}
