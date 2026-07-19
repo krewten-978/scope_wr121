@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week6/lit-examples/U1L6LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week6/lit-examples/U1L6LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L6LE**).
+**Paired worksheet:** `graded-assignments/U1L6LE/worksheet.tex` / `.pdf` (Assignment ID **U1L6LE**).
 
 **Purpose:** Students apply Week 6's distinction between validity, truth, and soundness to Brutus's defense and Antony's response in Julius Caesar.
 

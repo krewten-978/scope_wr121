@@ -200,6 +200,14 @@
       "pdf": "graded-assignments/U1L5LL/worksheet.pdf",
       "template": "graded-assignments/U1L5LL/template.json",
       "answer_key": "answer-keys/U1L5LL.md"
+    },
+    {
+      "assignment_id": "U1L6LE",
+      "template_revision": 1,
+      "tex": "graded-assignments/U1L6LE/worksheet.tex",
+      "pdf": "graded-assignments/U1L6LE/worksheet.pdf",
+      "template": "graded-assignments/U1L6LE/template.json",
+      "answer_key": "answer-keys/U1L6LE.md"
     }
   ]
 }

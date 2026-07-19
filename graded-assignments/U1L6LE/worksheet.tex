@@ -1,32 +1,17 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
-\setlength{\headheight}{26pt}
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{\footnotesize Student Name: \hspace{2.3in} \quad Assignment ID: U1L6LE \quad Page \thepage\ of \pageref{LastPage}}
-\renewcommand{\headrulewidth}{0.5pt}
 
-\newcommand{\answerbox}[2]{%
-\vspace{0.12em}
-\noindent\textbf{#1}\par
-\vspace{0.04em}
-\noindent\fbox{%
-\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
-\rule{\textwidth}{0pt}
-\vspace{#2}
-\end{minipage}}
-\par\vspace{0.22em}}
+\GraderSetup{assignment-id=U1L6LE,template-revision=1}
 
 \begin{document}
 
@@ -45,12 +30,12 @@
 \textbf{Question 1.1}\\[-0.15em]
 Reconstruct Brutus's argument in this form: All M are P; All S are M; therefore All S are P. Name M, S, and P.
 
-\answerbox{ANSWER LABEL: Part 1 Q1}{2.45in}
+\GraderAnswerBox{Part 1 Q1}{2.45in}
 
 \textbf{Question 1.2}\\[-0.15em]
 Apply the form test only. If Brutus's two premises were true, would the conclusion follow? Explain.
 
-\answerbox{ANSWER LABEL: Part 1 Q2}{2.1in}
+\GraderAnswerBox{Part 1 Q2}{2.1in}
 
 \newpage
 
@@ -59,12 +44,12 @@ Apply the form test only. If Brutus's two premises were true, would the conclusi
 \textbf{Question 2.1}\\[-0.15em]
 Which premise in Brutus's argument most needs factual proof? Explain why it is the pressure-point premise.
 
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.35in}
+\GraderAnswerBox{Part 2 Q1}{2.35in}
 
 \textbf{Question 2.2}\\[-0.15em]
 What evidence would Brutus need in order to make that premise strong enough for a careful listener?
 
-\answerbox{ANSWER LABEL: Part 2 Q2}{2.35in}
+\GraderAnswerBox{Part 2 Q2}{2.35in}
 
 \newpage
 
@@ -73,12 +58,12 @@ What evidence would Brutus need in order to make that premise strong enough for 
 \textbf{Question 3.1}\\[-0.15em]
 List Antony's three main pieces of evidence against Brutus's ambition premise.
 
-\answerbox{ANSWER LABEL: Part 3 Q1}{2.15in}
+\GraderAnswerBox{Part 3 Q1}{2.15in}
 
 \textbf{Question 3.2}\\[-0.15em]
 Does Antony prove that Caesar was not ambitious, or does he mainly make Brutus's premise doubtful? Explain the difference.
 
-\answerbox{ANSWER LABEL: Part 3 Q2}{2.55in}
+\GraderAnswerBox{Part 3 Q2}{2.55in}
 
 \newpage
 
@@ -87,11 +72,11 @@ Does Antony prove that Caesar was not ambitious, or does he mainly make Brutus's
 \textbf{Question 4.1}\\[-0.15em]
 Diagnose Brutus's argument as valid, invalid, sound, unsound, or not yet proved. You may use more than one label if you explain the difference.
 
-\answerbox{ANSWER LABEL: Part 4 Q1}{2.55in}
+\GraderAnswerBox{Part 4 Q1}{2.55in}
 
 \textbf{Question 4.2}\\[-0.15em]
 In one paragraph, explain why ``valid'' does not mean ``true'' using Brutus and Antony as your example.
 
-\answerbox{ANSWER LABEL: Part 4 Q2}{2.45in}
+\GraderAnswerBox{Part 4 Q2}{2.45in}
 
 \end{document}
