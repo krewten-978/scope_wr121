@@ -1,24 +1,18 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{array}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.2em}
-\setlength{\headheight}{26pt}
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{\footnotesize Student Name: \hspace{1.65in} \quad Assignment ID: U1F3LD \quad Page \thepage\ of \pageref{LastPage}}
-\renewcommand{\headrulewidth}{0.5pt}
-\renewcommand{\footrulewidth}{0pt}
-\newcommand{\answerbox}[2]{\par\vspace{0.08em}\noindent\textbf{#1}\par\vspace{0.03em}\noindent\fbox{\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}\rule{\textwidth}{0pt}\vspace{#2}\end{minipage}}\par\vspace{0.16em}}
 \newcommand{\cluebox}[1]{\par\vspace{0.12em}\noindent\begin{minipage}{\textwidth}\itshape #1\end{minipage}\par\vspace{0.12em}}
+\GraderSetup{assignment-id=U1F3LD,template-revision=1}
+
 \begin{document}
 \begin{center}
 {\LARGE\bfseries Logic Dungeon III}\par\vspace{0.04em}
@@ -49,11 +43,11 @@ The Advocate of the Bench strikes the Echo frame and announces:
 
 \textbf{Question 1.1}\\[-0.15em]
 Perform a fallacy autopsy: (1) conclusion, (2) what gives the argument its appearance of proof, (3) the main defect, and (4) a repaired or narrowed claim.
-\answerbox{ANSWER LABEL: Part 1 Q1}{2.15in}
+\GraderAnswerBox{Part 1 Q1}{2.15in}
 
 \textbf{Question 1.2}\\[-0.15em]
 What may the company record after Q1? Does Charge establish a route, a safety fact, both, or neither? What limited action is justified?
-\answerbox{ANSWER LABEL: Part 1 Q2}{1.55in}
+\GraderAnswerBox{Part 1 Q2}{1.55in}
 
 \newpage
 \section*{Part 2: Passage --- Danger Station}
@@ -63,11 +57,11 @@ The Master of Ways points to the ceremonial door:
 
 \textbf{Question 2.1}\\[-0.15em]
 Identify the shifting term. State both meanings, rewrite the argument with one stable meaning, and decide whether the original conclusion still follows.
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.2in}
+\GraderAnswerBox{Part 2 Q1}{2.2in}
 
 \textbf{Question 2.2}\\[-0.15em]
 Separate any useful fact inside the bad argument from what remains unproved about full-company advance. What limited action is justified at the ceremonial threshold?
-\answerbox{ANSWER LABEL: Part 2 Q2}{1.55in}
+\GraderAnswerBox{Part 2 Q2}{1.55in}
 
 \newpage
 \section*{Part 3: Seal --- Danger Station}
@@ -77,11 +71,11 @@ The Keeper of Marks holds up a waxed packet labeled \emph{Advance Warrant}:
 
 \textbf{Question 3.1}\\[-0.15em]
 Explain where the argument is circular (what is assumed that still needed proof). Identify any loaded definition. State what independent support would be needed.
-\answerbox{ANSWER LABEL: Part 3 Q1}{2.15in}
+\GraderAnswerBox{Part 3 Q1}{2.15in}
 
 \textbf{Question 3.2}\\[-0.15em]
 What may the company preserve about the packet, and what diagnosis should they give Seal's authorization right now: accept for all twenty, reject as impossible, or provisional?
-\answerbox{ANSWER LABEL: Part 3 Q2}{1.55in}
+\GraderAnswerBox{Part 3 Q2}{1.55in}
 
 \newpage
 \section*{Part 4: Two Failures on One Bench}
@@ -92,11 +86,11 @@ Two short notes are pinned beside the Echo frame.
 
 \textbf{Question 4.1}\\[-0.15em]
 For Note A, is the main failure a false claim, a bad inference, or both? Explain. For Note B, name the main failure and what it does not prove.
-\answerbox{ANSWER LABEL: Part 4 Q1}{2.0in}
+\GraderAnswerBox{Part 4 Q1}{2.0in}
 
 \textbf{Question 4.2}\\[-0.15em]
 After Part 4 alone, may the company commit all twenty to the Service Corridor? What limited record should they keep about it?
-\answerbox{ANSWER LABEL: Part 4 Q2}{1.55in}
+\GraderAnswerBox{Part 4 Q2}{1.55in}
 
 \newpage
 \section*{Part 5: Records That Change the Field}
@@ -108,11 +102,11 @@ While no one has yet filled the ceremonial seal-cups, the company opens three sh
 
 \textbf{Question 5.1}\\[-0.15em]
 How does Record R change Seal's fact status without needing magic or new prophecy? Give Seal's present diagnosis and route consequence.
-\answerbox{ANSWER LABEL: Part 5 Q1}{1.75in}
+\GraderAnswerBox{Part 5 Q1}{1.75in}
 
 \textbf{Question 5.2}\\[-0.15em]
 How do Records S and T strengthen the Part 2 and Part 1 diagnoses? What should the company refuse to treat as independent support?
-\answerbox{ANSWER LABEL: Part 5 Q2}{1.75in}
+\GraderAnswerBox{Part 5 Q2}{1.75in}
 
 \newpage
 \section*{Part 6: The Service Ledger}
@@ -130,11 +124,11 @@ Therefore the company may take the Records Service Corridor as a controlled next
 
 \textbf{Question 6.1}\\[-0.15em]
 State the conclusion, the independent support (not a restatement), and why this case is not circular. What does Record W add?
-\answerbox{ANSWER LABEL: Part 6 Q1}{1.85in}
+\GraderAnswerBox{Part 6 Q1}{1.85in}
 
 \textbf{Question 6.2}\\[-0.15em]
 What new decision is justified now that was not justified in Part 4? Distinguish ``best-supported under the records'' from ``guaranteed free of every hazard.''
-\answerbox{ANSWER LABEL: Part 6 Q2}{1.35in}
+\GraderAnswerBox{Part 6 Q2}{1.35in}
 
 \newpage
 \section*{Part 7: Court Evidence Chart}
@@ -150,11 +144,11 @@ Service Corridor & & & & \\\\[0.34in] \hline
 
 \textbf{Question 7.1}\\[-0.15em]
 Complete the chart. Then identify: (a) the argument that mainly uses pressure instead of proof, (b) the argument that fails because a middle term shifts, (c) the circular authorization, and (d) the case with independent support.
-\answerbox{ANSWER LABEL: Part 7 Q1}{1.2in}
+\GraderAnswerBox{Part 7 Q1}{1.2in}
 
 \textbf{Question 7.2}\\[-0.15em]
 Which option is best supported as the next step for the twenty? Use at least three pieces of evidence from different parts and explain why each rejected option has weaker support.
-\answerbox{ANSWER LABEL: Part 7 Q2}{1.25in}
+\GraderAnswerBox{Part 7 Q2}{1.25in}
 
 \newpage
 \section*{Part 8: The Company's Decision}
@@ -162,10 +156,10 @@ The Advocate declares: ``The corridor looks irregular, so Charge was right to tr
 
 \textbf{Question 8.1}\\[-0.15em]
 Separate and repair those claims. State what the Service Corridor case establishes under Records U and V, what remains unguaranteed, and why appearance, stamps, and finished form are not enough by themselves.
-\answerbox{ANSWER LABEL: Part 8 Q1}{1.95in}
+\GraderAnswerBox{Part 8 Q1}{1.95in}
 
 \textbf{Question 8.2}\\[-0.15em]
 Give the company's final movement plan for the best-supported next step. Include one check, one repair or retreat provision, and 2--3 sentences on why independent support mattered more than Court finality here.
-\answerbox{ANSWER LABEL: Part 8 Q2}{1.95in}
+\GraderAnswerBox{Part 8 Q2}{1.95in}
 
 \end{document}

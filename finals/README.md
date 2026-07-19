@@ -66,7 +66,7 @@ latexmk -pdf -interaction=nonstopmode -halt-on-error ../../../graded-assignments
 
 ## U1F3LD files
 
-- `logic-dungeon-3/U1F3LD_logic_dungeon_final.tex`
+- `logic-dungeon-3/../../../graded-assignments/U1F3LD/worksheet.tex`
 - `logic-dungeon-3/U1F3LD_logic_dungeon_final.pdf`
 - Answer key: `../answer-keys/U1F3LD.md`
 - Lore bible (design, not student-facing): `../docs/lore-court-of-the-false-oracle.md`
@@ -74,7 +74,7 @@ latexmk -pdf -interaction=nonstopmode -halt-on-error ../../../graded-assignments
 Build from `finals/logic-dungeon-3/`:
 
 ```bash
-latexmk -pdf -interaction=nonstopmode -halt-on-error U1F3LD_logic_dungeon_final.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error ../../../graded-assignments/U1F3LD/worksheet.tex
 ```
 
 Validate keys from the repository root:

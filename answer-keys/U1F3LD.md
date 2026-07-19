@@ -2,7 +2,7 @@
 
 **Total Points:** 50
 
-**Paired final:** `finals/logic-dungeon-3/U1F3LD_logic_dungeon_final.tex` / `.pdf` (Assignment ID **U1F3LD**).
+**Paired final:** `graded-assignments/U1F3LD/worksheet.tex` / `.pdf` (Assignment ID **U1F3LD**).
 
 **Assessed instruction:** Weeks 7–9: fallacy as appearance of proof; false claim vs bad inference; emotional/rhetorical force vs logical force; fallacy autopsy; ambiguous middle / full-argument equivocation; fix-and-retest; circular reasoning / begging the question; loaded definition; independent support; repair. Spiral use of follow-test, form vs fact, and stable terms only as needed.
 
