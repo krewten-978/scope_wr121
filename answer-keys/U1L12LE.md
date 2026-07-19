@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week12/lit-examples/U1L12LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week12/lit-examples/U1L12LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L12LE**).
+**Paired worksheet:** `graded-assignments/U1L12LE/worksheet.tex` / `.pdf` (Assignment ID **U1L12LE**).
 
 **Purpose:** Students apply Week 12 induction / evidence-ladder diagnosis to Cassius in *Julius Caesar* and Lady Macbeth in *Macbeth*.
 
