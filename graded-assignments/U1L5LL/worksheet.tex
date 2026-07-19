@@ -1,40 +1,18 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
-\setlength{\headheight}{26pt}
 
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{%
-\footnotesize
-Student Name: \hspace{2.3in} \quad Assignment ID: U1L5LL \quad Page \thepage\ of \pageref{LastPage}
-}
-\renewcommand{\headrulewidth}{0.5pt}
-\renewcommand{\footrulewidth}{0pt}
-
-\newcommand{\answerbox}[2]{%
-\vspace{0.15em}
-\noindent\textbf{#1}\par
-\vspace{0.05em}
-\noindent\fbox{%
-\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
-\rule{\textwidth}{0pt}
-\vspace{#2}
-\end{minipage}
-}\par
-\vspace{0.25em}
-}
+\GraderSetup{assignment-id=U1L5LL,template-revision=1}
 
 \begin{document}
 
@@ -53,12 +31,12 @@ Student Name: \hspace{2.3in} \quad Assignment ID: U1L5LL \quad Page \thepage\ of
 \textbf{Question 1.1}\\[-0.15em]
 ``All diesel buses in this district are vehicles that meet the emissions standard. All Route 9 buses are diesel buses in this district. Therefore all Route 9 buses are vehicles that meet the emissions standard.'' State the mood of the three statements (A, E, I, or O for each).
 
-\answerbox{ANSWER LABEL: Part 1 Q1}{1.85in}
+\GraderAnswerBox{Part 1 Q1}{1.85in}
 
 \textbf{Question 1.2}\\[-0.15em]
 ``Some novels are not books that every student finished. No assigned summer reading is a novel. Therefore some assigned summer reading is not a book that every student finished.'' State the mood of the three statements.
 
-\answerbox{ANSWER LABEL: Part 1 Q2}{1.85in}
+\GraderAnswerBox{Part 1 Q2}{1.85in}
 
 \newpage
 
@@ -67,12 +45,12 @@ Student Name: \hspace{2.3in} \quad Assignment ID: U1L5LL \quad Page \thepage\ of
 \textbf{Question 2.1}\\[-0.15em]
 ``All maples are trees. All oaks are trees. Therefore all oaks are maples.'' Is this argument formally valid? Explain briefly.
 
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.35in}
+\GraderAnswerBox{Part 2 Q1}{2.35in}
 
 \textbf{Question 2.2}\\[-0.15em]
 ``No podcasts are live radio broadcasts. No classroom lectures are live radio broadcasts. Therefore no classroom lectures are podcasts.'' Is this argument formally valid? Explain briefly.
 
-\answerbox{ANSWER LABEL: Part 2 Q2}{2.35in}
+\GraderAnswerBox{Part 2 Q2}{2.35in}
 
 \newpage
 
@@ -81,7 +59,7 @@ Student Name: \hspace{2.3in} \quad Assignment ID: U1L5LL \quad Page \thepage\ of
 \textbf{Question 3.1}\\[-0.15em]
 ``All senators are elected officials. No mayors are senators. Therefore no mayors are elected officials.'' Is this argument formally valid? Explain briefly.
 
-\answerbox{ANSWER LABEL: Part 3 Q1}{2.45in}
+\GraderAnswerBox{Part 3 Q1}{2.45in}
 
 \newpage
 
@@ -100,7 +78,7 @@ The debate coach handed out snacks before round two. A judge remarked that every
 \end{minipage}
 }
 
-\answerbox{ANSWER LABEL: Part 4 Q1}{2.35in}
+\GraderAnswerBox{Part 4 Q1}{2.35in}
 
 \newpage
 
@@ -109,11 +87,11 @@ The debate coach handed out snacks before round two. A judge remarked that every
 \textbf{Question 5.1}\\[-0.15em]
 ``All tools in this kit are items that must be returned to the cage. The torque wrench is in this kit. Therefore the torque wrench must be returned to the cage.'' Name the minor term, major term, and middle term.
 
-\answerbox{ANSWER LABEL: Part 5 Q1}{1.85in}
+\GraderAnswerBox{Part 5 Q1}{1.85in}
 
 \textbf{Question 5.2}\\[-0.15em]
 ``What is light cannot be dark. Feathers are light. Therefore feathers cannot be dark.'' Identify the shifting term, both meanings, and explain why the conclusion does not follow.
 
-\answerbox{ANSWER LABEL: Part 5 Q2}{2.35in}
+\GraderAnswerBox{Part 5 Q2}{2.35in}
 
 \end{document}

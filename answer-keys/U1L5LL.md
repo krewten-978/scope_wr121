@@ -2,7 +2,7 @@
 
 **Total Points:** 12
 
-**Paired worksheet:** `units/elements-of-logic-week5/logic-labs/U1L5LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L5LL**).
+**Paired worksheet:** `graded-assignments/U1L5LL/worksheet.tex` / `.pdf` (Assignment ID **U1L5LL**).
 
 **Paired reading:** Week 5 — mood, figure, formal validity, undistributed middle, illicit process, two negative premises.
 
