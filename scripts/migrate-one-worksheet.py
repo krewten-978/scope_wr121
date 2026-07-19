@@ -454,6 +454,56 @@ def review_pages_render(assignment_id: str, out_dir: Path) -> list[Path]:
     return paths
 
 
+def fix_question_splits(tex_path: Path, issues: list[str]) -> int:
+    """Insert \\newpage before question stems orphaned from their answer boxes.
+
+    Returns number of newpage insertions applied.
+    """
+    split_re = re.compile(
+        r"SPLIT:\s+Part\s+(\d+)\s+Q(\d+):\s+question heading on page"
+    )
+    targets: list[tuple[int, int]] = []
+    for iss in issues:
+        m = split_re.search(iss)
+        if m:
+            targets.append((int(m.group(1)), int(m.group(2))))
+    if not targets:
+        return 0
+
+    text = tex_path.read_text(encoding="utf-8")
+    applied = 0
+    # Process later questions first so earlier insertions don't shift patterns oddly
+    for part, q in sorted(targets, reverse=True):
+        # Match \textbf{Question N.M} not already preceded by \newpage
+        pat = re.compile(
+            rf"(?<!\\newpage\n\n)(?<!\\newpage\n)"
+            rf"(\\textbf\{{Question {part}\.{q}\}})"
+        )
+        new_text, n = pat.subn(rf"\\newpage\n\n\1", text, count=1)
+        if n == 0:
+            # broader: Question with optional spacing variants
+            pat2 = re.compile(
+                rf"(\\textbf\{{Question {part}\.{q}\}})"
+            )
+            # only insert if previous non-empty line is not newpage
+            m = pat2.search(text)
+            if not m:
+                print(f"  warn: could not locate Question {part}.{q} for split fix")
+                continue
+            before = text[: m.start()]
+            if re.search(r"\\newpage\s*$", before.rstrip()):
+                continue
+            new_text = text[: m.start()] + "\\newpage\n\n" + text[m.start() :]
+            n = 1
+        if n:
+            text = new_text
+            applied += n
+            print(f"  inserted \\newpage before Question {part}.{q}")
+    if applied:
+        tex_path.write_text(text, encoding="utf-8")
+    return applied
+
+
 def migrate(assignment_id: str, push: bool = True, skip_git_mv: bool = False) -> None:
     if assignment_id not in SOURCE_MAP:
         raise SystemExit(f"unknown id {assignment_id}")
@@ -465,7 +515,6 @@ def migrate(assignment_id: str, push: bool = True, skip_git_mv: bool = False) ->
     dest_tex = dest_dir / "worksheet.tex"
     dest_pdf = dest_dir / "worksheet.pdf"
 
-    # Already migrated?
     old_tex_rel = SOURCE_MAP[assignment_id]
     old_tex = ROOT / old_tex_rel
     old_pdf = ROOT / (old_tex_rel[:-4] + ".pdf")
@@ -477,7 +526,6 @@ def migrate(assignment_id: str, push: bool = True, skip_git_mv: bool = False) ->
             dest_tex.write_text(transform_tex(raw, assignment_id), encoding="utf-8")
     else:
         if not old_tex.is_file():
-            # maybe already moved
             if dest_tex.is_file():
                 print(f"{assignment_id}: source already moved")
             else:
@@ -485,15 +533,24 @@ def migrate(assignment_id: str, push: bool = True, skip_git_mv: bool = False) ->
         else:
             dest_dir.mkdir(parents=True, exist_ok=True)
             if not skip_git_mv:
-                if dest_tex.exists():
-                    pass
-                else:
-                    run(["git", "mv", str(old_tex.relative_to(ROOT)), str(dest_tex.relative_to(ROOT))])
+                if not dest_tex.exists():
+                    run(
+                        [
+                            "git",
+                            "mv",
+                            str(old_tex.relative_to(ROOT)),
+                            str(dest_tex.relative_to(ROOT)),
+                        ]
+                    )
                 if old_pdf.is_file() and not dest_pdf.exists():
-                    run(["git", "mv", str(old_pdf.relative_to(ROOT)), str(dest_pdf.relative_to(ROOT))])
-                elif old_pdf.is_file() and dest_pdf.exists():
-                    # remove old pdf via git rm after move conflict — shouldn't happen
-                    pass
+                    run(
+                        [
+                            "git",
+                            "mv",
+                            str(old_pdf.relative_to(ROOT)),
+                            str(dest_pdf.relative_to(ROOT)),
+                        ]
+                    )
             else:
                 dest_tex.write_text(old_tex.read_text(encoding="utf-8"), encoding="utf-8")
                 if old_pdf.is_file():
@@ -505,43 +562,52 @@ def migrate(assignment_id: str, push: bool = True, skip_git_mv: bool = False) ->
 
     update_index(assignment_id)
     update_answer_key_path(assignment_id)
-    # README updates use original path string
     if not old_tex_rel.startswith("graded-assignments/"):
         update_readme_pointers(assignment_id, old_tex_rel)
 
-    compile_worksheet(dest_dir)
-    # template
-    run(
-        [
-            str(ROOT / ".venv-grader/bin/python"),
-            str(ROOT / "scripts/build-grader-templates.py"),
-            "--assignment",
-            assignment_id,
-        ]
-    )
-    # second build for stability
-    t1 = (dest_dir / "template.json").read_bytes()
-    run(
-        [
-            str(ROOT / ".venv-grader/bin/python"),
-            str(ROOT / "scripts/build-grader-templates.py"),
-            "--assignment",
-            assignment_id,
-        ]
-    )
-    t2 = (dest_dir / "template.json").read_bytes()
-    if t1 != t2:
-        raise SystemExit("template.json not stable across rebuilds")
+    # compile + verify loop; auto-fix page splits up to a few times
+    layout = None
+    for attempt in range(1, 5):
+        compile_worksheet(dest_dir)
+        run(
+            [
+                str(ROOT / ".venv-grader/bin/python"),
+                str(ROOT / "scripts/build-grader-templates.py"),
+                "--assignment",
+                assignment_id,
+            ]
+        )
+        t1 = (dest_dir / "template.json").read_bytes()
+        run(
+            [
+                str(ROOT / ".venv-grader/bin/python"),
+                str(ROOT / "scripts/build-grader-templates.py"),
+                "--assignment",
+                assignment_id,
+            ]
+        )
+        t2 = (dest_dir / "template.json").read_bytes()
+        if t1 != t2:
+            raise SystemExit("template.json not stable across rebuilds")
 
-    layout = verify_qr_and_layout(assignment_id)
-    if layout["issues"]:
-        print("LAYOUT/QR ISSUES:")
-        for iss in layout["issues"]:
-            print(" -", iss)
-        # Hard fail on QR or splits
-        hard = [i for i in layout["issues"] if i.startswith("SPLIT:") or "QR" in i]
-        if hard:
-            raise SystemExit(f"{assignment_id}: verification failed")
+        layout = verify_qr_and_layout(assignment_id)
+        splits = [i for i in layout["issues"] if i.startswith("SPLIT:")]
+        other_hard = [
+            i for i in layout["issues"] if ("QR" in i or "missing" in i) and not i.startswith("SPLIT:")
+        ]
+        if layout["issues"]:
+            print(f"LAYOUT/QR ISSUES (attempt {attempt}):")
+            for iss in layout["issues"]:
+                print(" -", iss)
+        if other_hard:
+            raise SystemExit(f"{assignment_id}: verification failed (non-split)")
+        if not splits:
+            break
+        n = fix_question_splits(dest_tex, splits)
+        if n == 0:
+            raise SystemExit(f"{assignment_id}: split detected but auto-fix failed")
+    else:
+        raise SystemExit(f"{assignment_id}: splits remain after auto-fix attempts")
 
     render_dir = ROOT / ".cache" / "grader-review" / assignment_id
     pages = review_pages_render(assignment_id, render_dir)
@@ -553,19 +619,29 @@ def migrate(assignment_id: str, push: bool = True, skip_git_mv: bool = False) ->
         f"{len(tmpl['answer_boxes'])} boxes, sha={tmpl['pdf_sha256'][:12]}"
     )
 
-    # git commit + push
-    # clean latexmk debris
     for p in dest_dir.glob("worksheet.*"):
         if p.suffix in {".tex", ".pdf"}:
             continue
         p.unlink(missing_ok=True)
 
-    run(["git", "add", "-A", "graded-assignments", "graded-assignments.json", "answer-keys", "units", "finals", "README.md"], check=False)
-    # Don't add untracked docs or venv
+    run(
+        [
+            "git",
+            "add",
+            "-A",
+            "graded-assignments",
+            "graded-assignments.json",
+            "answer-keys",
+            "units",
+            "finals",
+            "README.md",
+            "scripts/migrate-one-worksheet.py",
+        ],
+        check=False,
+    )
     status = run(["git", "status", "--short"], check=False)
     print(status.stdout)
     msg = f"Migrate {assignment_id} to graded-assignments grader layout."
-    # only commit if changes
     diff = run(["git", "diff", "--cached", "--name-only"], check=False)
     if not diff.stdout.strip():
         print("nothing to commit")

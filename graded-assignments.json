@@ -136,6 +136,22 @@
       "pdf": "graded-assignments/U1L1LL/worksheet.pdf",
       "template": "graded-assignments/U1L1LL/template.json",
       "answer_key": "answer-keys/U1L1LL.md"
+    },
+    {
+      "assignment_id": "U1L2LE",
+      "template_revision": 1,
+      "tex": "graded-assignments/U1L2LE/worksheet.tex",
+      "pdf": "graded-assignments/U1L2LE/worksheet.pdf",
+      "template": "graded-assignments/U1L2LE/template.json",
+      "answer_key": "answer-keys/U1L2LE.md"
+    },
+    {
+      "assignment_id": "U1L2LL",
+      "template_revision": 1,
+      "tex": "graded-assignments/U1L2LL/worksheet.tex",
+      "pdf": "graded-assignments/U1L2LL/worksheet.pdf",
+      "template": "graded-assignments/U1L2LL/template.json",
+      "answer_key": "answer-keys/U1L2LL.md"
     }
   ]
 }

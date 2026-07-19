@@ -2,7 +2,7 @@
 
 **Total Points:** 14
 
-**Paired worksheet:** `units/elements-of-logic-week2/logic-labs/U1L2LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L2LL**).
+**Paired worksheet:** `graded-assignments/U1L2LL/worksheet.tex` / `.pdf` (Assignment ID **U1L2LL**).
 
 **Paired reading (method):** `units/elements-of-logic-week2/student-packets/Whately_Logic_Week2_Student_Reading.pdf` — terms, ambiguity, equivocation, fix the term.
 

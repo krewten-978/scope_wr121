@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week2/lit-examples/U1L2LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week2/lit-examples/U1L2LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L2LE**).
+**Paired worksheet:** `graded-assignments/U1L2LE/worksheet.tex` / `.pdf` (Assignment ID **U1L2LE**).
 
 **Purpose:** Students apply the Week 2 Whately habit of defining terms and detecting ambiguity/equivocation to Macbeth passages. Grade for precise term work and logical explanation, not for plot summary or literary-theme naming.
 
