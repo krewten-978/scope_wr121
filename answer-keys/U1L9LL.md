@@ -2,7 +2,7 @@
 
 **Total Points:** 12
 
-**Paired worksheet:** `units/elements-of-logic-week9/logic-labs/U1L9LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L9LL**).
+**Paired worksheet:** `graded-assignments/U1L9LL/worksheet.tex` / `.pdf` (Assignment ID **U1L9LL**).
 
 **Paired reading:** Week 9 — circular reasoning, begging the question, loaded definitions, independent support, rewrite.
 
