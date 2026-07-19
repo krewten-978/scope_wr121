@@ -3,7 +3,7 @@
   "assignment_id": "U1L2LE",
   "template_revision": 1,
   "pdf": "graded-assignments/U1L2LE/worksheet.pdf",
-  "pdf_sha256": "c8cca5ff9e909749aa0dce42850706cca94dc64d5a69555c6c927974276116e4",
+  "pdf_sha256": "d5bac02ff03b48ecd30e5207d4402c1d39826ef02a8e6941e4e66f58ccbce2f3",
   "page_count": 4,
   "coordinate_system": {
     "units": "pt",
@@ -49,9 +49,9 @@
       "page": 2,
       "rect_topleft": [
         43.2,
-        134.31,
+        180.23,
         568.8,
-        295.49
+        341.4
       ]
     },
     {
