@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week7/lit-examples/U1L7LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week7/lit-examples/U1L7LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L7LE**).
+**Paired worksheet:** `graded-assignments/U1L7LE/worksheet.tex` / `.pdf` (Assignment ID **U1L7LE**).
 
 **Purpose:** Students apply Week 7's fallacy diagnosis—appearance of proof, false claim vs bad inference, emotional vs logical force, fallacy autopsy—to Lady Macbeth's pressure and Macbeth's settlement in Act 1, Scene 7.
 

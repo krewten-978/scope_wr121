@@ -1,32 +1,17 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
-\setlength{\headheight}{26pt}
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{\footnotesize Student Name: \hspace{2.3in} \quad Assignment ID: U1L7LE \quad Page \thepage\ of \pageref{LastPage}}
-\renewcommand{\headrulewidth}{0.5pt}
 
-\newcommand{\answerbox}[2]{%
-\vspace{0.12em}
-\noindent\textbf{#1}\par
-\vspace{0.04em}
-\noindent\fbox{%
-\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
-\rule{\textwidth}{0pt}
-\vspace{#2}
-\end{minipage}}
-\par\vspace{0.22em}}
+\GraderSetup{assignment-id=U1L7LE,template-revision=1}
 
 \begin{document}
 
@@ -45,12 +30,12 @@
 \textbf{Question 1.1}\\[-0.15em]
 What conclusion is Lady Macbeth pressing on Macbeth in Passage 1? State it in one clear sentence.
 
-\answerbox{ANSWER LABEL: Part 1 Q1}{2.15in}
+\GraderAnswerBox{Part 1 Q1}{2.15in}
 
 \textbf{Question 1.2}\\[-0.15em]
 What gives her speech its appearance of proof? Name at least two pressure moves in the language.
 
-\answerbox{ANSWER LABEL: Part 1 Q2}{2.35in}
+\GraderAnswerBox{Part 1 Q2}{2.35in}
 
 \newpage
 
@@ -59,12 +44,12 @@ What gives her speech its appearance of proof? Name at least two pressure moves 
 \textbf{Question 2.1}\\[-0.15em]
 Is the main failure in Lady Macbeth's pressure a false claim, a bad inference, or both? Explain.
 
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.45in}
+\GraderAnswerBox{Part 2 Q1}{2.45in}
 
 \textbf{Question 2.2}\\[-0.15em]
 Explain the difference between emotional force and logical force using this exchange.
 
-\answerbox{ANSWER LABEL: Part 2 Q2}{2.35in}
+\GraderAnswerBox{Part 2 Q2}{2.35in}
 
 \newpage
 
@@ -73,12 +58,12 @@ Explain the difference between emotional force and logical force using this exch
 \textbf{Question 3.1}\\[-0.15em]
 In Passage 2, what does Lady Macbeth's cover-up plan actually support, and what does it fail to prove?
 
-\answerbox{ANSWER LABEL: Part 3 Q1}{2.45in}
+\GraderAnswerBox{Part 3 Q1}{2.45in}
 
 \textbf{Question 3.2}\\[-0.15em]
 When Macbeth says ``I am settled,'' has he gained proof that the murder is right, confidence that they can hide it, or both? Explain.
 
-\answerbox{ANSWER LABEL: Part 3 Q2}{2.45in}
+\GraderAnswerBox{Part 3 Q2}{2.45in}
 
 \newpage
 
@@ -87,11 +72,11 @@ When Macbeth says ``I am settled,'' has he gained proof that the murder is right
 \textbf{Question 4.1}\\[-0.15em]
 Perform a full fallacy autopsy on Lady Macbeth's persuasion of Macbeth: (1) conclusion, (2) apparent proof, (3) defect, (4) repaired or narrowed claim that would be fairer.
 
-\answerbox{ANSWER LABEL: Part 4 Q1}{2.65in}
+\GraderAnswerBox{Part 4 Q1}{2.65in}
 
 \textbf{Question 4.2}\\[-0.15em]
 In one paragraph, explain why a speech can feel conclusive without proving its point, using these Macbeth passages.
 
-\answerbox{ANSWER LABEL: Part 4 Q2}{2.45in}
+\GraderAnswerBox{Part 4 Q2}{2.45in}
 
 \end{document}
