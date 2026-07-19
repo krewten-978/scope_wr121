@@ -102,6 +102,7 @@ Do not commit `*.aux`, `*.log`, `*.fls`, `*.fdb_latexmk`, `*.out` (see root `.gi
 | 11 | U1L11LL | Analogy; source/target cases; relevant similarity; disanalogy; overextension |
 | 12 | U1L12LL | Induction; examples; general claims; representative samples; counterexamples; revised claims |
 | 13 | U1L13LL | Testimony; authority; credibility; access; relevant expertise; bias; corroboration; careful trust judgments |
+| 14 | U1L14LL | Reasoning, discovery, proof, observation, testimony, memory, imagination, judgment, and intellectual-tool mapping |
 
 Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) before authoring.
 
@@ -147,3 +148,4 @@ Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) befor
 | U1L11LL / U1L11LE | Week 11 | Analogy and relevant similarity + Caesar serpent's egg / Macbeth bear-like comparisons LE |
 | U1L12LL / U1L12LE | Week 12 | Induction and general claims + Cassius anecdotes / Lady Macbeth character-claim LE |
 | U1L13LL / U1L13LE | Week 13 | Testimony, authority, credibility + Macbeth witches / Brutus public testimony LE |
+| U1L14LL / U1L14LE | Week 14 | Reasoning, discovery, proof, judgment + Macbeth late discoveries / Caesar warnings and interpretations LE |
