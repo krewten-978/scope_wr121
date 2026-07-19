@@ -8,6 +8,14 @@
       "pdf": "graded-assignments/U1F1LD/worksheet.pdf",
       "template": "graded-assignments/U1F1LD/template.json",
       "answer_key": "answer-keys/U1F1LD.md"
+    },
+    {
+      "assignment_id": "U1L1LL",
+      "template_revision": 1,
+      "tex": "graded-assignments/U1L1LL/worksheet.tex",
+      "pdf": "graded-assignments/U1L1LL/worksheet.pdf",
+      "template": "graded-assignments/U1L1LL/template.json",
+      "answer_key": "answer-keys/U1L1LL.md"
     }
   ]
 }

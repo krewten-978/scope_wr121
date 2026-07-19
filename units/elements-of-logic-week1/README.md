@@ -6,8 +6,8 @@
 
 ## Logic lab (companion worksheet)
 
-- `logic-labs/U1L1LL_logic_lab.tex`
-- `logic-labs/U1L1LL_logic_lab.pdf` — Assignment ID **U1L1LL**
+- `../../../graded-assignments/U1L1LL/worksheet.tex`
+- `../../../graded-assignments/U1L1LL/worksheet.pdf` — Assignment ID **U1L1LL**
 
 ## Lit example (Macbeth application)
 
@@ -27,7 +27,7 @@ Answer key: `answer-keys/U1L1LL.md` — validate with `python3 scripts/validate-
 From this folder:
 
 ```bash
-latexmk -pdf -interaction=nonstopmode -halt-on-error logic-labs/U1L1LL_logic_lab.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error logic-labs/../../../graded-assignments/U1L1LL/worksheet.tex
 ```
 
 ## Build lit example

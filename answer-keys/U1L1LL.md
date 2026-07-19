@@ -2,7 +2,7 @@
 
 **Total Points:** 12
 
-**Paired worksheet:** `units/elements-of-logic-week1/logic-labs/U1L1LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L1LL**).
+**Paired worksheet:** `graded-assignments/U1L1LL/worksheet.tex` / `.pdf` (Assignment ID **U1L1LL**).
 
 **Paired reading (method only):** `units/elements-of-logic-week1/student-packets/Whately_Logic_Week1_Student_Reading.pdf` — students learn conclusion, stated reason, hidden assumption, and follow test there. Model answers below are grounded in the **logic lab prompts only** (fresh sentences on the worksheet), not recap of the reading examples.
 
