@@ -13,8 +13,8 @@
 
 - `lit-examples/U1L1LE_lit_example_reader.tex`
 - `lit-examples/U1L1LE_lit_example_reader.pdf`
-- `lit-examples/U1L1LE_lit_example_worksheet.tex`
-- `lit-examples/U1L1LE_lit_example_worksheet.pdf` — Assignment ID **U1L1LE**
+- `../../../graded-assignments/U1L1LE/worksheet.tex`
+- `../../../graded-assignments/U1L1LE/worksheet.pdf` — Assignment ID **U1L1LE**
 
 Answer key: `answer-keys/U1L1LE.md`
 
@@ -36,5 +36,5 @@ From the repo root:
 
 ```bash
 latexmk -cd -pdf -interaction=nonstopmode -halt-on-error units/elements-of-logic-week1/lit-examples/U1L1LE_lit_example_reader.tex
-latexmk -cd -pdf -interaction=nonstopmode -halt-on-error units/elements-of-logic-week1/lit-examples/U1L1LE_lit_example_worksheet.tex
+latexmk -cd -pdf -interaction=nonstopmode -halt-on-error graded-assignments/U1L1LE/worksheet.tex
 ```

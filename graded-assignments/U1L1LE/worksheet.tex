@@ -1,32 +1,17 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
-\setlength{\headheight}{26pt}
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{\footnotesize Student Name: \hspace{2.3in} \quad Assignment ID: U1L1LE \quad Page \thepage\ of \pageref{LastPage}}
-\renewcommand{\headrulewidth}{0.5pt}
 
-\newcommand{\answerbox}[2]{% #1 = label, #2 = height
-\vspace{0.12em}
-\noindent\textbf{#1}\par
-\vspace{0.04em}
-\noindent\fbox{%
-\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
-\rule{\textwidth}{0pt}
-\vspace{#2}
-\end{minipage}}
-\par\vspace{0.22em}}
+\GraderSetup{assignment-id=U1L1LE,template-revision=1}
 
 \begin{document}
 
@@ -45,12 +30,14 @@
 \textbf{Question 1.1}\\[-0.15em]
 In Act 1, Scene 3, Macbeth has heard the witches' prophecy and then learns he is Thane of Cawdor. Identify one conclusion Macbeth is tempted to draw from this news, the stated reason that supports it, and the hidden assumption that would have to be true for the conclusion to follow.
 
-\answerbox{ANSWER LABEL: Part 1 Q1}{2.15in}
+\GraderAnswerBox{Part 1 Q1}{2.15in}
+
+\newpage
 
 \textbf{Question 1.2}\\[-0.15em]
 Banquo warns that truthful predictions can still lead people toward harm. Reconstruct Banquo's warning as an argument: conclusion, stated reason, hidden assumption, and follow-test.
 
-\answerbox{ANSWER LABEL: Part 1 Q2}{2.15in}
+\GraderAnswerBox{Part 1 Q2}{2.15in}
 
 \newpage
 
@@ -59,12 +46,12 @@ Banquo warns that truthful predictions can still lead people toward harm. Recons
 \textbf{Question 2.1}\\[-0.15em]
 In Act 1, Scene 7, Macbeth gives reasons against murdering Duncan. Choose two reasons he gives and use them to reconstruct Macbeth's argument against the murder. Include conclusion, stated reasons, hidden assumption, and follow-test.
 
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.45in}
+\GraderAnswerBox{Part 2 Q1}{2.45in}
 
 \textbf{Question 2.2}\\[-0.15em]
 Macbeth says he has ``no spur'' except ``vaulting ambition.'' Explain the logical difference between a motive and a proof. Then apply that distinction to Macbeth's situation without telling the story back in summary form.
 
-\answerbox{ANSWER LABEL: Part 2 Q2}{2.35in}
+\GraderAnswerBox{Part 2 Q2}{2.35in}
 
 \newpage
 
@@ -73,11 +60,11 @@ Macbeth says he has ``no spur'' except ``vaulting ambition.'' Explain the logica
 \textbf{Question 3.1}\\[-0.15em]
 Choose one moment from either Macbeth passage where a speaker could move too quickly from possibility, fear, desire, or prediction to a larger conclusion. Name the possible conclusion, the actual support, the hidden assumption, and whether the conclusion follows.
 
-\answerbox{ANSWER LABEL: Part 3 Q1}{2.55in}
+\GraderAnswerBox{Part 3 Q1}{2.55in}
 
 \textbf{Question 3.2}\\[-0.15em]
 Put Whately's central question to Macbeth: \textit{What follows from what?} Identify one claim in the two passages that is reasonably supported and one claim or possible claim that is not yet proved. Explain the difference logically.
 
-\answerbox{ANSWER LABEL: Part 3 Q2}{2.45in}
+\GraderAnswerBox{Part 3 Q2}{2.45in}
 
 \end{document}

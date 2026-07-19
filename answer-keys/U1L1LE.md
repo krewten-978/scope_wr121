@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week1/lit-examples/U1L1LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week1/lit-examples/U1L1LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L1LE**).
+**Paired worksheet:** `graded-assignments/U1L1LE/worksheet.tex` / `.pdf` (Assignment ID **U1L1LE**).
 
 **Purpose:** Students apply the Week 1 Whately four-step method to two Macbeth passages. Grade for logical structure and textual grounding, not for plot summary. Accept varied phrasing when the logical roles are clear.
 
