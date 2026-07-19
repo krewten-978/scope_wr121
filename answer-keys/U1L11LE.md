@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week11/lit-examples/U1L11LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week11/lit-examples/U1L11LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L11LE**).
+**Paired worksheet:** `graded-assignments/U1L11LE/worksheet.tex` / `.pdf` (Assignment ID **U1L11LE**).
 
 **Purpose:** Students apply Week 11 analogy / relevant-similarity diagnosis to Brutus in *Julius Caesar* and Macbeth in *Macbeth*.
 

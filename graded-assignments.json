@@ -42,6 +42,14 @@
       "answer_key": "answer-keys/U1L10LL.md"
     },
     {
+      "assignment_id": "U1L11LE",
+      "template_revision": 1,
+      "tex": "graded-assignments/U1L11LE/worksheet.tex",
+      "pdf": "graded-assignments/U1L11LE/worksheet.pdf",
+      "template": "graded-assignments/U1L11LE/template.json",
+      "answer_key": "answer-keys/U1L11LE.md"
+    },
+    {
       "assignment_id": "U1L1LL",
       "template_revision": 1,
       "tex": "graded-assignments/U1L1LL/worksheet.tex",

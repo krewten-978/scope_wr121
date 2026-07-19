@@ -1,32 +1,17 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
-\setlength{\headheight}{26pt}
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{\footnotesize Student Name: \hspace{2.3in} \quad Assignment ID: U1L11LE \quad Page \thepage\ of \pageref{LastPage}}
-\renewcommand{\headrulewidth}{0.5pt}
 
-\newcommand{\answerbox}[2]{%
-\vspace{0.12em}
-\noindent\textbf{#1}\par
-\vspace{0.04em}
-\noindent\fbox{%
-\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
-\rule{\textwidth}{0pt}
-\vspace{#2}
-\end{minipage}}
-\par\vspace{0.22em}}
+\GraderSetup{assignment-id=U1L11LE,template-revision=1}
 
 \begin{document}
 
@@ -45,12 +30,12 @@
 \textbf{Question 1.1}\\[-0.15em]
 In Brutus's serpent's egg comparison, what is the source case and what is the target case?
 
-\answerbox{ANSWER LABEL: Part 1 Q1}{1.95in}
+\GraderAnswerBox{Part 1 Q1}{1.95in}
 
 \textbf{Question 1.2}\\[-0.15em]
 What conclusion does Brutus want this comparison to support?
 
-\answerbox{ANSWER LABEL: Part 1 Q2}{2.05in}
+\GraderAnswerBox{Part 1 Q2}{2.05in}
 
 \newpage
 
@@ -59,12 +44,12 @@ What conclusion does Brutus want this comparison to support?
 \textbf{Question 2.1}\\[-0.15em]
 What relevant similarity makes Brutus's comparison persuasive?
 
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.25in}
+\GraderAnswerBox{Part 2 Q1}{2.25in}
 
 \textbf{Question 2.2}\\[-0.15em]
 What important disanalogy limits Brutus's comparison?
 
-\answerbox{ANSWER LABEL: Part 2 Q2}{2.25in}
+\GraderAnswerBox{Part 2 Q2}{2.25in}
 
 \newpage
 
@@ -73,12 +58,12 @@ What important disanalogy limits Brutus's comparison?
 \textbf{Question 3.1}\\[-0.15em]
 Does the serpent's egg analogy prove that Caesar must be killed, support only a narrower warning, or merely decorate Brutus's fear? Explain.
 
-\answerbox{ANSWER LABEL: Part 3 Q1}{2.55in}
+\GraderAnswerBox{Part 3 Q1}{2.55in}
 
 \textbf{Question 3.2}\\[-0.15em]
 Rewrite Brutus's conclusion so it matches what the analogy can honestly support, unless additional evidence is supplied.
 
-\answerbox{ANSWER LABEL: Part 3 Q2}{2.35in}
+\GraderAnswerBox{Part 3 Q2}{2.35in}
 
 \newpage
 
@@ -87,11 +72,11 @@ Rewrite Brutus's conclusion so it matches what the analogy can honestly support,
 \textbf{Question 4.1}\\[-0.15em]
 In Macbeth's bear-like comparison, identify the source case, target case, relevant similarity, and one disanalogy.
 
-\answerbox{ANSWER LABEL: Part 4 Q1}{2.45in}
+\GraderAnswerBox{Part 4 Q1}{2.45in}
 
 \textbf{Question 4.2}\\[-0.15em]
 Does Macbeth's comparison prove that he has no moral choice left, or does it mainly describe his sense of being trapped? Explain.
 
-\answerbox{ANSWER LABEL: Part 4 Q2}{2.45in}
+\GraderAnswerBox{Part 4 Q2}{2.45in}
 
 \end{document}
