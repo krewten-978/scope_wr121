@@ -2,7 +2,7 @@
 
 **Total Points:** 16
 
-**Paired worksheet:** `units/elements-of-logic-week14/logic-labs/U1L14LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L14LL**).
+**Paired worksheet:** `graded-assignments/U1L14LL/worksheet.tex` / `.pdf` (Assignment ID **U1L14LL**).
 
 **Paired reading:** Week 14 — reasoning, discovery, proof, observation, testimony, memory, imagination, judgment, and the intellectual-tool map.
 
