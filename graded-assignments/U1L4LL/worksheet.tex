@@ -1,40 +1,18 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
-\setlength{\headheight}{26pt}
 
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{%
-\footnotesize
-Student Name: \hspace{2.3in} \quad Assignment ID: U1L4LL \quad Page \thepage\ of \pageref{LastPage}
-}
-\renewcommand{\headrulewidth}{0.5pt}
-\renewcommand{\footrulewidth}{0pt}
-
-\newcommand{\answerbox}[2]{%
-\vspace{0.15em}
-\noindent\textbf{#1}\par
-\vspace{0.05em}
-\noindent\fbox{%
-\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
-\rule{\textwidth}{0pt}
-\vspace{#2}
-\end{minipage}
-}\par
-\vspace{0.25em}
-}
+\GraderSetup{assignment-id=U1L4LL,template-revision=1}
 
 \begin{document}
 
@@ -53,12 +31,12 @@ Student Name: \hspace{2.3in} \quad Assignment ID: U1L4LL \quad Page \thepage\ of
 \textbf{Question 1.1}\\[-0.15em]
 ``All vehicles in the city fleet are inspected every month. Van 14 is in the city fleet. Therefore Van 14 is inspected every month.'' List the two premises and the conclusion.
 
-\answerbox{ANSWER LABEL: Part 1 Q1}{2.15in}
+\GraderAnswerBox{Part 1 Q1}{2.15in}
 
 \textbf{Question 1.2}\\[-0.15em]
 For that argument, name the minor term, major term, and middle term.
 
-\answerbox{ANSWER LABEL: Part 1 Q2}{1.85in}
+\GraderAnswerBox{Part 1 Q2}{1.85in}
 
 \newpage
 
@@ -67,12 +45,12 @@ For that argument, name the minor term, major term, and middle term.
 \textbf{Question 2.1}\\[-0.15em]
 ``No reptiles are mammals. All crocodiles are reptiles. Therefore no crocodiles are mammals.'' Name the middle term and state which premise is major and which is minor.
 
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.15in}
+\GraderAnswerBox{Part 2 Q1}{2.15in}
 
 \textbf{Question 2.2}\\[-0.15em]
 ``Some athletes are not morning people. All swimmers on this team are athletes. Therefore some swimmers on this team are not morning people.'' Name the middle term and state which premise is major and which is minor.
 
-\answerbox{ANSWER LABEL: Part 2 Q2}{2.15in}
+\GraderAnswerBox{Part 2 Q2}{2.15in}
 
 \newpage
 
@@ -91,7 +69,7 @@ The nurse checked the supply closet while two interns debated lunch. The posted 
 \end{minipage}
 }
 
-\answerbox{ANSWER LABEL: Part 3 Q1}{2.65in}
+\GraderAnswerBox{Part 3 Q1}{2.65in}
 
 \newpage
 
@@ -100,7 +78,7 @@ The nurse checked the supply closet while two interns debated lunch. The posted 
 \textbf{Question 4.1}\\[-0.15em]
 ``All students who use the tutoring center are students who improved last term. Jordan improved last term. Therefore Jordan uses the tutoring center.'' Identify the middle term and explain whether it links the minor and major terms in a way that supports the conclusion.
 
-\answerbox{ANSWER LABEL: Part 4 Q1}{2.55in}
+\GraderAnswerBox{Part 4 Q1}{2.55in}
 
 \newpage
 
@@ -109,11 +87,11 @@ The nurse checked the supply closet while two interns debated lunch. The posted 
 \textbf{Question 5.1}\\[-0.15em]
 ``You have a right to speak at the meeting, but that does not mean you are right about the policy.'' Which word is used in two different senses? State both meanings.
 
-\answerbox{ANSWER LABEL: Part 5 Q1}{1.65in}
+\GraderAnswerBox{Part 5 Q1}{1.65in}
 
 \textbf{Question 5.2}\\[-0.15em]
 ``No electric scooters in this lot are vehicles that may be parked overnight.'' Name the standard form (A, E, I, or O), quality, and quantity.
 
-\answerbox{ANSWER LABEL: Part 5 Q2}{1.65in}
+\GraderAnswerBox{Part 5 Q2}{1.65in}
 
 \end{document}

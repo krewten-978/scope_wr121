@@ -2,7 +2,7 @@
 
 **Total Points:** 12
 
-**Paired worksheet:** `units/elements-of-logic-week4/logic-labs/U1L4LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L4LL**).
+**Paired worksheet:** `graded-assignments/U1L4LL/worksheet.tex` / `.pdf` (Assignment ID **U1L4LL**).
 
 **Paired reading:** Week 4 syllogisms — premises, conclusion, middle / major / minor terms, practical map.
 
