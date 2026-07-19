@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week14/lit-examples/U1L14LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week14/lit-examples/U1L14LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L14LE**).
+**Paired worksheet:** `graded-assignments/U1L14LE/worksheet.tex` / `.pdf` (Assignment ID **U1L14LE**).
 
 **Purpose:** Students apply Week 14 discovery / proof / judgment tools to Macbeth's late discoveries and Caesar's response to warnings and interpretations.
 

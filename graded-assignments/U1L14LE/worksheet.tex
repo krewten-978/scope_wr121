@@ -1,32 +1,17 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
-\setlength{\headheight}{26pt}
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{\footnotesize Student Name: \hspace{2.3in} \quad Assignment ID: U1L14LE \quad Page \thepage\ of \pageref{LastPage}}
-\renewcommand{\headrulewidth}{0.5pt}
 
-\newcommand{\answerbox}[2]{%
-\vspace{0.12em}
-\noindent\textbf{#1}\par
-\vspace{0.04em}
-\noindent\fbox{%
-\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
-\rule{\textwidth}{0pt}
-\vspace{#2}
-\end{minipage}}
-\par\vspace{0.22em}}
+\GraderSetup{assignment-id=U1L14LE,template-revision=1}
 
 \begin{document}
 
@@ -45,12 +30,12 @@
 \textbf{Question 1.1}\\[-0.15em]
 What two facts does Macbeth discover too late in the Act 5 passage?
 
-\answerbox{ANSWER LABEL: Part 1 Q1}{2.0in}
+\GraderAnswerBox{Part 1 Q1}{2.0in}
 
 \textbf{Question 1.2}\\[-0.15em]
 Which term or phrase did Macbeth judge too quickly, and what meaning did later events reveal?
 
-\answerbox{ANSWER LABEL: Part 1 Q2}{2.15in}
+\GraderAnswerBox{Part 1 Q2}{2.15in}
 
 \newpage
 
@@ -59,12 +44,12 @@ Which term or phrase did Macbeth judge too quickly, and what meaning did later e
 \textbf{Question 2.1}\\[-0.15em]
 Explain why the apparitions' words were not proof that Macbeth was safe.
 
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.3in}
+\GraderAnswerBox{Part 2 Q1}{2.3in}
 
 \textbf{Question 2.2}\\[-0.15em]
 Complete a Week 14 tool map for Macbeth: question, needed discovery, clarified term, inference test, and judgment.
 
-\answerbox{ANSWER LABEL: Part 2 Q2}{2.55in}
+\GraderAnswerBox{Part 2 Q2}{2.55in}
 
 \newpage
 
@@ -73,12 +58,12 @@ Complete a Week 14 tool map for Macbeth: question, needed discovery, clarified t
 \textbf{Question 3.1}\\[-0.15em]
 What evidence or testimony does Calpurnia offer, and what interpretation does Decius offer?
 
-\answerbox{ANSWER LABEL: Part 3 Q1}{2.35in}
+\GraderAnswerBox{Part 3 Q1}{2.35in}
 
 \textbf{Question 3.2}\\[-0.15em]
 What pressure or desire may distort Caesar's judgment when he hears Decius's interpretation?
 
-\answerbox{ANSWER LABEL: Part 3 Q2}{2.4in}
+\GraderAnswerBox{Part 3 Q2}{2.4in}
 
 \newpage
 
@@ -87,11 +72,11 @@ What pressure or desire may distort Caesar's judgment when he hears Decius's int
 \textbf{Question 4.1}\\[-0.15em]
 Compare Macbeth and Caesar. How does each act before discovery and judgment are complete?
 
-\answerbox{ANSWER LABEL: Part 4 Q1}{2.65in}
+\GraderAnswerBox{Part 4 Q1}{2.65in}
 
 \textbf{Question 4.2}\\[-0.15em]
 Choose Macbeth or Caesar and write one careful alternative judgment the character should have made before acting.
 
-\answerbox{ANSWER LABEL: Part 4 Q2}{2.55in}
+\GraderAnswerBox{Part 4 Q2}{2.55in}
 
 \end{document}
