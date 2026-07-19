@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week4/lit-examples/U1L4LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week4/lit-examples/U1L4LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L4LE**).
+**Paired worksheet:** `graded-assignments/U1L4LE/worksheet.tex` / `.pdf` (Assignment ID **U1L4LE**).
 
 **Purpose:** Students apply the Week 4 Whately habit of mapping practical syllogisms, naming terms, and testing whether the middle term truly connects the argument in Julius Caesar.
 
