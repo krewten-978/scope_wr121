@@ -1,34 +1,17 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
-\setlength{\headheight}{26pt}
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{\footnotesize Student Name: \hspace{2.3in} \quad Assignment ID: U1L13LL \quad Page \thepage\ of \pageref{LastPage}}
-\renewcommand{\headrulewidth}{0.5pt}
 
-\newcommand{\answerbox}[2]{%
-\vspace{0.15em}
-\noindent\textbf{#1}\par
-\vspace{0.05em}
-\noindent\fbox{%
-\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
-\rule{\textwidth}{0pt}
-\vspace{#2}
-\end{minipage}
-}\par
-\vspace{0.25em}
-}
+\GraderSetup{assignment-id=U1L13LL,template-revision=1}
 
 \begin{document}
 
@@ -47,12 +30,12 @@
 \textbf{Question 1.1}\\[-0.15em]
 A student newspaper reports, ``The debate club will move to Wednesdays,'' and cites the club adviser, who approves the calendar. Identify the claim, the source, and whether the source has access to know.
 
-\answerbox{ANSWER LABEL: Part 1 Q1}{2.25in}
+\GraderAnswerBox{Part 1 Q1}{2.25in}
 
 \textbf{Question 1.2}\\[-0.15em]
 A student who skipped the meeting says, ``I heard the robotics team cancelled the regional trip.'' Identify what the source can know directly and what would need a better source.
 
-\answerbox{ANSWER LABEL: Part 1 Q2}{2.25in}
+\GraderAnswerBox{Part 1 Q2}{2.25in}
 
 \newpage
 
@@ -61,12 +44,12 @@ A student who skipped the meeting says, ``I heard the robotics team cancelled th
 \textbf{Question 2.1}\\[-0.15em]
 A famous musician says a new phone is the most secure phone available. What authority does the musician have, and what expertise would be relevant to the security claim?
 
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.45in}
+\GraderAnswerBox{Part 2 Q1}{2.45in}
 
 \textbf{Question 2.2}\\[-0.15em]
 A school nurse explains why several students should stay home during a fever outbreak. A student council president disagrees because attendance at events might drop. Compare the relevance of the two sources for the health question.
 
-\answerbox{ANSWER LABEL: Part 2 Q2}{2.45in}
+\GraderAnswerBox{Part 2 Q2}{2.45in}
 
 \newpage
 
@@ -75,12 +58,12 @@ A school nurse explains why several students should stay home during a fever out
 \textbf{Question 3.1}\\[-0.15em]
 A restaurant owner claims, ``Our inspection score was excellent,'' but the sign in the window shows only last year's score. What bias or pressure may affect the claim, and what corroboration would help?
 
-\answerbox{ANSWER LABEL: Part 3 Q1}{2.55in}
+\GraderAnswerBox{Part 3 Q1}{2.55in}
 
 \textbf{Question 3.2}\\[-0.15em]
 Three students say the bus was late, but all three got the information from the same group chat message. Explain whether this is independent corroboration and what would make the report stronger.
 
-\answerbox{ANSWER LABEL: Part 3 Q2}{2.55in}
+\GraderAnswerBox{Part 3 Q2}{2.55in}
 
 \newpage
 
@@ -99,7 +82,7 @@ A city committee is deciding whether to keep a weekend shuttle. The shuttle comp
 \end{minipage}
 }
 
-\answerbox{ANSWER LABEL: Part 4 Q1}{3.15in}
+\GraderAnswerBox{Part 4 Q1}{3.15in}
 
 \newpage
 
@@ -108,11 +91,11 @@ A city committee is deciding whether to keep a weekend shuttle. The shuttle comp
 \textbf{Question 5.1}\\[-0.15em]
 ``Four students who used the new essay checklist improved on the next draft, so the checklist guarantees better writing for every student.'' Name the examples, the overclaim, and a revised claim.
 
-\answerbox{ANSWER LABEL: Part 5 Q1}{2.25in}
+\GraderAnswerBox{Part 5 Q1}{2.25in}
 
 \textbf{Question 5.2}\\[-0.15em]
 ``A city budget is like a family budget: both must decide what matters most when money is limited. Therefore the council should publish priorities before voting.'' Identify the source case, target case, and relevant similarity.
 
-\answerbox{ANSWER LABEL: Part 5 Q2}{2.05in}
+\GraderAnswerBox{Part 5 Q2}{2.05in}
 
 \end{document}

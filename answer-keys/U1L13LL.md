@@ -2,7 +2,7 @@
 
 **Total Points:** 16
 
-**Paired worksheet:** `units/elements-of-logic-week13/logic-labs/U1L13LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L13LL**).
+**Paired worksheet:** `graded-assignments/U1L13LL/worksheet.tex` / `.pdf` (Assignment ID **U1L13LL**).
 
 **Paired reading:** Week 13 — testimony, authority, credibility, access, expertise, bias, corroboration, probability, and careful conclusions.
 
