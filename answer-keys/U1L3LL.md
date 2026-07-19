@@ -2,7 +2,7 @@
 
 **Total Points:** 12
 
-**Paired worksheet:** `units/elements-of-logic-week3/logic-labs/U1L3LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L3LL**).
+**Paired worksheet:** `graded-assignments/U1L3LL/worksheet.tex` / `.pdf` (Assignment ID **U1L3LL**).
 
 **Paired reading (method):** `units/elements-of-logic-week3/student-packets/Whately_Logic_Week3_Student_Reading.pdf` — propositions, subject/predicate, quality, quantity, A/E/I/O, translation, distribution.
 
