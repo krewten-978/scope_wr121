@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "assignment_id": "U1L10LL",
+  "template_revision": 1,
+  "pdf": "graded-assignments/U1L10LL/worksheet.pdf",
+  "pdf_sha256": "4845d51aec862a4f54c1eb9c6546e047ff84a45e8ace567297be3d5fdc281f25",
+  "page_count": 5,
+  "coordinate_system": {
+    "units": "pt",
+    "origin": "top-left",
+    "axis": "x right, y down",
+    "box_format": "[x0, y0, x1, y1]"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 2,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 3,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 4,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 5,
+      "width": 612.0,
+      "height": 792.0
+    }
+  ],
+  "answer_boxes": [
+    {
+      "label": "Part 1 Q1",
+      "page": 1,
+      "rect_topleft": [
+        43.2,
+        322.99,
+        568.8,
+        494.97
+      ]
+    },
+    {
+      "label": "Part 1 Q2",
+      "page": 1,
+      "rect_topleft": [
+        43.2,
+        570.28,
+        568.8,
+        742.26
+      ]
+    },
+    {
+      "label": "Part 2 Q1",
+      "page": 2,
+      "rect_topleft": [
+        43.2,
+        210.04,
+        568.8,
+        400.01
+      ]
+    },
+    {
+      "label": "Part 2 Q2",
+      "page": 2,
+      "rect_topleft": [
+        43.2,
+        475.33,
+        568.8,
+        658.1
+      ]
+    },
+    {
+      "label": "Part 3 Q1",
+      "page": 3,
+      "rect_topleft": [
+        43.2,
+        210.04,
+        568.8,
+        418.01
+      ]
+    },
+    {
+      "label": "Part 4 Q1",
+      "page": 4,
+      "rect_topleft": [
+        43.2,
+        296.66,
+        568.8,
+        501.03
+      ]
+    },
+    {
+      "label": "Part 5 Q1",
+      "page": 5,
+      "rect_topleft": [
+        43.2,
+        224.48,
+        568.8,
+        374.86
+      ]
+    },
+    {
+      "label": "Part 5 Q2",
+      "page": 5,
+      "rect_topleft": [
+        43.2,
+        450.17,
+        568.8,
+        600.55
+      ]
+    }
+  ]
+}

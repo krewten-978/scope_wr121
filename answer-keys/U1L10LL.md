@@ -2,7 +2,7 @@
 
 **Total Points:** 14
 
-**Paired worksheet:** `units/elements-of-logic-week10/logic-labs/U1L10LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L10LL**).
+**Paired worksheet:** `graded-assignments/U1L10LL/worksheet.tex` / `.pdf` (Assignment ID **U1L10LL**).
 
 **Paired reading:** Week 10 — irrelevant proof, point at issue, nearby claim, partial proof, prompt-match test, repair.
 
