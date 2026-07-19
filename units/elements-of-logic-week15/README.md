@@ -14,8 +14,8 @@
 - `logic-labs/U1L15LL_logic_lab.pdf`
 - `lit-examples/U1L15LE_lit_example_reader.tex`
 - `lit-examples/U1L15LE_lit_example_reader.pdf`
-- `lit-examples/U1L15LE_lit_example_worksheet.tex`
-- `lit-examples/U1L15LE_lit_example_worksheet.pdf`
+- `../../../graded-assignments/U1L15LE/worksheet.tex`
+- `../../../graded-assignments/U1L15LE/worksheet.pdf`
 
 ## Answer keys
 
@@ -30,7 +30,7 @@ Run from this week folder:
 latexmk -lualatex -output-directory=student-packets -interaction=nonstopmode -halt-on-error student-packets/Whately_Logic_Week15_Student_Reading.tex
 latexmk -pdf -output-directory=logic-labs -interaction=nonstopmode -halt-on-error logic-labs/U1L15LL_logic_lab.tex
 latexmk -pdf -output-directory=lit-examples -interaction=nonstopmode -halt-on-error lit-examples/U1L15LE_lit_example_reader.tex
-latexmk -pdf -output-directory=lit-examples -interaction=nonstopmode -halt-on-error lit-examples/U1L15LE_lit_example_worksheet.tex
+latexmk -pdf -output-directory=lit-examples -interaction=nonstopmode -halt-on-error lit-examples/../../../graded-assignments/U1L15LE/worksheet.tex
 ```
 
 ## Verification

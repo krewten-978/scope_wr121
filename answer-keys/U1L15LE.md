@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week15/lit-examples/U1L15LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week15/lit-examples/U1L15LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L15LE**).
+**Paired worksheet:** `graded-assignments/U1L15LE/worksheet.tex` / `.pdf` (Assignment ID **U1L15LE**).
 
 **Purpose:** Students apply Week 15 verbal / real / mixed dispute mapping to Macbeth and Lady Macbeth's dispute over manhood and Brutus / Antony's public dispute over Caesar's ambition and honor.
 
