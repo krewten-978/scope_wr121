@@ -1,32 +1,17 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
-\setlength{\headheight}{26pt}
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{\footnotesize Student Name: \hspace{2.3in} \quad Assignment ID: U1L13LE \quad Page \thepage\ of \pageref{LastPage}}
-\renewcommand{\headrulewidth}{0.5pt}
 
-\newcommand{\answerbox}[2]{%
-\vspace{0.12em}
-\noindent\textbf{#1}\par
-\vspace{0.04em}
-\noindent\fbox{%
-\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
-\rule{\textwidth}{0pt}
-\vspace{#2}
-\end{minipage}}
-\par\vspace{0.22em}}
+\GraderSetup{assignment-id=U1L13LE,template-revision=1}
 
 \begin{document}
 
@@ -45,12 +30,12 @@
 \textbf{Question 1.1}\\[-0.15em]
 What claims do the witches make about Macbeth, and which claim is soon corroborated?
 
-\answerbox{ANSWER LABEL: Part 1 Q1}{2.0in}
+\GraderAnswerBox{Part 1 Q1}{2.0in}
 
 \textbf{Question 1.2}\\[-0.15em]
 Why does the corroborated claim make the witches tempting sources?
 
-\answerbox{ANSWER LABEL: Part 1 Q2}{2.05in}
+\GraderAnswerBox{Part 1 Q2}{2.05in}
 
 \newpage
 
@@ -59,12 +44,12 @@ Why does the corroborated claim make the witches tempting sources?
 \textbf{Question 2.1}\\[-0.15em]
 What remains uncorroborated or uncertain after Macbeth receives the Cawdor title?
 
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.2in}
+\GraderAnswerBox{Part 2 Q1}{2.2in}
 
 \textbf{Question 2.2}\\[-0.15em]
 Write a careful conclusion about how much Macbeth should trust the witches.
 
-\answerbox{ANSWER LABEL: Part 2 Q2}{2.3in}
+\GraderAnswerBox{Part 2 Q2}{2.3in}
 
 \newpage
 
@@ -73,12 +58,12 @@ Write a careful conclusion about how much Macbeth should trust the witches.
 \textbf{Question 3.1}\\[-0.15em]
 What central claim does Brutus testify to about Caesar, and what access or competence does Brutus have?
 
-\answerbox{ANSWER LABEL: Part 3 Q1}{2.35in}
+\GraderAnswerBox{Part 3 Q1}{2.35in}
 
 \textbf{Question 3.2}\\[-0.15em]
 What bias or pressure may affect Brutus's testimony, and what corroboration would make his claim stronger?
 
-\answerbox{ANSWER LABEL: Part 3 Q2}{2.55in}
+\GraderAnswerBox{Part 3 Q2}{2.55in}
 
 \newpage
 
@@ -87,11 +72,11 @@ What bias or pressure may affect Brutus's testimony, and what corroboration woul
 \textbf{Question 4.1}\\[-0.15em]
 Compare the witches and Brutus as sources. In one paragraph, explain why one accurate detail or one honorable speaker is not enough by itself to settle the whole question.
 
-\answerbox{ANSWER LABEL: Part 4 Q1}{2.65in}
+\GraderAnswerBox{Part 4 Q1}{2.65in}
 
 \textbf{Question 4.2}\\[-0.15em]
 Choose one source from the reader and complete a credibility map: claim, source, access, bias, corroboration or conflict, and careful conclusion.
 
-\answerbox{ANSWER LABEL: Part 4 Q2}{2.55in}
+\GraderAnswerBox{Part 4 Q2}{2.55in}
 
 \end{document}

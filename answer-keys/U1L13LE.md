@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week13/lit-examples/U1L13LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week13/lit-examples/U1L13LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L13LE**).
+**Paired worksheet:** `graded-assignments/U1L13LE/worksheet.tex` / `.pdf` (Assignment ID **U1L13LE**).
 
 **Purpose:** Students apply Week 13 testimony / credibility-map diagnosis to the witches in *Macbeth* and Brutus in *Julius Caesar*.
 
