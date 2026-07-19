@@ -2,7 +2,7 @@
 
 **Total Points:** 16
 
-**Paired worksheet:** `units/elements-of-logic-week11/logic-labs/U1L11LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L11LL**).
+**Paired worksheet:** `graded-assignments/U1L11LL/worksheet.tex` / `.pdf` (Assignment ID **U1L11LL**).
 
 **Paired reading:** Week 11 — analogy, source case, target case, relevant similarity, disanalogy, overextension, decorative comparison, analogy test.
 
