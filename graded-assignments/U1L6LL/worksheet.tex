@@ -1,40 +1,18 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
-\setlength{\headheight}{26pt}
 
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{%
-\footnotesize
-Student Name: \hspace{2.3in} \quad Assignment ID: U1L6LL \quad Page \thepage\ of \pageref{LastPage}
-}
-\renewcommand{\headrulewidth}{0.5pt}
-\renewcommand{\footrulewidth}{0pt}
-
-\newcommand{\answerbox}[2]{%
-\vspace{0.15em}
-\noindent\textbf{#1}\par
-\vspace{0.05em}
-\noindent\fbox{%
-\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
-\rule{\textwidth}{0pt}
-\vspace{#2}
-\end{minipage}
-}\par
-\vspace{0.25em}
-}
+\GraderSetup{assignment-id=U1L6LL,template-revision=1}
 
 \begin{document}
 
@@ -53,12 +31,12 @@ Student Name: \hspace{2.3in} \quad Assignment ID: U1L6LL \quad Page \thepage\ of
 \textbf{Question 1.1}\\[-0.15em]
 ``All songbirds are animals that can fly long distances over open water. All albatrosses are songbirds. Therefore all albatrosses are animals that can fly long distances over open water.'' Apply the form test only: if the premises were true, would the conclusion have to follow?
 
-\answerbox{ANSWER LABEL: Part 1 Q1}{2.15in}
+\GraderAnswerBox{Part 1 Q1}{2.15in}
 
 \textbf{Question 1.2}\\[-0.15em]
 ``Some nurses are not people who work night shifts. All ICU nurses are nurses. Therefore some ICU nurses are not people who work night shifts.'' Apply the form test only.
 
-\answerbox{ANSWER LABEL: Part 1 Q2}{2.15in}
+\GraderAnswerBox{Part 1 Q2}{2.15in}
 
 \newpage
 
@@ -67,7 +45,7 @@ Student Name: \hspace{2.3in} \quad Assignment ID: U1L6LL \quad Page \thepage\ of
 \textbf{Question 2.1}\\[-0.15em]
 For the argument in Part 1 Q1, apply the fact test: which premise is false or doubtful in the real world, and why?
 
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.35in}
+\GraderAnswerBox{Part 2 Q1}{2.35in}
 
 \newpage
 
@@ -76,7 +54,7 @@ For the argument in Part 1 Q1, apply the fact test: which premise is false or do
 \textbf{Question 3.1}\\[-0.15em]
 ``All gemstones sold in this catalog are items covered by the lifetime warranty. The ring Mara bought is a gemstone sold in this catalog. Therefore the ring Mara bought is covered by the lifetime warranty.'' The form is valid. Explain why the argument might still fail to prove its conclusion to a careful buyer.
 
-\answerbox{ANSWER LABEL: Part 3 Q1}{2.45in}
+\GraderAnswerBox{Part 3 Q1}{2.45in}
 
 \newpage
 
@@ -85,7 +63,7 @@ For the argument in Part 1 Q1, apply the fact test: which premise is false or do
 \textbf{Question 4.1}\\[-0.15em]
 ``All people who submit forms before the deadline are people who care about the process. Lee submitted the form before the deadline. Therefore Lee cares about the process.'' The conclusion may be true. Explain why this argument does not prove it.
 
-\answerbox{ANSWER LABEL: Part 4 Q1}{2.45in}
+\GraderAnswerBox{Part 4 Q1}{2.45in}
 
 \newpage
 
@@ -94,11 +72,11 @@ For the argument in Part 1 Q1, apply the fact test: which premise is false or do
 \textbf{Question 5.1}\\[-0.15em]
 ``All maples are trees. All oaks are trees. Therefore all oaks are maples.'' Is this argument formally valid? Explain briefly.
 
-\answerbox{ANSWER LABEL: Part 5 Q1}{2.15in}
+\GraderAnswerBox{Part 5 Q1}{2.15in}
 
 \textbf{Question 5.2}\\[-0.15em]
 ``All vehicles in the city fleet are inspected every month. Van 14 is in the city fleet. Therefore Van 14 is inspected every month.'' Name the minor term, major term, and middle term.
 
-\answerbox{ANSWER LABEL: Part 5 Q2}{1.85in}
+\GraderAnswerBox{Part 5 Q2}{1.85in}
 
 \end{document}

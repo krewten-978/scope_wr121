@@ -2,7 +2,7 @@
 
 **Total Points:** 12
 
-**Paired worksheet:** `units/elements-of-logic-week6/logic-labs/U1L6LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L6LL**).
+**Paired worksheet:** `graded-assignments/U1L6LL/worksheet.tex` / `.pdf` (Assignment ID **U1L6LL**).
 
 **Paired reading:** Week 6 — form test vs. fact test, valid but unsound, true conclusion weak proof, soundness.
 
