@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week8/lit-examples/U1L8LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week8/lit-examples/U1L8LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L8LE**).
+**Paired worksheet:** `graded-assignments/U1L8LE/worksheet.tex` / `.pdf` (Assignment ID **U1L8LE**).
 
 **Purpose:** Students apply Week 8 equivocation / ambiguous-middle diagnosis to Macbeth’s prophetic language: *fair*, present vs future titles, and the security promises.
 
