@@ -121,13 +121,9 @@ class IndexTests(unittest.TestCase):
                 self.assertLess(y0, y1)
 
     def test_cli_runs(self):
-        py = shutil.which("python3")
         script = ROOT / "scripts" / "build-grader-templates.py"
-        # Prefer project venv if present
-        venv_py = ROOT / ".venv-grader" / "bin" / "python"
-        exe = str(venv_py if venv_py.is_file() else py)
         proc = subprocess.run(
-            [exe, str(script), "--assignment", "U1F1LD"],
+            [sys.executable, str(script), "--assignment", "U1F1LD"],
             cwd=str(ROOT),
             capture_output=True,
             text=True,
@@ -135,6 +131,42 @@ class IndexTests(unittest.TestCase):
         )
         self.assertEqual(proc.returncode, 0, proc.stdout + proc.stderr)
         self.assertTrue((ROOT / "graded-assignments" / "U1F1LD" / "template.json").is_file())
+
+    def test_sty_fancyhdr_header_has_no_par_tokens(self):
+        """Regression: fancyhdr header args are not \\long; \\par aborts \\GraderSetup."""
+        sty = (ROOT / "latex" / "grader-worksheet.sty").read_text(encoding="utf-8")
+        start = sty.index("\\newcommand{\\grader@applyheader}")
+        end = sty.index("%% \\GraderSetup", start)
+        block = sty[start:end]
+        # Strip TeX comments before scanning for dangerous tokens.
+        code = "\n".join(
+            line.split("%", 1)[0] for line in block.splitlines()
+        )
+        self.assertIn("\\fancyhead[L]", code)
+        self.assertNotIn("\\par", code)
+        self.assertIn("\\\\[0.28em]", code)
+
+    def test_worksheet_compiles_with_latexmk(self):
+        """LaTeX source must compile after the header fix (PDF alone is not proof)."""
+        if shutil.which("latexmk") is None:
+            self.skipTest("latexmk not available")
+        work = ROOT / "graded-assignments" / "U1F1LD"
+        proc = subprocess.run(
+            [
+                "latexmk",
+                "-pdf",
+                "-interaction=nonstopmode",
+                "-halt-on-error",
+                "-pdflatex=pdflatex -interaction=nonstopmode -halt-on-error %O %S",
+                "worksheet.tex",
+            ],
+            cwd=str(work),
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        self.assertEqual(proc.returncode, 0, proc.stdout[-2000:] + "\n" + proc.stderr[-2000:])
+        self.assertTrue((work / "worksheet.pdf").is_file())
 
 
 if __name__ == "__main__":

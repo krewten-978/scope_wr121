@@ -2,7 +2,7 @@
 %% Shared Krewone grader contract for scope_wr121 / scope_tenth worksheets.
 %% Compile with shell escape disabled. Requires: fancyhdr, lastpage, qrcode, keyval, eso-pic.
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{grader-worksheet}[2026/07/19 v1.0.1 Krewone grader worksheet]
+\ProvidesPackage{grader-worksheet}[2026/07/19 v1.0.2 Krewone grader worksheet]
 
 \RequirePackage{keyval}
 \RequirePackage{fancyhdr}
@@ -77,11 +77,12 @@
   \setlength{\headsep}{10pt}%
   \pagestyle{fancy}%
   \fancyhf{}%
+  %% fancyhdr header args are not \long: never put \par (or blank lines) here.
   \fancyhead[L]{%
     \footnotesize
-    \begin{minipage}[t]{0.72\textwidth}
-      Student Name: \hspace{1.85in}\par\vspace{0.28em}%
-      Student ID: \hspace{2.05in}\par\vspace{0.28em}%
+    \begin{minipage}[t]{0.72\textwidth}%
+      Student Name: \hspace{1.85in}\\[0.28em]%
+      Student ID: \hspace{2.05in}\\[0.28em]%
       Assignment ID: \texttt{\grader@assignmentid}\quad
       Rev: \texttt{\grader@revision}\quad
       Page \thepage\ of \pageref{LastPage}%
@@ -91,7 +92,6 @@
   \renewcommand{\headrulewidth}{0.4pt}%
   \renewcommand{\footrulewidth}{0pt}%
   \fancyfoot{}%
-  \AddToShipoutPictureBG*{}% clear noop; real marks via continuous BG
   \AddToShipoutPictureBG{\ifgrader@setupdone\grader@placemarks\fi}%
 }
 
