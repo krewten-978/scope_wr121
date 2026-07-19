@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week3/lit-examples/U1L3LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week3/lit-examples/U1L3LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L3LE**).
+**Paired worksheet:** `graded-assignments/U1L3LE/worksheet.tex` / `.pdf` (Assignment ID **U1L3LE**).
 
 **Purpose:** Students apply the Week 3 Whately habit of identifying propositions, categorical form, quality, quantity, and distribution to Macbeth's apparitions. Grade for logical translation and classification, not for plot summary.
 
