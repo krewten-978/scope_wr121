@@ -1,34 +1,17 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.6in,top=0.85in,bottom=0.55in]{geometry}
+\usepackage[margin=0.6in,top=1.15in,bottom=0.55in]{geometry}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage{lastpage}
 \usepackage[hidelinks]{hyperref}
+\usepackage{../../latex/grader-worksheet}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.25em}
-\setlength{\headheight}{26pt}
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[C]{\footnotesize Student Name: \hspace{2.3in} \quad Assignment ID: U1L15LL \quad Page \thepage\ of \pageref{LastPage}}
-\renewcommand{\headrulewidth}{0.5pt}
 
-\newcommand{\answerbox}[2]{%
-\vspace{0.15em}
-\noindent\textbf{#1}\par
-\vspace{0.05em}
-\noindent\fbox{%
-\begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}
-\rule{\textwidth}{0pt}
-\vspace{#2}
-\end{minipage}
-}\par
-\vspace{0.25em}
-}
+\GraderSetup{assignment-id=U1L15LL,template-revision=1}
 
 \begin{document}
 
@@ -47,12 +30,12 @@
 \textbf{Question 1.1}\\[-0.15em]
 Two students argue, ``The project is finished.'' One means every slide exists; the other means the sources are checked and the speaking notes are practiced. Identify the contested term and each side's meaning.
 
-\answerbox{ANSWER LABEL: Part 1 Q1}{2.35in}
+\GraderAnswerBox{Part 1 Q1}{2.35in}
 
 \textbf{Question 1.2}\\[-0.15em]
 A family argues whether a weekend trip is ``expensive.'' One person means the total cost is high; another means the cost is too high for this month's budget. Identify the contested term and each side's meaning.
 
-\answerbox{ANSWER LABEL: Part 1 Q2}{2.35in}
+\GraderAnswerBox{Part 1 Q2}{2.35in}
 
 \newpage
 
@@ -61,12 +44,12 @@ A family argues whether a weekend trip is ``expensive.'' One person means the to
 \textbf{Question 2.1}\\[-0.15em]
 A coach says, ``Practice was successful because everyone attended.'' A captain says, ``Practice was not successful because the team did not improve the weak plays.'' Classify the dispute and explain what clarification is needed.
 
-\answerbox{ANSWER LABEL: Part 2 Q1}{2.55in}
+\GraderAnswerBox{Part 2 Q1}{2.55in}
 
 \textbf{Question 2.2}\\[-0.15em]
 Two voters agree that a safe street means fewer crashes and fewer serious injuries. One says the new speed bumps made the street safer; the other says they did not. Classify the dispute and name what evidence would now matter.
 
-\answerbox{ANSWER LABEL: Part 2 Q2}{2.45in}
+\GraderAnswerBox{Part 2 Q2}{2.45in}
 
 \newpage
 
@@ -75,12 +58,12 @@ Two voters agree that a safe street means fewer crashes and fewer serious injuri
 \textbf{Question 3.1}\\[-0.15em]
 A club debates whether a new member is ``committed.'' One side means the member attends every meeting; the other means the member completes assigned work between meetings. Name a shared claim that may emerge after clarification and the remaining disagreement.
 
-\answerbox{ANSWER LABEL: Part 3 Q1}{2.55in}
+\GraderAnswerBox{Part 3 Q1}{2.55in}
 
 \textbf{Question 3.2}\\[-0.15em]
 A class argues whether an essay is ``original.'' One side means it uses no copied sentences; the other means it makes a fresh argument rather than rearranging common points. Name what clarification may settle and what may still need judgment.
 
-\answerbox{ANSWER LABEL: Part 3 Q2}{2.55in}
+\GraderAnswerBox{Part 3 Q2}{2.55in}
 
 \newpage
 
@@ -99,7 +82,7 @@ The student council argues whether the lunch policy is ``equal.'' One group says
 \end{minipage}
 }
 
-\answerbox{ANSWER LABEL: Part 4 Q1}{3.2in}
+\GraderAnswerBox{Part 4 Q1}{3.2in}
 
 \newpage
 
@@ -108,11 +91,11 @@ The student council argues whether the lunch policy is ``equal.'' One group says
 \textbf{Question 5.1}\\[-0.15em]
 ``We proved the courtyard floods because several students imagined that the drain is clogged.'' Use a prior-week tool: what is the hypothesis, what must be discovered, and what would count as proof?
 
-\answerbox{ANSWER LABEL: Part 5 Q1}{2.2in}
+\GraderAnswerBox{Part 5 Q1}{2.2in}
 
 \textbf{Question 5.2}\\[-0.15em]
 ``The new study app is reliable because three advertisements quote the same celebrity endorsement.'' Use a prior-week source test: what is weak about the corroboration, and what evidence would be more relevant?
 
-\answerbox{ANSWER LABEL: Part 5 Q2}{2.05in}
+\GraderAnswerBox{Part 5 Q2}{2.05in}
 
 \end{document}

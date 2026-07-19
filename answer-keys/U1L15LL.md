@@ -2,7 +2,7 @@
 
 **Total Points:** 16
 
-**Paired worksheet:** `units/elements-of-logic-week15/logic-labs/U1L15LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L15LL**).
+**Paired worksheet:** `graded-assignments/U1L15LL/worksheet.tex` / `.pdf` (Assignment ID **U1L15LL**).
 
 **Paired reading:** Week 15 — verbal disputes, real disputes, mixed disputes, contested terms, definitions, shared claims, remaining disagreement, and dispute maps.
 
