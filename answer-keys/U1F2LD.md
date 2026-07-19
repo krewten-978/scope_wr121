@@ -2,7 +2,7 @@
 
 **Total Points:** 56
 
-**Paired final:** `finals/logic-dungeon-2/U1F2LD_logic_dungeon_final.tex` / `.pdf` (Assignment ID **U1F2LD**).
+**Paired final:** `graded-assignments/U1F2LD/worksheet.tex` / `.pdf` (Assignment ID **U1F2LD**).
 
 **Assessed instruction:** Weeks 4–6: premises and conclusion; major, minor, and middle terms; practical syllogism maps; mood and figure; AAA Figures 1 and 2; undistributed middle; two negative premises; form and fact tests; pressure points; validity, premise truth, and soundness; true observations inside bad proofs; delayed verification of the sound route.
 

@@ -54,14 +54,14 @@ Regenerate template metadata from the repository root:
 
 ## U1F2LD files
 
-- `logic-dungeon-2/U1F2LD_logic_dungeon_final.tex`
+- `logic-dungeon-2/../../../graded-assignments/U1F2LD/worksheet.tex`
 - `logic-dungeon-2/U1F2LD_logic_dungeon_final.pdf`
 - Answer key: `../answer-keys/U1F2LD.md`
 
 Build from `finals/logic-dungeon-2/`:
 
 ```bash
-latexmk -pdf -interaction=nonstopmode -halt-on-error U1F2LD_logic_dungeon_final.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error ../../../graded-assignments/U1F2LD/worksheet.tex
 ```
 
 ## U1F3LD files
