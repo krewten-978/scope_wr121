@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week5/lit-examples/U1L5LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week5/lit-examples/U1L5LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L5LE**).
+**Paired worksheet:** `graded-assignments/U1L5LE/worksheet.tex` / `.pdf` (Assignment ID **U1L5LE**).
 
 **Purpose:** Students apply Week 5 formal-validity work to Brutus and Antony: mood, figure, middle term, and the difference between a formally valid map and proved evidence.
 
