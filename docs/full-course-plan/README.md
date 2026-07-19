@@ -2,7 +2,7 @@
 
 This README preserves the recovered semester-scale course plan for `scope_wr121`. It was originally stored as `docs/logic-unit-scope-and-sequence.md` and was removed during a later content reset. The plan below is restored from git history at commit `80e9fc543aa12678b34a8b25dc0d5225f788296e`, with light terminology updates so it points to the current **logic lab** structure rather than the retired argument-lab model.
 
-Current prepared materials on `main`: Weeks 1–12. The plan below extends the intended Whately sequence through Week 19.
+Current prepared materials on `main`: Weeks 1–13. The plan below extends the intended Whately sequence through Week 19.
 
 ---
 
@@ -130,7 +130,7 @@ The official final product is a **Logic Portfolio**. Students should build it th
 
 ## Existing sequence status
 
-Current main has the first twelve weeks prepared as student packets, logic labs, lit examples, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
+Current main has the first thirteen weeks prepared as student packets, logic labs, lit examples, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
 
 ### Week 1 — Logic Is Not Magic
 
@@ -323,6 +323,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Macbeth / Caesar application:** assess the witches as sources; assess public claims about Caesar's ambition or Brutus's honor.
 - **Portfolio artifact:** credibility map.
 - **Why it belongs here:** Seniors need a bridge from logical form to research, public argument, and historical/literary evidence.
+- **Current repo status:** built — student reading, logic lab **U1L13LL**, lit example **U1L13LE** (Macbeth witches and Brutus testimony), and answer keys.
 
 ### Week 14 — Can Logic Discover Anything New?
 
