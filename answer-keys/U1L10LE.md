@@ -4,7 +4,7 @@
 
 **Paired reader:** `units/elements-of-logic-week10/lit-examples/U1L10LE_lit_example_reader.tex` / `.pdf`.
 
-**Paired worksheet:** `units/elements-of-logic-week10/lit-examples/U1L10LE_lit_example_worksheet.tex` / `.pdf` (Assignment ID **U1L10LE**).
+**Paired worksheet:** `graded-assignments/U1L10LE/worksheet.tex` / `.pdf` (Assignment ID **U1L10LE**).
 
 **Purpose:** Students apply Week 10 irrelevant-proof / point-at-issue diagnosis to Brutus and Antony in *Julius Caesar*.
 
