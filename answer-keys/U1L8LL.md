@@ -2,7 +2,7 @@
 
 **Total Points:** 12
 
-**Paired worksheet:** `units/elements-of-logic-week8/logic-labs/U1L8LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L8LL**).
+**Paired worksheet:** `graded-assignments/U1L8LL/worksheet.tex` / `.pdf` (Assignment ID **U1L8LL**).
 
 **Paired reading:** Week 8 — equivocation, ambiguous middle, fixed-meaning rewrite.
 
