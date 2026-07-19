@@ -2,7 +2,7 @@
 
 This README preserves the recovered semester-scale course plan for `scope_wr121`. It was originally stored as `docs/logic-unit-scope-and-sequence.md` and was removed during a later content reset. The plan below is restored from git history at commit `80e9fc543aa12678b34a8b25dc0d5225f788296e`, with light terminology updates so it points to the current **logic lab** structure rather than the retired argument-lab model.
 
-Current prepared materials on `main`: Weeks 1–14. The plan below extends the intended Whately sequence through Week 19.
+Current prepared materials on `main`: Weeks 1–15. The plan below extends the intended Whately sequence through Week 19.
 
 ---
 
@@ -130,7 +130,7 @@ The official final product is a **Logic Portfolio**. Students should build it th
 
 ## Existing sequence status
 
-Current main has the first fourteen weeks prepared as student packets, logic labs, lit examples, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
+Current main has the first fifteen weeks prepared as student packets, logic labs, lit examples, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
 
 ### Week 1 — Logic Is Not Magic
 
@@ -349,6 +349,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Macbeth / Caesar application:** examine whether conflicts over honor, loyalty, ambition, tyranny, manhood, or justice are verbal, real, or mixed.
 - **Portfolio artifact:** dispute map.
 - **Why it belongs here:** This gives the unit a powerful civic and literary application: students learn how to reduce confusion without pretending all disagreements disappear.
+- **Current repo status:** built — student reading, logic lab **U1L15LL**, lit example **U1L15LE** (Macbeth manhood dispute and Julius Caesar ambition/honor dispute), and answer keys.
 
 ### Week 16 — Logic and Rhetoric
 

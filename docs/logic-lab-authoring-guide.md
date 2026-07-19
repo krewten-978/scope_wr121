@@ -103,6 +103,7 @@ Do not commit `*.aux`, `*.log`, `*.fls`, `*.fdb_latexmk`, `*.out` (see root `.gi
 | 12 | U1L12LL | Induction; examples; general claims; representative samples; counterexamples; revised claims |
 | 13 | U1L13LL | Testimony; authority; credibility; access; relevant expertise; bias; corroboration; careful trust judgments |
 | 14 | U1L14LL | Reasoning, discovery, proof, observation, testimony, memory, imagination, judgment, and intellectual-tool mapping |
+| 15 | U1L15LL | Verbal, real, and mixed disputes; contested terms; definitions; shared claims; remaining disagreement; dispute maps |
 
 Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) before authoring.
 
@@ -149,3 +150,4 @@ Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) befor
 | U1L12LL / U1L12LE | Week 12 | Induction and general claims + Cassius anecdotes / Lady Macbeth character-claim LE |
 | U1L13LL / U1L13LE | Week 13 | Testimony, authority, credibility + Macbeth witches / Brutus public testimony LE |
 | U1L14LL / U1L14LE | Week 14 | Reasoning, discovery, proof, judgment + Macbeth late discoveries / Caesar warnings and interpretations LE |
+| U1L15LL / U1L15LE | Week 15 | Verbal and real disputes + Macbeth manhood dispute / Julius Caesar ambition and honor LE |
