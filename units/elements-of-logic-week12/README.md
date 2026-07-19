@@ -10,8 +10,8 @@
 
 - `student-packets/Whately_Logic_Week12_Student_Reading.tex`
 - `student-packets/Whately_Logic_Week12_Student_Reading.pdf`
-- `logic-labs/U1L12LL_logic_lab.tex`
-- `logic-labs/U1L12LL_logic_lab.pdf`
+- `../../../graded-assignments/U1L12LL/worksheet.tex`
+- `../../../graded-assignments/U1L12LL/worksheet.pdf`
 - `lit-examples/U1L12LE_lit_example_reader.tex`
 - `lit-examples/U1L12LE_lit_example_reader.pdf`
 - `../../../graded-assignments/U1L12LE/worksheet.tex`
@@ -28,7 +28,7 @@ Run from this week folder:
 
 ```bash
 latexmk -lualatex -output-directory=student-packets -interaction=nonstopmode -halt-on-error student-packets/Whately_Logic_Week12_Student_Reading.tex
-latexmk -pdf -output-directory=logic-labs -interaction=nonstopmode -halt-on-error logic-labs/U1L12LL_logic_lab.tex
+latexmk -pdf -output-directory=logic-labs -interaction=nonstopmode -halt-on-error logic-labs/../../../graded-assignments/U1L12LL/worksheet.tex
 latexmk -pdf -output-directory=lit-examples -interaction=nonstopmode -halt-on-error lit-examples/U1L12LE_lit_example_reader.tex
 latexmk -pdf -output-directory=lit-examples -interaction=nonstopmode -halt-on-error lit-examples/../../../graded-assignments/U1L12LE/worksheet.tex
 ```

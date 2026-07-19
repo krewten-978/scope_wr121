@@ -2,7 +2,7 @@
 
 **Total Points:** 16
 
-**Paired worksheet:** `units/elements-of-logic-week12/logic-labs/U1L12LL_logic_lab.tex` / `.pdf` (Assignment ID **U1L12LL**).
+**Paired worksheet:** `graded-assignments/U1L12LL/worksheet.tex` / `.pdf` (Assignment ID **U1L12LL**).
 
 **Paired reading:** Week 12 — induction, examples, general claims, sample, representative sample, cherry-picking, counterexample, overclaim, evidence ladder.
 
