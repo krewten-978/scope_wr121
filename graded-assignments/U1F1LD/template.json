@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "assignment_id": "U1F1LD",
+  "template_revision": 1,
+  "pdf": "graded-assignments/U1F1LD/worksheet.pdf",
+  "pdf_sha256": "ffc5d729741a658221bdb6f0c8cb92b57ce0abbc6ac2bba9e149ead19f8645ab",
+  "page_count": 10,
+  "coordinate_system": {
+    "units": "pt",
+    "origin": "top-left",
+    "axis": "x right, y down",
+    "box_format": "[x0, y0, x1, y1]"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 2,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 3,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 4,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 5,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 6,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 7,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 8,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 9,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 10,
+      "width": 612.0,
+      "height": 792.0
+    }
+  ],
+  "answer_boxes": [
+    {
+      "label": "Part 1 Q1",
+      "page": 2,
+      "rect_topleft": [
+        43.2,
+        254.43,
+        568.8,
+        422.81
+      ]
+    },
+    {
+      "label": "Part 1 Q2",
+      "page": 2,
+      "rect_topleft": [
+        43.2,
+        497.07,
+        568.8,
+        651.05
+      ]
+    },
+    {
+      "label": "Part 2 Q1",
+      "page": 3,
+      "rect_topleft": [
+        43.2,
+        254.43,
+        568.8,
+        437.21
+      ]
+    },
+    {
+      "label": "Part 2 Q2",
+      "page": 3,
+      "rect_topleft": [
+        43.2,
+        511.47,
+        568.8,
+        651.05
+      ]
+    },
+    {
+      "label": "Part 3 Q1",
+      "page": 4,
+      "rect_topleft": [
+        43.2,
+        423.58,
+        568.8,
+        573.96
+      ]
+    },
+    {
+      "label": "Part 3 Q2",
+      "page": 5,
+      "rect_topleft": [
+        43.2,
+        179.52,
+        568.8,
+        319.1
+      ]
+    },
+    {
+      "label": "Part 4 Q1",
+      "page": 6,
+      "rect_topleft": [
+        43.2,
+        302.57,
+        568.8,
+        463.75
+      ]
+    },
+    {
+      "label": "Part 4 Q2",
+      "page": 6,
+      "rect_topleft": [
+        43.2,
+        538.01,
+        568.8,
+        699.19
+      ]
+    },
+    {
+      "label": "Part 5 Q1",
+      "page": 7,
+      "rect_topleft": [
+        43.2,
+        283.33,
+        568.8,
+        458.9
+      ]
+    },
+    {
+      "label": "Part 5 Q2",
+      "page": 7,
+      "rect_topleft": [
+        43.2,
+        533.16,
+        568.8,
+        665.54
+      ]
+    },
+    {
+      "label": "Part 6 Q1",
+      "page": 8,
+      "rect_topleft": [
+        43.2,
+        460.48,
+        568.8,
+        592.85
+      ]
+    },
+    {
+      "label": "Part 7 Q1",
+      "page": 9,
+      "rect_topleft": [
+        43.2,
+        223.43,
+        568.8,
+        395.4
+      ]
+    },
+    {
+      "label": "Part 8 Q1",
+      "page": 10,
+      "rect_topleft": [
+        43.2,
+        240.45,
+        568.8,
+        405.23
+      ]
+    },
+    {
+      "label": "Part 8 Q2",
+      "page": 10,
+      "rect_topleft": [
+        43.2,
+        479.49,
+        568.8,
+        644.26
+      ]
+    }
+  ]
+}

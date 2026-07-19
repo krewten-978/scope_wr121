@@ -7,6 +7,7 @@ Whately *Elements of Logic* curriculum (WR121).
 - Lit example readers/worksheets: `units/elements-of-logic-weekN/lit-examples/` (ID pattern **U# L# LE**; use **Lit Example**, not Lit Anchor)
 - Answer keys: `answer-keys/U#L#LL.md`, `answer-keys/U#L#LE.md`, and Logic Dungeon keys matching `U1F#LD` (same grader format as scope_tenth)
 - Logic Dungeon finals: `finals/` (six-character ID pattern **U1F#LD** for all dungeons; four three-week checkpoints through Week 12 and a cumulative final after Week 17)
+- **Krewone graded pilot (U1F1LD):** `graded-assignments/U1F1LD/`, index `graded-assignments.json`, shared package `latex/grader-worksheet.sty`, generator `scripts/build-grader-templates.py`
 - Logic Dungeon plan: `docs/logic-dungeon-assessment-plan.md`
 - Format: `docs/logic-lab-format.md`
 - **Authoring (new labs / AI handoff):** `docs/logic-lab-authoring-guide.md`

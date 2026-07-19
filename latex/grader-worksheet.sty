@@ -1,0 +1,122 @@
+%% grader-worksheet.sty
+%% Shared Krewone grader contract for scope_wr121 / scope_tenth worksheets.
+%% Compile with shell escape disabled. Requires: fancyhdr, lastpage, qrcode, keyval, eso-pic.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{grader-worksheet}[2026/07/19 v1.0.1 Krewone grader worksheet]
+
+\RequirePackage{keyval}
+\RequirePackage{fancyhdr}
+\RequirePackage{lastpage}
+\RequirePackage{qrcode}
+\RequirePackage{xcolor}
+\RequirePackage{eso-pic}
+\RequirePackage{needspace}
+
+\def\grader@assignmentid{UNKNOWN}
+\def\grader@revision{1}
+\newif\ifgrader@setupdone
+\grader@setupdonefalse
+
+\define@key{grader}{assignment-id}{\def\grader@assignmentid{#1}}
+\define@key{grader}{template-revision}{\def\grader@revision{#1}}
+
+\newlength{\grader@qrsize}
+\setlength{\grader@qrsize}{0.58in}
+\newlength{\grader@marklen}
+\setlength{\grader@marklen}{9pt}
+\newlength{\grader@markthick}
+\setlength{\grader@markthick}{0.7pt}
+\newlength{\grader@markinset}
+\setlength{\grader@markinset}{14pt}
+
+%% L-shaped registration marks (restrained, four corners)
+\newcommand{\grader@markBL}{%
+  {\color{black}%
+   \rule{\grader@marklen}{\grader@markthick}%
+   \hskip-\grader@marklen
+   \rule{\grader@markthick}{\grader@marklen}}}
+\newcommand{\grader@markBR}{%
+  {\color{black}%
+   \rule{\grader@marklen}{\grader@markthick}%
+   \hskip-\grader@markthick
+   \rule{\grader@markthick}{\grader@marklen}}}
+\newcommand{\grader@markTL}{%
+  {\color{black}%
+   \rule{\grader@markthick}{\grader@marklen}%
+   \hskip-\grader@markthick
+   \raisebox{\dimexpr\grader@marklen-\grader@markthick\relax}{\rule{\grader@marklen}{\grader@markthick}}}}
+\newcommand{\grader@markTR}{%
+  {\color{black}%
+   \raisebox{\dimexpr\grader@marklen-\grader@markthick\relax}{\rule{\grader@marklen}{\grader@markthick}}%
+   \hskip-\grader@markthick
+   \rule{\grader@markthick}{\grader@marklen}}}
+
+\newcommand{\grader@placemarks}{%
+  \AtPageLowerLeft{%
+    \put(\LenToUnit{\grader@markinset},\LenToUnit{\grader@markinset}){\grader@markBL}}%
+  \AtPageLowerLeft{%
+    \put(\LenToUnit{\dimexpr\paperwidth-\grader@markinset-\grader@marklen\relax},%
+         \LenToUnit{\grader@markinset}){\grader@markBR}}%
+  \AtPageLowerLeft{%
+    \put(\LenToUnit{\grader@markinset},%
+         \LenToUnit{\dimexpr\paperheight-\grader@markinset-\grader@marklen\relax}){\grader@markTL}}%
+  \AtPageLowerLeft{%
+    \put(\LenToUnit{\dimexpr\paperwidth-\grader@markinset-\grader@marklen\relax},%
+         \LenToUnit{\dimexpr\paperheight-\grader@markinset-\grader@marklen\relax}){\grader@markTR}}%
+}
+
+\newcommand{\grader@qr}{%
+  \begingroup
+    \edef\grader@payload{krewone:v1|assignment=\grader@assignmentid|revision=\grader@revision|page=\thepage}%
+    \qrcode[height=\grader@qrsize,level=M]{\grader@payload}%
+  \endgroup
+}
+
+\newcommand{\grader@applyheader}{%
+  \setlength{\headheight}{52pt}%
+  \setlength{\headsep}{10pt}%
+  \pagestyle{fancy}%
+  \fancyhf{}%
+  \fancyhead[L]{%
+    \footnotesize
+    \begin{minipage}[t]{0.72\textwidth}
+      Student Name: \hspace{1.85in}\par\vspace{0.28em}%
+      Student ID: \hspace{2.05in}\par\vspace{0.28em}%
+      Assignment ID: \texttt{\grader@assignmentid}\quad
+      Rev: \texttt{\grader@revision}\quad
+      Page \thepage\ of \pageref{LastPage}%
+    \end{minipage}%
+  }%
+  \fancyhead[R]{\raisebox{-0.12in}{\grader@qr}}%
+  \renewcommand{\headrulewidth}{0.4pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+  \fancyfoot{}%
+  \AddToShipoutPictureBG*{}% clear noop; real marks via continuous BG
+  \AddToShipoutPictureBG{\ifgrader@setupdone\grader@placemarks\fi}%
+}
+
+%% \GraderSetup{assignment-id=U1F1LD,template-revision=1}
+\newcommand{\GraderSetup}[1]{%
+  \setkeys{grader}{#1}%
+  \grader@setupdonetrue
+  \grader@applyheader
+}
+
+%% Canonical visible label is exactly "Part N QN" (no ANSWER LABEL: prefix).
+%% #1 = label, #2 = box height
+%% needspace keeps label+box on one page when remaining room is short.
+\newcommand{\GraderAnswerBox}[2]{%
+  \par
+  \Needspace{\dimexpr#2+2.4em\relax}%
+  \vspace{0.12em}%
+  \noindent\textbf{#1}\par\vspace{0.04em}%
+  \noindent\fbox{%
+    \begin{minipage}[t][#2]{\dimexpr\textwidth-2\fboxsep-2\fboxrule}%
+      \rule{\textwidth}{0pt}%
+      \vspace{#2}%
+    \end{minipage}%
+  }%
+  \par\vspace{0.22em}%
+}
+
+\endinput

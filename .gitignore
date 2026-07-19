@@ -4,3 +4,6 @@
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+.venv-grader/
+__pycache__/
+*.pyc
