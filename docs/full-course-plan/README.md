@@ -362,6 +362,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Macbeth / Caesar application:** Antony's funeral speech is the central case; Lady Macbeth's persuasion can serve as a second case.
 - **Portfolio artifact:** rhetoric-vs-proof analysis.
 - **Why it belongs here:** It prepares students to judge public speech and literary rhetoric without flattening rhetoric into mere manipulation.
+- **Current repo status:** built — student reading, logic lab **U1L16LL**, lit example **U1L16LE** (Antony funeral + Lady Macbeth persuasion), and answer keys. Gradable worksheets under `graded-assignments/`.
 
 ### Week 17 — Literary Self-Deception
 
@@ -374,6 +375,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Macbeth / Caesar application:** Macbeth, Lady Macbeth, Brutus, Cassius, Antony, or another central speaker.
 - **Portfolio artifact:** extended literary logic application.
 - **Why it belongs here:** It turns the unit into literary reading rather than an isolated skills course.
+- **Current repo status:** built — student reading, logic lab **U1L17LL**, lit example **U1L17LE** (Macbeth private reasoning + Brutus orchard), and answer keys. Gradable worksheets under `graded-assignments/`.
 
 ### Week 18 — Logic Portfolio Workshop
 

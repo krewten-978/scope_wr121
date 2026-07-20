@@ -122,6 +122,38 @@
       "answer_key": "answer-keys/U1L15LL.md"
     },
     {
+      "assignment_id": "U1L16LE",
+      "template_revision": 1,
+      "tex": "graded-assignments/U1L16LE/worksheet.tex",
+      "pdf": "graded-assignments/U1L16LE/worksheet.pdf",
+      "template": "graded-assignments/U1L16LE/template.json",
+      "answer_key": "answer-keys/U1L16LE.md"
+    },
+    {
+      "assignment_id": "U1L16LL",
+      "template_revision": 1,
+      "tex": "graded-assignments/U1L16LL/worksheet.tex",
+      "pdf": "graded-assignments/U1L16LL/worksheet.pdf",
+      "template": "graded-assignments/U1L16LL/template.json",
+      "answer_key": "answer-keys/U1L16LL.md"
+    },
+    {
+      "assignment_id": "U1L17LE",
+      "template_revision": 1,
+      "tex": "graded-assignments/U1L17LE/worksheet.tex",
+      "pdf": "graded-assignments/U1L17LE/worksheet.pdf",
+      "template": "graded-assignments/U1L17LE/template.json",
+      "answer_key": "answer-keys/U1L17LE.md"
+    },
+    {
+      "assignment_id": "U1L17LL",
+      "template_revision": 1,
+      "tex": "graded-assignments/U1L17LL/worksheet.tex",
+      "pdf": "graded-assignments/U1L17LL/worksheet.pdf",
+      "template": "graded-assignments/U1L17LL/template.json",
+      "answer_key": "answer-keys/U1L17LL.md"
+    },
+    {
       "assignment_id": "U1L1LE",
       "template_revision": 1,
       "tex": "graded-assignments/U1L1LE/worksheet.tex",
