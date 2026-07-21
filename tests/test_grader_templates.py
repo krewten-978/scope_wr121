@@ -150,23 +150,31 @@ class IndexTests(unittest.TestCase):
         """LaTeX source must compile after the header fix (PDF alone is not proof)."""
         if shutil.which("latexmk") is None:
             self.skipTest("latexmk not available")
-        work = ROOT / "graded-assignments" / "U1F1LD"
-        proc = subprocess.run(
-            [
-                "latexmk",
-                "-pdf",
-                "-interaction=nonstopmode",
-                "-halt-on-error",
-                "-pdflatex=pdflatex -interaction=nonstopmode -halt-on-error %O %S",
-                "worksheet.tex",
-            ],
-            cwd=str(work),
-            capture_output=True,
-            text=True,
-            check=False,
-        )
-        self.assertEqual(proc.returncode, 0, proc.stdout[-2000:] + "\n" + proc.stderr[-2000:])
-        self.assertTrue((work / "worksheet.pdf").is_file())
+        # Compile in an isolated copy: verification must not rewrite a released PDF/template.
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            work = td_path / "graded-assignments" / "U1F1LD"
+            latex_dir = td_path / "latex"
+            work.mkdir(parents=True)
+            latex_dir.mkdir(parents=True)
+            shutil.copy(ROOT / "graded-assignments" / "U1F1LD" / "worksheet.tex", work / "worksheet.tex")
+            shutil.copy(ROOT / "latex" / "grader-worksheet.sty", latex_dir / "grader-worksheet.sty")
+            proc = subprocess.run(
+                [
+                    "latexmk",
+                    "-pdf",
+                    "-interaction=nonstopmode",
+                    "-halt-on-error",
+                    "-pdflatex=pdflatex -interaction=nonstopmode -halt-on-error %O %S",
+                    "worksheet.tex",
+                ],
+                cwd=str(work),
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            self.assertEqual(proc.returncode, 0, proc.stdout[-2000:] + "\n" + proc.stderr[-2000:])
+            self.assertTrue((work / "worksheet.pdf").is_file())
 
 
 if __name__ == "__main__":

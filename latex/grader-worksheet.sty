@@ -2,7 +2,7 @@
 %% Shared Krewone grader contract for scope_wr121 / scope_tenth worksheets.
 %% Compile with shell escape disabled. Requires: fancyhdr, lastpage, qrcode, keyval, eso-pic.
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{grader-worksheet}[2026/07/19 v1.0.2 Krewone grader worksheet]
+\ProvidesPackage{grader-worksheet}[2026/07/19 v1.0.3 Krewone grader worksheet]
 
 \RequirePackage{keyval}
 \RequirePackage{fancyhdr}
@@ -21,7 +21,7 @@
 \define@key{grader}{template-revision}{\def\grader@revision{#1}}
 
 \newlength{\grader@qrsize}
-\setlength{\grader@qrsize}{0.58in}
+\setlength{\grader@qrsize}{0.68in}
 \newlength{\grader@marklen}
 \setlength{\grader@marklen}{9pt}
 \newlength{\grader@markthick}
@@ -68,12 +68,16 @@
 \newcommand{\grader@qr}{%
   \begingroup
     \edef\grader@payload{krewone:v1|assignment=\grader@assignmentid|revision=\grader@revision|page=\thepage}%
-    \qrcode[height=\grader@qrsize,level=M]{\grader@payload}%
+    %% White pad: reliable quiet zone for OpenCV/production decoders near 150 DPI.
+    \setlength{\fboxsep}{3pt}%
+    \colorbox{white}{%
+      \qrcode[height=\grader@qrsize,level=M]{\grader@payload}%
+    }%
   \endgroup
 }
 
 \newcommand{\grader@applyheader}{%
-  \setlength{\headheight}{52pt}%
+  \setlength{\headheight}{58pt}%
   \setlength{\headsep}{10pt}%
   \pagestyle{fancy}%
   \fancyhf{}%
@@ -88,7 +92,7 @@
       Page \thepage\ of \pageref{LastPage}%
     \end{minipage}%
   }%
-  \fancyhead[R]{\raisebox{-0.12in}{\grader@qr}}%
+  \fancyhead[R]{\raisebox{-0.14in}{\grader@qr}}%
   \renewcommand{\headrulewidth}{0.4pt}%
   \renewcommand{\footrulewidth}{0pt}%
   \fancyfoot{}%

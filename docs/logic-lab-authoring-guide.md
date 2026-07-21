@@ -17,24 +17,26 @@
 
 ```
 units/elements-of-logic-weekN/
-  student-packets/Whately_Logic_WeekN_Student_Reading.pdf
-  logic-labs/U1LNLL_logic_lab.tex
-  logic-labs/U1LNLL_logic_lab.pdf
+  student-packets/Whately_Logic_WeekN_Student_Reading.{tex,pdf}
+  lit-examples/U1LNLE_lit_example_reader.{tex,pdf}
   README.md
+graded-assignments/U1LNLL/{worksheet.tex,worksheet.pdf,template.json}
+graded-assignments/U1LNLE/{worksheet.tex,worksheet.pdf,template.json}
 answer-keys/U1LNLL.md
+answer-keys/U1LNLE.md
 ```
 
-Copy LaTeX shell from the latest migrated lab (e.g. `units/elements-of-logic-week9/logic-labs/U1L9LL_logic_lab.tex` or later): `article` 12pt, geometry, `fancyhdr` with **Student Name** + **Assignment ID: U1LNLL** + **Page X of Y**, numbered **Parts**, printed question headings, and split OCR answer labels.
+Copy the LaTeX shell from the latest graded assignment. Use `latex/grader-worksheet.sty`, `\GraderSetup`, numbered **Parts**, printed question headings, and canonical grader answer boxes. Unit-folder `logic-labs/` and `lit-examples/*_worksheet.*` paths are legacy only; do not create new authority there.
 
 **Current OCR rules for worksheets with answer keys:** keep the printed prompt heading separate from the extraction label:
 
 ```tex
 \textbf{Question N.M}\\[-0.15em]
 <student-facing prompt text>
-\answerbox{ANSWER LABEL: Part N QN}{height}
+\GraderAnswerBox{Part N QN}{height}
 ```
 
-No legacy `Part X QY:` prompt headings and no `Part X QY ANSWER BOX` labels should remain in new answer-key-backed worksheets. Keep answer-key headings in the evaluator format (`## Question N: Part X QY – ...`). No colored backgrounds. Prefer ≤2 graded prompts per page; `\newpage` between pairs when needed, and keep each question with its answer label/box on the same page.
+No legacy `Part X QY:` prompt headings, `ANSWER LABEL:` prefixes, or `Part X QY ANSWER BOX` labels should remain in new answer-key-backed worksheets. Keep answer-key headings in the evaluator format (`## Question N: Part X QY – ...`). No colored backgrounds. Prefer ≤2 graded prompts per page; `\newpage` between pairs when needed, and keep each question with its canonical label/box on the same page. Every page must carry the Krewone identity header, page-specific QR, and registration marks; verify QR decoding at 150 DPI.
 
 ## Pedagogy
 
@@ -78,9 +80,12 @@ From `units/elements-of-logic-weekN/`, use explicit output directories so PDFs s
 
 ```bash
 latexmk -lualatex -output-directory=student-packets -interaction=nonstopmode -halt-on-error student-packets/Whately_Logic_WeekN_Student_Reading.tex
-latexmk -pdf -output-directory=logic-labs -interaction=nonstopmode -halt-on-error logic-labs/U1LNLL_logic_lab.tex
 latexmk -pdf -output-directory=lit-examples -interaction=nonstopmode -halt-on-error lit-examples/U1LNLE_lit_example_reader.tex
-latexmk -pdf -output-directory=lit-examples -interaction=nonstopmode -halt-on-error lit-examples/U1LNLE_lit_example_worksheet.tex
+cd ../../../graded-assignments/U1LNLL && latexmk -pdf -interaction=nonstopmode -halt-on-error worksheet.tex
+cd ../U1LNLE && latexmk -pdf -interaction=nonstopmode -halt-on-error worksheet.tex
+# from repo root
+.venv-grader/bin/python scripts/build-grader-templates.py --assignment U1LNLL
+.venv-grader/bin/python scripts/build-grader-templates.py --assignment U1LNLE
 ```
 
 Do not commit `*.aux`, `*.log`, `*.fls`, `*.fdb_latexmk`, `*.out` (see root `.gitignore`).
@@ -104,12 +109,16 @@ Do not commit `*.aux`, `*.log`, `*.fls`, `*.fdb_latexmk`, `*.out` (see root `.gi
 | 13 | U1L13LL | Testimony; authority; credibility; access; relevant expertise; bias; corroboration; careful trust judgments |
 | 14 | U1L14LL | Reasoning, discovery, proof, observation, testimony, memory, imagination, judgment, and intellectual-tool mapping |
 | 15 | U1L15LL | Verbal, real, and mixed disputes; contested terms; definitions; shared claims; remaining disagreement; dispute maps |
+| 16 | U1L16LL | Logic and rhetoric; persuasion vs proof; audience and rhetorical force; proved vs suggested |
+| 17 | U1L17LL | Literary self-deception; desire-first conclusions; private argument/public cover; multi-tool autopsy |
+| 18 | U1L18LL | Portfolio revision; artifact recovery; criterion-based diagnosis; substantive revision; reflective caption |
+| 19 | U1L19LL | Final portfolio defense; controlling claim; artifact evidence; warrants; qualification; transfer |
 
 Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) before authoring.
 
 ## Point totals
 
-- Recent labs use **12** or **14** points; common pattern **12** with 8–10 gradable boxes.
+- Focused weekly labs commonly use **12–16** points. Capstone portfolio work may use **20–30** points when the rubric and response burden justify it.
 - Whole points only in rubrics.
 - Align worksheet box count with answer key question count.
 
@@ -150,4 +159,8 @@ Read `student-packets/Whately_Logic_WeekN_Student_Reading.pdf` (pdftotext) befor
 | U1L12LL / U1L12LE | Week 12 | Induction and general claims + Cassius anecdotes / Lady Macbeth character-claim LE |
 | U1L13LL / U1L13LE | Week 13 | Testimony, authority, credibility + Macbeth witches / Brutus public testimony LE |
 | U1L14LL / U1L14LE | Week 14 | Reasoning, discovery, proof, judgment + Macbeth late discoveries / Caesar warnings and interpretations LE |
-| U1L15LL / U1L15LE | Week 15 | Verbal and real disputes + Macbeth manhood dispute / Julius Caesar ambition and honor LE |
+| U1L15LL / U1L15LE | Week 15 | Verbal and real disputes + Macbeth manhood dispute / Julius Caesar ambition and honor dispute |
+| U1L16LL / U1L16LE | Week 16 | Persuasion vs proof + Antony funeral / Lady Macbeth pressure |
+| U1L17LL / U1L17LE | Week 17 | Self-deception + Macbeth private reasoning / Brutus orchard justification |
+| U1L18LL / U1L18LE | Week 18 | Portfolio revision workshop + revision trails for Macbeth and Brutus judgments |
+| U1L19LL / U1L19LE | Week 19 | Final portfolio defense + Shakespeare as a judgment mirror |

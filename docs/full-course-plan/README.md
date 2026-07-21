@@ -2,7 +2,7 @@
 
 This README preserves the recovered semester-scale course plan for `scope_wr121`. It was originally stored as `docs/logic-unit-scope-and-sequence.md` and was removed during a later content reset. The plan below is restored from git history at commit `80e9fc543aa12678b34a8b25dc0d5225f788296e`, with light terminology updates so it points to the current **logic lab** structure rather than the retired argument-lab model.
 
-Current prepared materials on `main`: Weeks 1–15. The plan below extends the intended Whately sequence through Week 19.
+Current prepared materials on `main`: Weeks 1–19. The full Whately sequence, including the portfolio workshop and final defense, is now built.
 
 ---
 
@@ -130,7 +130,7 @@ The official final product is a **Logic Portfolio**. Students should build it th
 
 ## Existing sequence status
 
-Current main has the first fifteen weeks prepared as student packets, logic labs, lit examples, and answer keys. This README preserves the older full-course plan that extended the Whately sequence beyond those weeks.
+Current main has all nineteen weeks prepared as student packets, logic labs, lit examples, and answer keys. This README preserves the full-course design and records the completed sequence.
 
 ### Week 1 — Logic Is Not Magic
 
@@ -388,6 +388,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Macbeth / Caesar application:** choose at least one Shakespeare artifact to revise in light of later tools.
 - **Portfolio artifact:** revised portfolio with captions.
 - **Why it belongs here:** Seniors should practice metacognitive revision before final defense.
+- **Current repo status:** built — student reading, portfolio Logic Lab **U1L18LL**, revision Lit Example **U1L18LE**, and answer keys. Gradable worksheets under `graded-assignments/`.
 
 ### Week 19 — Final Portfolio Defense
 
@@ -400,6 +401,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Macbeth / Caesar application:** final reflection may compare the student's growth in judgment with a Shakespearean failure of judgment.
 - **Portfolio artifact:** final defense essay or oral defense notes.
 - **Why it belongs here:** The unit should end with transfer. Students should be able to use Whately outside the logic unit.
+- **Current repo status:** built — student reading, final portfolio defense **U1L19LL**, judgment-mirror Lit Example **U1L19LE**, and answer keys. Gradable worksheets under `graded-assignments/`.
 
 ## Comprehensive-enough test
 
