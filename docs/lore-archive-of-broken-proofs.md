@@ -440,7 +440,7 @@ Teacher approval on 2026-07-21 locks the following:
 
 1. **Core identity:** The Archive is a proof workshop whose claim-to-evidence links were broken, not a conventional ruined library.
 2. **Historical corruption:** The Doctrine of Continuance explains the policy-driven selection and exile of inconvenient evidence.
-3. **Culminating action:** The damaged transfer cage has a one-chest capacity; the company must construct a new Composite Dossier rather than carry an inherited dossier unchanged.
+3. **Culminating action:** The damaged transfer cage has a one-chest capacity. Records may be removed from the inherited chests and repacked into one new Composite Dossier chest; this is not an inventory-capacity puzzle.
 4. **Recommended result:** The Composite Dossier authorizes Wagon Gate for the first controlled inspection under conditions nearest the repaired record. It does not authorize full-company entry or guarantee safety.
 5. **Voices:** The Archive remains mostly silent and record-driven. The First Collator, Prefect of Continuance, Comparator Ilyan, Enumerator Sera, and Red-Cord Reviser survive through documentary hands rather than a new live tribunal.
 6. **Future seed:** Fresh wax and a warm lamp cup remain subtle signs of a recent unknown visitor.
@@ -463,5 +463,7 @@ Every part has two jobs: evaluate proof and determine what the expedition may re
 The design-level conclusion for the assessment is:
 
 > The surviving records do not justify committing all twenty adventurers to any named gate. They justify carrying a Composite Dossier that gives Wagon Gate priority for a controlled first inspection under conditions nearest the recovered successful cases. The Twin-Arches comparison supplies structural checks rather than a safety verdict. The Crowned-Gate records establish ceremonial standing rather than present passage. The mixed Wagon record includes failures, withdrawals, and unknown outcomes, so inspection priority is not a guarantee.
+
+For U1F4LD, a **controlled first inspection** means that a small inspection party approaches Wagon Gate under stated checks and retreat conditions while the full company remains uncommitted at a secured muster point. The exact point at issue is: **What approach action do the surviving records best support now for this company?**
 
 The assessment must apply carry-forward grading: an early misconception is scored once, while later synthesis receives credit when the student reasons coherently from the results recorded. No assessment object may be invented outside this bible merely to host a question.

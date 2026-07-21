@@ -27,7 +27,7 @@
 
 ## Question 1: Part 1 Q1 – Recover the point at issue (3 points)
 
-**Expected Answer:** Plate C states the actual issue: which approach has enough support for the company's first controlled inspection under present conditions. Plate A concerns ceremonial rank, not current physical suitability. Plate B concerns speed of light couriers in two dry seasons, not a supplied company, present conditions, or controlled inspection.
+**Expected Answer:** Plate C states the actual issue: what approach action the surviving records best support now for this company. Plate A concerns ceremonial rank, not current physical suitability. Plate B concerns speed of light couriers in two dry seasons, not a supplied company or the justified size of the company's next action.
 
 **Rubric:**
 - 3 pts: Plate C plus accurate explanation of why both A and B are nearby/insufficient
@@ -153,7 +153,7 @@
 
 ## Question 13: Part 7 Q1 – Final authorization and movement plan (3 points)
 
-**Expected Answer:** Clear the stair and carry the Composite Dossier. Give Wagon first controlled inspection, citing at least three cross-part results such as Crowned's irrelevance to current passage, Twin's disanalogies/checklist, the clean-roll bias, and the restored mixed sample/runoff counterexample. Include an inspection check (runoff marker, gate gear, drainage/load/foundation condition, present obstruction) and a stop/retreat condition (threshold crossed, gear closed, new structural change). Explain that Wagon has the strongest relevant support for inspection, not proof of safe entry.
+**Expected Answer:** Clear the stair and carry the Composite Dossier. Give Wagon first controlled inspection by a small inspection party while all twenty remain at the secured muster point. Cite at least three cross-part results such as Crowned's irrelevance to current passage, Twin's disanalogies/checklist, the clean-roll bias, and the restored mixed sample/runoff counterexample. Include an inspection check (runoff marker, gate gear, drainage/load/foundation condition, present obstruction) and a stop/retreat condition (threshold crossed, gear closed, new structural change). Explain that Wagon has the strongest relevant support for inspection, not proof of safe entry.
 
 **Rubric:**
 - 3 pts: Correct action, three cross-part results, practical check/retreat provision, and best-supported distinction

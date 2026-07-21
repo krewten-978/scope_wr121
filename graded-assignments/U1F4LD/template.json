@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "assignment_id": "U1F4LD",
-  "template_revision": 1,
+  "template_revision": 2,
   "pdf": "graded-assignments/U1F4LD/worksheet.pdf",
-  "pdf_sha256": "717688e82f407f204aad32aedf21fbf913b1190b7ee138678dfd6984df7fc8c8",
+  "pdf_sha256": "ded8cb0765098772c05e3e745f7fad4b989939059c7a4ac41de6fdb570988abc",
   "page_count": 8,
   "coordinate_system": {
     "units": "pt",
@@ -59,9 +59,9 @@
       "page": 2,
       "rect_topleft": [
         43.2,
-        331.18,
+        316.74,
         568.8,
-        463.56
+        449.11
       ]
     },
     {
@@ -69,9 +69,9 @@
       "page": 2,
       "rect_topleft": [
         43.2,
-        551.56,
+        537.12,
         568.8,
-        683.94
+        669.49
       ]
     },
     {
@@ -161,7 +161,7 @@
         43.2,
         259.94,
         568.8,
-        410.31
+        428.31
       ]
     },
     {
@@ -169,9 +169,9 @@
       "page": 7,
       "rect_topleft": [
         43.2,
-        498.32,
+        516.32,
         568.8,
-        648.69
+        684.69
       ]
     },
     {
@@ -179,9 +179,9 @@
       "page": 8,
       "rect_topleft": [
         43.2,
-        274.38,
+        288.83,
         568.8,
-        428.36
+        460.8
       ]
     },
     {
@@ -189,9 +189,9 @@
       "page": 8,
       "rect_topleft": [
         43.2,
-        516.36,
+        548.81,
         568.8,
-        655.94
+        699.18
       ]
     }
   ]
