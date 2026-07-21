@@ -9,15 +9,14 @@ Cumulative puzzle assessments for the `scope_wr121` Whately logic course live in
 | **U1F1LD** | After Weeks 1–3 | Logic Dungeon I: The Hall of Inscriptions | Built |
 | **U1F2LD** | After Weeks 4–6 | Logic Dungeon II: The Surveyor's Rotunda | Built |
 | **U1F3LD** | After Weeks 7–9 | Logic Dungeon III: The Court of the False Oracle | Built |
-| **U1F4LD** | After Weeks 10–12 | Logic Dungeon IV: The Archive of Broken Proofs | Provisional |
+| **U1F4LD** | After Weeks 10–12 | Logic Dungeon IV: The Archive of Broken Proofs | Built |
 | **U1F5LD** | After Week 17 | Logic Dungeon V: The Gates of Castrum Malae Ratiocinationis | Final cumulative assessment; provisional content |
 
 There is no separate checkpoint after Weeks 13–15. Weeks 13–17 accumulate toward U1F5LD, which precedes the Week 18 portfolio workshop and supplies one possible revision/reflection artifact for the official Logic Portfolio.
 
 ## Format
 
-Finals use the established OCR worksheet conventions, with **U1F1LD** on the
-Krewone graded-assignments pilot layout:
+Finals use the established Krewone OCR worksheet conventions:
 
 - Student Name, Student ID, Assignment ID, template revision, and page count on every page
 - Registration marks and a per-page QR payload `krewone:v1|assignment=<ID>|revision=<N>|page=<X>`
@@ -66,15 +65,32 @@ latexmk -pdf -interaction=nonstopmode -halt-on-error ../../../graded-assignments
 
 ## U1F3LD files
 
-- `logic-dungeon-3/../../../graded-assignments/U1F3LD/worksheet.tex`
-- `logic-dungeon-3/U1F3LD_logic_dungeon_final.pdf`
+- `../graded-assignments/U1F3LD/worksheet.tex`
+- `../graded-assignments/U1F3LD/worksheet.pdf`
+- `../graded-assignments/U1F3LD/template.json`
 - Answer key: `../answer-keys/U1F3LD.md`
-- Lore bible (design, not student-facing): `../docs/lore-court-of-the-false-oracle.md`
+- Lore bible: `../docs/lore-court-of-the-false-oracle.md`
+- Pointer: `logic-dungeon-3/README.md`
 
-Build from `finals/logic-dungeon-3/`:
+## U1F4LD files
+
+- `../graded-assignments/U1F4LD/worksheet.tex`
+- `../graded-assignments/U1F4LD/worksheet.pdf`
+- `../graded-assignments/U1F4LD/template.json`
+- Answer key: `../answer-keys/U1F4LD.md`
+- Lore bible: `../docs/lore-archive-of-broken-proofs.md`
+- Pointer: `logic-dungeon-4/README.md`
+
+Build either assignment from its authoritative `graded-assignments/<ID>/` directory:
 
 ```bash
-latexmk -pdf -interaction=nonstopmode -halt-on-error ../../../graded-assignments/U1F3LD/worksheet.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error worksheet.tex
+```
+
+Regenerate its template from the repository root:
+
+```bash
+.venv-grader/bin/python scripts/build-grader-templates.py --assignment <ID>
 ```
 
 Validate keys from the repository root:
