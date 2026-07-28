@@ -89,15 +89,28 @@ A strong answer identifies at least two senses of **done**: physically completed
 ## Question 6: Part 4 Q1 – Building and clarifying an equivocation (2 points)
 
 **Expected Answer:**
-Answers will vary. A strong answer chooses one of the listed terms, builds a short argument where the term shifts, and then rewrites it so the shift is explicit. Examples: “The prophecy is fair because it is favorable; fair things are morally good; therefore the prophecy is morally good” should be clarified by separating favorable from morally good. “A real man dares danger; murder is dangerous; therefore murder proves manhood” should be clarified by separating reckless daring from honorable manhood. “The murder can be done quickly; what is done is settled; therefore the murder will be settled quickly” should be clarified by separating physical completion from moral/practical settlement.
+The student was asked to choose **fair/foul**, **man**, or **done**, build a short argument that becomes unreliable when the chosen term changes meaning, and then rewrite the argument with the two senses made explicit. A strong response contains both of the following:
+
+1. An original argument with a reason and conclusion in which the same chosen word or phrase is used in two genuinely different senses and the apparent support for the conclusion depends on that shift.
+2. A clarified rewrite that replaces or qualifies the ambiguous uses with sense-specific wording so the original shift is no longer hidden. The rewrite need not prove the conclusion; it must expose or remove the equivocation.
+
+Acceptable patterns include:
+
+- **Fair:** “The prophecy is fair because it is favorable to Macbeth; fair things are morally good; therefore the prophecy is morally good.” A clarification separates **favorable to Macbeth** from **morally good**.
+- **Man:** “Macbeth is a man because he is an adult male; a man would dare the murder; therefore Macbeth should dare the murder.” A clarification separates **adult male** from Lady Macbeth's sense of an **honorably courageous person** and shows that the first does not establish the second.
+- **Done:** “The murder can be done quickly; whatever is done is completely settled; therefore the murder and its consequences will be settled quickly.” A clarification separates **physically completed** from **finished in its consequences or moral judgment**.
+
+Other arguments and sense-pairs are acceptable when the repeated term has two plausible meanings and the inference specifically relies on moving between them.
 
 **Rubric:**
-- 2 pts: Creates a relevant shifted-term argument and rewrites it so the two senses are visible
-- 1 pt: Chooses a relevant term but gives an incomplete argument or weak clarification
-- 0 pts: Gives only a theme statement, plot summary, or no clear term-shift
+- 2 pts: Provides both an original argument and a clarified rewrite; the original uses the chosen term in two identifiable senses, the inference depends on that shift, and the rewrite clearly separates those senses
+- 1 pt: Shows a relevant ambiguity or attempts both versions, but the argument is incomplete, the shift does not clearly support the conclusion, or the rewrite does not adequately separate the senses
+- 0 pts: Gives no argument, no identifiable change in meaning, only plot/theme commentary, or an argument that is weak for an unrelated reason without equivocation
 
 **Notes for grading:**
-- Because the prompt allows choice, grade method and clarity rather than one predetermined answer.
+- Do not award full credit merely because an argument is invalid. The apparent inference must depend on the same word or phrase changing sense.
+- Do not require one of the model arguments above. Accept any defensible construction using **fair/foul**, **man**, or **done** that meets the two full-credit conditions.
+- A clarified rewrite may reveal that the conclusion no longer follows; it does not have to turn the original argument into a sound argument.
 
 **Overall Notes for Grading This Worksheet:**
 - Whole points only. No half points.
