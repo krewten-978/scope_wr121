@@ -2,6 +2,7 @@
 
 ## Student packet
 
+- `student-packets/Whately_Logic_Week3_Student_Reading.tex`
 - `student-packets/Whately_Logic_Week3_Student_Reading.pdf`
 
 ## Logic lab (companion worksheet)
