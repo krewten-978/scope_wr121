@@ -6,8 +6,9 @@ Logic Dungeon II has been rewritten as an authentic four-route mystery set in th
 
 ## Files
 
-- Student final: `finals/logic-dungeon-2/U1F2LD_logic_dungeon_final.tex`
-- Generated PDF: `finals/logic-dungeon-2/U1F2LD_logic_dungeon_final.pdf` (9 pages)
+- Student worksheet: `graded-assignments/U1F2LD/worksheet.tex`
+- Generated PDF: `graded-assignments/U1F2LD/worksheet.pdf`
+- Template: `graded-assignments/U1F2LD/template.json`
 - Evaluator key: `answer-keys/U1F2LD.md` (**56** points)
 - Assignment ID: **U1F2LD**
 
@@ -36,9 +37,9 @@ Each station: (1) graded form/fact logic analysis, (2) expedition consequence. C
 ## Verification commands
 
 ```bash
-cd finals/logic-dungeon-2
-latexmk -pdf -interaction=nonstopmode -halt-on-error U1F2LD_logic_dungeon_final.tex
-pdftotext -layout U1F2LD_logic_dungeon_final.pdf -
+cd graded-assignments/U1F2LD
+latexmk -pdf -interaction=nonstopmode -halt-on-error worksheet.tex
+pdftotext -layout worksheet.pdf -
 # check same-page Part X QY / ANSWER BOX; no blank content pages
 
 cd ../..

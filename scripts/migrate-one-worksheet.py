@@ -28,12 +28,9 @@ def _build_source_map() -> dict[str, str]:
         base = f"units/elements-of-logic-week{week}"
         m[f"U1L{week}LL"] = f"{base}/logic-labs/U1L{week}LL_logic_lab.tex"
         m[f"U1L{week}LE"] = f"{base}/lit-examples/U1L{week}LE_lit_example_worksheet.tex"
-    m["U1F1LD"] = "finals/logic-dungeon-1/U1F1LD_logic_dungeon_final.tex"
-    m["U1F2LD"] = "finals/logic-dungeon-2/U1F2LD_logic_dungeon_final.tex"
-    m["U1F3LD"] = "finals/logic-dungeon-3/U1F3LD_logic_dungeon_final.tex"
-    # already-migrated pilot uses graded-assignments path
-    if (ROOT / "graded-assignments/U1F1LD/worksheet.tex").is_file():
-        m["U1F1LD"] = "graded-assignments/U1F1LD/worksheet.tex"
+    # Logic Dungeons already live under graded-assignments (legacy finals/ removed).
+    for n in (1, 2, 3, 4):
+        m[f"U1F{n}LD"] = f"graded-assignments/U1F{n}LD/worksheet.tex"
     return m
 
 
@@ -254,7 +251,7 @@ def update_readme_pointers(assignment_id: str, old_tex: str) -> None:
     new_pdf = f"graded-assignments/{assignment_id}/worksheet.pdf"
 
     candidates: list[Path] = []
-    # unit/finals folder readmes
+    # unit folder readmes
     parent = (ROOT / old_tex).parent if (ROOT / old_tex).parent.exists() else None
     # After git mv parent may still exist
     # week README is two levels up from logic-labs/lit-examples
@@ -271,7 +268,7 @@ def update_readme_pointers(assignment_id: str, old_tex: str) -> None:
         text = text.replace(old_pdf, new_pdf)
         # bare filenames only if assignment id is mentioned nearby or path component matches
         if assignment_id in text or old_rel_tex in text:
-            # Prefer explicit replacements of known basename paths under units/finals
+            # Prefer explicit replacements of known basename paths under units/
             text = re.sub(
                 rf"`(?:logic-labs|lit-examples)/{re.escape(old_rel_tex)}`",
                 f"`../../../{new_tex}`",
@@ -633,7 +630,6 @@ def migrate(assignment_id: str, push: bool = True, skip_git_mv: bool = False) ->
             "graded-assignments.json",
             "answer-keys",
             "units",
-            "finals",
             "README.md",
             "scripts/migrate-one-worksheet.py",
         ],

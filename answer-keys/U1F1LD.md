@@ -2,7 +2,7 @@
 
 **Total Points:** 38
 
-**Paired final:** `graded-assignments/U1F1LD/worksheet.tex` / `.pdf` (Assignment ID **U1F1LD**; pointer `finals/logic-dungeon-1/README.md`).
+**Paired final:** `graded-assignments/U1F1LD/worksheet.tex` / `.pdf` (Assignment ID **U1F1LD**).
 
 **Assessed instruction:** Weeks 1–3: argument skeletons and the follow-test; limits of logic; stable terms and equivocation; propositions, subject/predicate, quality/quantity, A/E/I/O; scope; evidence-sized repair; cumulative route inference.
 
