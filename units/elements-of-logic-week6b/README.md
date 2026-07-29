@@ -1,9 +1,12 @@
-# Week 6B — Elements of Logic
+# Week 6B — Elements of Logic (**optional enrichment**)
 
-**Bridge week between Week 6 (form vs fact / soundness) and Week 7 (fallacies).**  
-Does **not** renumber Weeks 7–19. Does **not** alter existing Week 6 materials or Logic Dungeons.
+**Status:** Materials are built and kept in the repo for review, but Week 6B is **not** on the default required course path.
 
-## Core focus
+The default sequence remains **Week 6 → Week 7** (form/fact → fallacies). Use 6B only if you deliberately want a compound-inference stretch (advanced track, optional project, or future reconsideration).
+
+Does **not** renumber Weeks 7–19. Does **not** alter existing Week 6 materials or Logic Dungeons. Later weeks do **not** assume 6B vocabulary.
+
+## Focus (if taught)
 
 Either/or (disjunction, disjunctive syllogism, false choice) and if/then (antecedent/consequent, valid moves, affirming the consequent, denying the antecedent), still under Whately’s form test and fact test.
 
@@ -29,7 +32,7 @@ Authoritative gradable worksheets live only under:
 
 LE **reader** stays in `lit-examples/`. No dungeon changes in this week.
 
-## Suggested path
+## Suggested path (only if offering 6B)
 
 Reading → Logic Lab **U1L6BLL** → Lit Example reader + **U1L6BLE**.
 

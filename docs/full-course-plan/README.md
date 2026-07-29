@@ -2,7 +2,7 @@
 
 This README preserves the recovered semester-scale course plan for `scope_wr121`. It was originally stored as `docs/logic-unit-scope-and-sequence.md` and was removed during a later content reset. The plan below is restored from git history at commit `80e9fc543aa12678b34a8b25dc0d5225f788296e`, with light terminology updates so it points to the current **logic lab** structure rather than the retired argument-lab model.
 
-Current prepared materials on `main`: Weeks 1–19. The full Whately sequence, including the portfolio workshop and final defense, is now built.
+Current prepared materials on `main`: Weeks 1–19 (default required path). The full Whately sequence, including the portfolio workshop and final defense, is now built. An optional compound-inference bridge (**Week 6B**, `U1L6BLL` / `U1L6BLE`) is also built and kept in-repo for enrichment or later reconsideration; it is **not** part of the default required sequence.
 
 ---
 
@@ -234,19 +234,21 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Why it belongs here:** It prevents students from treating syllogisms as truth machines and returns to Whately's modest account of logic.
 - **Current repo status:** earlier plan said built with student reading, logic lab, Julius Caesar lit-anchor, and teacher guide; current main now tracks student packets, logic labs, and answer keys for Weeks 1–6.
 
-### Week 6B — Either/Or and If/Then (bridge week)
+### Week 6B — Either/Or and If/Then (**optional enrichment; not default required**)
 
 - **Likely title:** *Compound Claims Beyond the Syllogism*
-- **Placement:** after Week 6, before Week 7. Does **not** renumber Weeks 7–19.
+- **Status:** **Optional.** Default classroom path goes Week 6 → Week 7. 6B remains in the repo so it can be offered as advanced track, stretch, or reconsidered later without rebuilding from scratch.
+- **Placement if used:** after Week 6, before Week 7. Does **not** renumber Weeks 7–19.
 - **Source base:** Whately’s concern with valid inference and form vs material truth; plain-language either/or and if/then patterns adapted from Matthew Knachel, *Fundamental Methods of Logic* (CC BY 4.0), Chapter 4.
 - **Essential question:** How do we test everyday arguments that run on either/or and if/then rather than on a categorical syllogism?
 - **Core concepts:** compound claim, disjunction, disjunctive syllogism, false choice, conditional, antecedent, consequent, affirming the antecedent, denying the consequent, affirming the consequent, denying the antecedent, form test, fact test.
 - **Core idea:** Categorical syllogism is not the only shape. Alternatives and conditions still answer to whether the conclusion follows and whether the premises are good.
 - **Student skill:** map either/or and if/then claims; run valid compound moves; refuse common traps; keep soundness separate from vivid pressure.
 - **Macbeth / Caesar application:** Brutus’s slave/free either/or; Macbeth prophecy and conditional ambition pressure.
-- **Portfolio artifact:** compound-form diagnosis (either/or or if/then) with unproved remainder.
-- **Why it belongs here:** Completes the formal toolkit after validity/soundness and before fallacy autopsy, without stretching a second symbolic semester onto the end of the year.
-- **Current repo status:** built — student reading, logic lab **U1L6BLL**, lit example **U1L6BLE** (Caesar + Macbeth), and answer keys. Logic Dungeons unchanged in this insert.
+- **Portfolio artifact:** compound-form diagnosis (either/or or if/then) with unproved remainder (only if 6B is taught).
+- **Why it exists:** Optional formal top-up after validity/soundness; not required for the entry-level Whately + writing spine.
+- **Containment:** Later weeks and Logic Dungeons do **not** assume 6B. No mandatory rewrite of post-6B keys.
+- **Current repo status:** built — student reading, logic lab **U1L6BLL**, lit example **U1L6BLE** (Caesar + Macbeth), and answer keys. Folder: `units/elements-of-logic-week6b/`.
 
 ### Week 7 — When an Argument Looks Stronger Than It Is
 

@@ -11,7 +11,7 @@ Whately *Elements of Logic* curriculum (WR121).
 - Logic Dungeon plan: `docs/logic-dungeon-assessment-plan.md`
 - Format: `docs/logic-lab-format.md`
 - **Authoring (new labs / AI handoff):** `docs/logic-lab-authoring-guide.md`
-- **Full-course plan:** `docs/full-course-plan/README.md` (complete 19-week Whately sequence plus bridge **Week 6B**)
-- **Week 6B bridge (compound inference):** `units/elements-of-logic-week6b/` — either/or and if/then between Week 6 and Week 7; graded **U1L6BLL** / **U1L6BLE** (does not renumber Weeks 7–19; dungeons unchanged)
+- **Full-course plan:** `docs/full-course-plan/README.md` (default **19-week** Whately sequence)
+- **Week 6B (optional enrichment only):** `units/elements-of-logic-week6b/` — either/or and if/then compound forms (**U1L6BLL** / **U1L6BLE**). Built and indexed, but **not** part of the default required path. Use for advanced track, make-up stretch, or later reconsideration. Does not renumber Weeks 7–19; dungeons unchanged.
 
-Week folders: `units/elements-of-logic-week1/README.md` (**U1L1LL**) through `units/elements-of-logic-week19/README.md` (**U1L19LL**), plus `units/elements-of-logic-week6b/` (**U1L6BLL**).
+Week folders: `units/elements-of-logic-week1/README.md` (**U1L1LL**) through `units/elements-of-logic-week19/README.md` (**U1L19LL**). Optional: `units/elements-of-logic-week6b/` (**U1L6BLL**).
