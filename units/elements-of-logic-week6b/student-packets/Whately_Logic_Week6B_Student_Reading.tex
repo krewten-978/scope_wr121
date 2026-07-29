@@ -1,0 +1,211 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\setlength{\columnsep}{0.28in}
+\setlength{\parindent}{1.1em}
+\setlength{\parskip}{0.32em}
+\setlength{\headheight}{15pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\newcommand{\focusbox}[1]{\par\vspace{0.4em}\noindent\begingroup\setlength{\fboxsep}{6pt}\colorbox{gray!12}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}#1\end{minipage}}\endgroup\par\vspace{0.5em}}
+
+\fancyhead[L]{Whately: Compound Forms}
+\fancyhead[R]{Student Reading}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Either/Or and If/Then}\par\vspace{0.25em}
+{\large\scshape Week 6B: Compound Claims Beyond the Syllogism}\par\vspace{0.5em}
+{Adapted and modernized from Richard Whately, \textit{Elements of Logic}, with compound-form instruction adapted from Matthew Knachel, \textit{Fundamental Methods of Logic} (CC BY 4.0)}\par\vspace{0.6em}
+\rule{0.82\textwidth}{0.4pt}
+\end{center}
+
+\section*{Central Question}
+How do we test everyday arguments that run on \textit{either/or} and \textit{if/then} rather than on a categorical syllogism?
+
+\section*{Vocabulary Preview}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*, itemsep=0.18em]
+\item \textbf{Compound claim}: a claim built with connectors such as \textit{and}, \textit{or}, \textit{not}, or \textit{if/then}.
+\item \textbf{Disjunction / either-or}: a claim offering alternatives (``Either A or B'').
+\item \textbf{Disjunctive syllogism}: from ``Either A or B,'' deny one branch and keep the other.
+\item \textbf{False choice}: an either/or that pretends two options are the only options when they are not.
+\item \textbf{Conditional / if-then}: a claim of the form ``If A, then B.''
+\item \textbf{Antecedent}: the \textit{if} part of a conditional (A).
+\item \textbf{Consequent}: the \textit{then} part of a conditional (B).
+\item \textbf{Affirming the antecedent}: grant A; conclude B. Valid when the conditional is granted.
+\item \textbf{Denying the consequent}: deny B; conclude not-A. Valid when the conditional is granted.
+\item \textbf{Affirming the consequent}: grant B; conclude A. Invalid as a proof of A.
+\item \textbf{Denying the antecedent}: deny A; conclude not-B. Invalid as a proof that B fails.
+\item \textbf{Form test / fact test}: still ask whether the conclusion follows and whether the supporting claims are true or justified.
+\end{itemize}
+\end{multicols}
+
+\section*{Introduction}
+Weeks 4--6 trained you on the categorical syllogism: major premise, minor premise, middle term, mood, figure, validity, and soundness. That training remains. Many serious arguments still need it.
+
+But ordinary speech also uses other shapes. People say ``Either we accept the plan or we lose the season.'' They say ``If the prophecy is true, then the crown is certain.'' These are not A/E/I/O mood maps. They are \textit{compound} claims: claims joined by \textit{or} and \textit{if/then}.
+
+Whately's larger purpose still governs. Logic asks whether a conclusion really follows from the reasons offered. This week extends that purpose to two everyday forms you already hear in school, politics, and literature. You will not abandon the form test and the fact test. You will apply them to alternatives and conditions.
+
+\focusbox{\textbf{Source note:} The governing spirit of this reading remains Whately's concern with valid inference, the province of logic, and the difference between form and material truth. The plain-language treatment of either/or and if/then patterns is adapted from Matthew Knachel, \textit{Fundamental Methods of Logic} (2017), Chapter 4, used under a Creative Commons Attribution 4.0 International License. Classroom examples are original. This is a bridge week between the syllogism block (Weeks 4--6) and fallacy work (Week 7). It does not replace categorical logic and does not introduce a full symbolic calculus.}
+
+\begin{multicols}{2}
+\section*{Reading}
+
+\subsection*{1. Why Another Shape Is Needed}
+A categorical syllogism connects classes: All M are P; All S are M; therefore All S are P. That pattern is powerful. It is not the only pattern people use.
+
+Consider:
+\begin{itemize}[leftmargin=*,itemsep=0.1em]
+\item Either the museum opens Saturday, or the field trip is canceled.
+\item If the bridge inspection fails, then the bus route must change.
+\end{itemize}
+
+These claims are compound. The first offers alternatives. The second states a condition. Testing them requires noticing the connector, not only subject, predicate, and distribution.
+
+\subsection*{2. Either/Or: Alternatives}
+An either/or claim (a disjunction) says that at least one of two branches holds:
+\begin{quote}
+Either A or B.
+\end{quote}
+
+In careful speech, ``or'' may mean that one branch, the other, or possibly both could be true. In heated speech, speakers often mean an exclusive choice: one or the other, not both, and nothing else. A disciplined thinker does not guess. Ask what the speaker is treating as the live options.
+
+\subsection*{3. Disjunctive Syllogism}
+One clean form of either/or reasoning works like this:
+\begin{enumerate}[leftmargin=*,itemsep=0.1em]
+\item Either A or B.
+\item Not A.
+\item Therefore B.
+\end{enumerate}
+
+If the alternatives really cover the case, and one branch is truly eliminated, the other remains. The same pattern works if B is eliminated and A remains.
+
+This is useful. It is also easy to abuse. The form is only as strong as the either/or claim and the denial.
+
+\subsection*{4. False Choice}
+A false choice pretends that two options exhaust the field when they do not.
+
+Example: ``Either you support the overnight training camp, or you are not a real teammate.''
+
+The sentence has the grammar of an either/or. But loyalty and team membership are not exhausted by one vote. A careful teammate might oppose the camp for safety, family, cost, or academic reasons. The argument tries to force a conclusion by shrinking the options.
+
+Diagnosis habit:
+\begin{enumerate}[leftmargin=*,itemsep=0.1em]
+\item What are the stated options?
+\item What other live options were ignored?
+\item Is the speaker treating a hard preference as a total dilemma?
+\end{enumerate}
+
+\subsection*{5. If/Then: Conditions}
+A conditional claim has this shape:
+\begin{quote}
+If A, then B.
+\end{quote}
+
+A is the \textit{antecedent} (the condition). B is the \textit{consequent} (what is said to follow).
+
+Important: ``If A, then B'' does \textit{not} by itself claim that A is true. It claims a link. Weather reports, rules, warnings, and prophecies often work this way.
+
+\subsection*{6. Two Valid Conditional Moves}
+When the conditional is granted, two moves are reliable.
+
+\textbf{Affirm the antecedent} (often called modus ponens in later study):
+\begin{enumerate}[leftmargin=*,itemsep=0.1em]
+\item If A, then B.
+\item A.
+\item Therefore B.
+\end{enumerate}
+
+\textbf{Deny the consequent} (often called modus tollens):
+\begin{enumerate}[leftmargin=*,itemsep=0.1em]
+\item If A, then B.
+\item Not B.
+\item Therefore not A.
+\end{enumerate}
+
+Example of the second: If the gym is unlocked, then the side door light is on. The side door light is not on. Therefore the gym is not unlocked---if the rule is true.
+
+\subsection*{7. Two Invalid Conditional Traps}
+Students and speakers often reverse the safe patterns.
+
+\textbf{Affirming the consequent} (invalid as a proof of A):
+\begin{enumerate}[leftmargin=*,itemsep=0.1em]
+\item If A, then B.
+\item B.
+\item Therefore A. \quad\textit{does not follow}
+\end{enumerate}
+
+The light may be on for other reasons. B does not prove A.
+
+\textbf{Denying the antecedent} (invalid as a proof that B fails):
+\begin{enumerate}[leftmargin=*,itemsep=0.1em]
+\item If A, then B.
+\item Not A.
+\item Therefore not B. \quad\textit{does not follow}
+\end{enumerate}
+
+B might still be true for another reason. Denying the condition does not automatically destroy the consequent.
+
+Memorize the names lightly if they help. What matters more is the pattern: grant the if-part to get the then-part; deny the then-part to reject the if-part; do not reverse those moves and call them proof.
+
+\subsection*{8. Form Test and Fact Test Still Apply}
+Week 6 taught two tests. Keep them.
+
+\textit{Form test:} If the compound premises are granted, does the conclusion follow?
+
+\textit{Fact test:} Are the compound premises true, justified, or still doubtful?
+
+A disjunctive syllogism can be valid in form and still fail if the either/or was a false choice or if the denied branch was not truly eliminated. A conditional chain can be valid in form and still fail if the if/then rule is false, overstated, or unproved.
+
+Soundness still means: good form plus premises good enough to bear the conclusion.
+
+\subsection*{9. Shakespearean Pressure}
+Literature loves compound pressure.
+
+In \textit{Julius Caesar}, Brutus asks the crowd whether they would rather Caesar live and all die slaves, or Caesar die and all live free men. The speech has the force of an either/or. A careful listener asks whether those are the only live options and whether ``slave'' and ``free'' have been fixed fairly.
+
+In \textit{Macbeth}, prophecy and ambition often travel as if/then pressure: if the weird sisters speak truly, then the crown is near; if the crown is near, then hesitation is waste. The literary danger is treating a conditional possibility as proved destiny, or treating a later event as proof that a doubtful prophecy was the only explanation.
+
+Compound forms can be used honestly. They can also create the \textit{appearance} of necessity. Week 7 will press that appearance harder. This week gives you the shapes themselves.
+
+\subsection*{10. What This Week Adds}
+A complete Week 6B diagnosis should be able to:
+\begin{itemize}[leftmargin=*,itemsep=0.1em]
+\item recognize an either/or and an if/then in ordinary English;
+\item test a disjunctive syllogism and spot a false choice;
+\item name antecedent and consequent;
+\item use the two valid conditional moves and refuse the two common traps;
+\item apply the form test and the fact test to compound premises;
+\item say what remains unproved.
+\end{itemize}
+
+This week does not throw away Weeks 4--6. It widens the set of shapes a disciplined thinker can test before fallacy work begins.
+
+\section*{Reading Focus}
+\begin{enumerate}[leftmargin=*]
+\item Why are either/or and if/then called compound claims?
+\item What is a disjunctive syllogism, in plain English?
+\item What makes an either/or a false choice?
+\item Define antecedent and consequent.
+\item Give one valid if/then move and one invalid trap.
+\item Why can a valid compound argument still fail the fact test?
+\item How might Brutus's slave/free question or a Macbeth prophecy use compound pressure?
+\end{enumerate}
+
+\section*{Handout Summary}
+Write 5--7 sentences explaining how to test either/or and if/then arguments without abandoning the form test and the fact test. Your summary must include the words \textit{either}, \textit{conditional}, \textit{follows}, and \textit{premise}.
+\end{multicols}
+\end{document}

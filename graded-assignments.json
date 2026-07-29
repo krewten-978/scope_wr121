@@ -274,6 +274,22 @@
       "answer_key": "answer-keys/U1L5LL.md"
     },
     {
+      "assignment_id": "U1L6BLE",
+      "template_revision": 1,
+      "tex": "graded-assignments/U1L6BLE/worksheet.tex",
+      "pdf": "graded-assignments/U1L6BLE/worksheet.pdf",
+      "template": "graded-assignments/U1L6BLE/template.json",
+      "answer_key": "answer-keys/U1L6BLE.md"
+    },
+    {
+      "assignment_id": "U1L6BLL",
+      "template_revision": 1,
+      "tex": "graded-assignments/U1L6BLL/worksheet.tex",
+      "pdf": "graded-assignments/U1L6BLL/worksheet.pdf",
+      "template": "graded-assignments/U1L6BLL/template.json",
+      "answer_key": "answer-keys/U1L6BLL.md"
+    },
+    {
       "assignment_id": "U1L6LE",
       "template_revision": 1,
       "tex": "graded-assignments/U1L6LE/worksheet.tex",

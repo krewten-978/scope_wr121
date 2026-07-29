@@ -100,6 +100,7 @@ Do not commit `*.aux`, `*.log`, `*.fls`, `*.fdb_latexmk`, `*.out` (see root `.gi
 | 4 | U1L4LL | Syllogism map: premises, conclusion, middle/major/minor |
 | 5 | U1L5LL | Mood, formal validity / invalidity (undistributed middle, two negatives, illicit process) |
 | 6 | U1L6LL | Form test vs fact test, soundness, valid-but-unsound, weak proof |
+| 6B | U1L6BLL | Either/or, false choice, if/then, antecedent/consequent, conditional traps; still form vs fact |
 | 7 | U1L7LL | Fallacy as appearance of proof; false claim vs bad inference; emotional/rhetorical force; fallacy autopsy |
 | 8 | U1L8LL | Equivocation and ambiguous middle; fixed-meaning rewrite of full arguments |
 | 9 | U1L9LL | Circular reasoning / begging the question; loaded definitions; independent support rewrite |

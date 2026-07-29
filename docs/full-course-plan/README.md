@@ -234,6 +234,20 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Why it belongs here:** It prevents students from treating syllogisms as truth machines and returns to Whately's modest account of logic.
 - **Current repo status:** earlier plan said built with student reading, logic lab, Julius Caesar lit-anchor, and teacher guide; current main now tracks student packets, logic labs, and answer keys for Weeks 1–6.
 
+### Week 6B — Either/Or and If/Then (bridge week)
+
+- **Likely title:** *Compound Claims Beyond the Syllogism*
+- **Placement:** after Week 6, before Week 7. Does **not** renumber Weeks 7–19.
+- **Source base:** Whately’s concern with valid inference and form vs material truth; plain-language either/or and if/then patterns adapted from Matthew Knachel, *Fundamental Methods of Logic* (CC BY 4.0), Chapter 4.
+- **Essential question:** How do we test everyday arguments that run on either/or and if/then rather than on a categorical syllogism?
+- **Core concepts:** compound claim, disjunction, disjunctive syllogism, false choice, conditional, antecedent, consequent, affirming the antecedent, denying the consequent, affirming the consequent, denying the antecedent, form test, fact test.
+- **Core idea:** Categorical syllogism is not the only shape. Alternatives and conditions still answer to whether the conclusion follows and whether the premises are good.
+- **Student skill:** map either/or and if/then claims; run valid compound moves; refuse common traps; keep soundness separate from vivid pressure.
+- **Macbeth / Caesar application:** Brutus’s slave/free either/or; Macbeth prophecy and conditional ambition pressure.
+- **Portfolio artifact:** compound-form diagnosis (either/or or if/then) with unproved remainder.
+- **Why it belongs here:** Completes the formal toolkit after validity/soundness and before fallacy autopsy, without stretching a second symbolic semester onto the end of the year.
+- **Current repo status:** built — student reading, logic lab **U1L6BLL**, lit example **U1L6BLE** (Caesar + Macbeth), and answer keys. Logic Dungeons unchanged in this insert.
+
 ### Week 7 — When an Argument Looks Stronger Than It Is
 
 - **Likely title:** *What Is a Fallacy?*
