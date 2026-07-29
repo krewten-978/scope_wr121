@@ -22,106 +22,130 @@ Grade for keeping the form test and fact test separate.
 ## Question 1: Part 1 Q1 – Reconstructing the form (2 points)
 
 **Expected Answer:**
-M = men whose ambition would enslave Rome. P = people who deserve death for Rome's freedom. S = Caesar. The reconstruction: All M are P; All S are M; therefore All S are P.
+Canonical terms:
+- **M:** men/people whose ambition would enslave Rome, or people whose ambition threatens Roman freedom.
+- **S:** Caesar.
+- **P:** people who deserve death for Rome’s freedom, or people who should be killed to preserve Roman freedom.
+
+Canonical reconstruction: **All M are P; all S are M; therefore all S are P.** In ordinary language: all people whose ambition would enslave Rome deserve death for Rome’s freedom; Caesar is such a person; therefore Caesar deserves death for Rome’s freedom.
 
 **Rubric:**
-- 2 pts: Correct reconstruction and correct S, P, M terms
-- 1 pt: Mostly correct terms or form with one role unclear
-- 0 pts: No clear formal reconstruction
+- 2 pts: Supplies the required all-M-are-P / all-S-are-M / all-S-are-P reconstruction and correctly names M, S, and P in meaning-preserving language.
+- 1 pt: Gives the correct formal pattern but leaves one or more terms unclear, or correctly names at least two terms but gives an incomplete/misordered reconstruction.
+- 0 pts: Gives no recognizable formal reconstruction, correctly identifies at most one term, or substitutes a materially different argument.
 
 **Notes for grading:**
-- Equivalent wording is acceptable.
+- Do not require the exact phrases “men whose ambition would enslave Rome” or “deserve death for Rome’s freedom.” Accept the listed variants when M is the ambition/enslavement bridge, S is Caesar, and P is the death/prevention judgment in the conclusion.
+- The prompt explicitly requests both the stated form and the names of M, S, and P. A response that merely copies “All M are P…” without naming the terms is incomplete.
 
 ## Question 2: Part 1 Q2 – Form test only (2 points)
 
 **Expected Answer:**
-Yes. If both premises were true, the conclusion would follow. This is a valid form test judgment. The answer should not yet decide whether Caesar actually was dangerously ambitious.
+**Yes; the reconstructed form is valid.** If all people whose ambition would enslave Rome deserve death for Rome’s freedom, and Caesar belongs to that class, then Caesar falls under the death-for-Rome judgment. This hypothetical follow relationship does not establish that the ambition premise is true.
 
 **Rubric:**
-- 2 pts: Correctly says the form is valid and keeps truth separate
-- 1 pt: Correct validity judgment but mixes in factual claims
-- 0 pts: Calls it invalid because a premise is doubtful
+- 2 pts: Says yes/valid and explains that the conclusion follows if the two premises are granted, while not treating that conditional form judgment as proof that Caesar was dangerously ambitious.
+- 1 pt: Gives the correct yes/valid judgment but provides no explanation, or gives the valid-form explanation while mixing in an unsupported factual verdict about Caesar.
+- 0 pts: Calls the form invalid merely because a premise is doubtful, says the conclusion follows without reference to the premises, or supplies no form-test judgment.
 
 **Notes for grading:**
-- Emphasize “if the premises were true.”
+- Do not require the exact phrase “if the premises were true,” but the explanation must express that conditional idea because the prompt explicitly asks for an explanation.
+- A student may mention factual doubts after clearly answering the form test, but those doubts cannot replace the valid-form explanation.
 
 ## Question 3: Part 2 Q1 – Pressure-point premise (2 points)
 
 **Expected Answer:**
-The minor premise most needs proof: Caesar was a man whose ambition would enslave Rome. It is the pressure point because the argument's conclusion depends on Caesar actually belonging under the middle term.
+The **minor premise**, the Caesar-specific claim that Caesar was a man whose ambition would enslave Rome, most needs factual proof. It is the pressure point because the conclusion applies the death-for-Rome judgment to Caesar only if Caesar actually belongs under that dangerous-ambition middle term.
+
+Accept “the premise about Caesar’s ambition,” “the claim that Caesar would enslave Rome,” or “Caesar fits the M category” in place of the formal label “minor premise” when the premise is unambiguously identified.
 
 **Rubric:**
-- 2 pts: Names the minor premise and explains why it matters
-- 1 pt: Identifies Caesar's ambition as an issue with limited explanation
-- 0 pts: Chooses the conclusion or says no premise needs proof
+- 2 pts: Identifies the minor/Caesar-specific premise and explains that Brutus’s conclusion depends on proving Caesar belongs in the ambition-that-would-enslave-Rome category.
+- 1 pt: Correctly identifies the premise but gives little or no explanation, or accurately explains the Caesar-to-middle-term dependency without clearly naming the premise.
+- 0 pts: Selects only the conclusion or general death principle, says no premise needs proof, or gives no relevant explanation.
 
 **Notes for grading:**
-- Credit “Caesar would enslave Rome” as the pressure point.
+- Do not require the terms “minor premise,” “middle term,” or “pressure point” if ordinary language accurately identifies the claim and its role.
+- Do not accept “Caesar was ambitious” alone as a complete explanation; the student must indicate why that premise carries the inference to the conclusion.
 
 ## Question 4: Part 2 Q2 – Evidence Brutus would need (2 points)
 
 **Expected Answer:**
-Brutus would need concrete evidence that Caesar intended or was highly likely to use power tyrannically: actions, plans, public policies, repeated abuses, credible threats to liberty, or proof that accepting a crown would lead to enslavement. Fear, reputation, or possibility alone is not enough.
+Brutus would need concrete, credible evidence that Caesar intended or was sufficiently likely to use power tyrannically or enslave Rome. One relevant example could be Caesar’s actions, plans, policies, repeated abuses, credible threats to liberty, preparations for one-man domination, or a demonstrated pattern showing how accepting a crown would endanger Roman freedom.
+
+The prompt does not specify a count. One clearly described type or piece of relevant evidence is sufficient if it bears directly on the pressure-point premise; a list of all model examples is not required.
 
 **Rubric:**
-- 2 pts: Names concrete evidence and rejects possibility alone
-- 1 pt: Gives a general need for “more proof”
-- 0 pts: Treats ambition or popularity as automatically proving tyranny
+- 2 pts: Identifies at least one concrete and relevant kind of evidence that would support the claim that Caesar’s ambition would enslave Rome or lead to tyrannical abuse of power.
+- 1 pt: Says only that Brutus needs “facts,” “proof,” or “more evidence” without specifying what the evidence must show, or offers evidence related to Caesar’s ambition but not to danger/enslavement.
+- 0 pts: Treats popularity, fear, reputation, ambition by itself, or mere possibility as enough to establish the premise; gives irrelevant evidence; or says no evidence is needed.
 
 **Notes for grading:**
-- Do not require historical evidence beyond the passage.
+- Do not require historical evidence beyond the supplied passage, a quotation, multiple examples, or the exact phrase “possibility alone is not enough.”
+- Accept an unlisted evidence type when it would genuinely help establish likely tyrannical use of power or enslavement of Rome.
 
 ## Question 5: Part 3 Q1 – Antony's evidence (2 points)
 
 **Expected Answer:**
-Antony gives three main pieces of evidence: Caesar brought captives whose ransoms enriched Rome, Caesar wept for the poor, and Caesar refused the crown three times.
+Antony’s three main pieces of evidence are:
+1. Caesar brought captives to Rome whose ransoms filled/enriched the public treasury (“general coffers”).
+2. Caesar wept or showed compassion when the poor cried.
+3. Caesar refused the kingly crown three times when Antony offered it at the Lupercal.
 
 **Rubric:**
-- 2 pts: Lists all three
-- 1 pt: Lists one or two
-- 0 pts: Gives only general praise for Caesar
+- 2 pts: Lists all three explicitly requested evidence items, preserving the public-ransom, compassion-for-the-poor, and thrice-refused-crown meanings.
+- 1 pt: Correctly lists one or two of the three items.
+- 0 pts: Gives only general praise, Brutus’s claims, unrelated plot events, or none of Antony’s three evidence items.
 
 **Notes for grading:**
-- Wording may vary.
+- Do not require quotation or the model sentence order. Accept “brought ransom money to Rome,” “cared/wept for poor people,” and “turned down the crown three times.”
+- Because the prompt explicitly asks for three main pieces, do not award full credit for only two even if both are accurate.
 
 ## Question 6: Part 3 Q2 – What Antony proves (2 points)
 
 **Expected Answer:**
-Antony mainly makes Brutus's premise doubtful. His evidence challenges the claim that Caesar was dangerously ambitious, but it may not conclusively prove Caesar had no ambition at all. The difference is that counter-evidence can weaken a premise without establishing the opposite universal claim.
+Antony mainly makes Brutus’s premise **doubtful**; he does not conclusively prove that Caesar had no ambition at all. The ransom, compassion, and crown-refusal evidence counts against Brutus’s charge, but evidence inconsistent with some signs of dangerous ambition is not the same as proving the opposite claim that Caesar was wholly unambitious. Weakening or undercutting a premise lowers our reason to accept it; proving the opposite would require enough evidence to establish that contrary conclusion.
 
 **Rubric:**
-- 2 pts: Distinguishes making doubtful from proving the opposite
-- 1 pt: Says Antony challenges Brutus but with limited precision
-- 0 pts: Says Antony conclusively proves everything or proves nothing logical
+- 2 pts: Chooses “mainly makes Brutus’s premise doubtful” and explains the difference between counterevidence that weakens a claim and evidence sufficient to establish the opposite claim.
+- 1 pt: Correctly says Antony challenges or weakens Brutus’s claim but gives little explanation of the difference, or explains the distinction accurately without clearly applying it to Antony.
+- 0 pts: Says Antony conclusively proves Caesar had no ambition merely from the three examples, says the evidence has no logical relevance, or fails to address the prove-versus-doubt distinction.
 
 **Notes for grading:**
-- Strong answers can say Antony gives serious evidence against the pressure-point premise.
+- Do not require the phrases “opposite universal claim,” “counterevidence,” or “pressure-point premise.” Accept concise ordinary language such as “he gives reasons not to trust Brutus’s claim, but those examples do not rule out every kind of ambition.”
+- A nuanced answer may say Antony gives strong evidence against dangerous ambition; it must still distinguish serious doubt from conclusive proof of no ambition.
 
 ## Question 7: Part 4 Q1 – Final diagnosis (2 points)
 
 **Expected Answer:**
-A strong diagnosis: Brutus's reconstructed argument is valid in form, but it is not established as sound because the key factual premise about Caesar's ambition enslaving Rome is unproved and challenged by Antony. “Not yet proved” is the safest diagnosis from the provided evidence; “unsound” is acceptable only if the student argues that the premise is false, not merely unproved.
+Canonical diagnosis: Brutus’s reconstruction is **valid in form but not yet proved / not shown sound** because the Caesar-specific ambition-and-enslavement premise remains unproved and is challenged by Antony.
+
+“Unsound” is acceptable only when the student argues that the pressure-point premise is false, rather than merely unsupported. “Valid” by itself can be part of a full answer, but the explanation must also address why validity does not settle soundness. “Not yet proved” by itself can be part of a full answer when the explanation makes clear that the form is valid and the factual premise remains unsettled.
 
 **Rubric:**
-- 2 pts: Gives a nuanced diagnosis separating valid from sound/not proved
-- 1 pt: Gives a plausible label with weak explanation
-- 0 pts: Collapses validity, truth, and persuasiveness
+- 2 pts: Gives a logically consistent diagnosis and explanation that separates the valid form from the unproved/challenged factual premise. Accept “valid but not yet proved,” “valid but not shown sound,” or a justified “valid but unsound” based on claiming the premise false.
+- 1 pt: Gives a plausible label such as valid, not yet proved, or unsound but explains only one test or uses the label imprecisely.
+- 0 pts: Calls the argument invalid solely because the premise is doubtful, calls it sound solely because the form is valid, or collapses logical form, factual truth, and rhetorical persuasiveness.
 
 **Notes for grading:**
-- Accept “valid but not shown sound.”
+- The prompt permits more than one label but does not require two labels verbatim. Grade the consistency and explanation of the diagnosis, not exact phrasing.
+- Do not accept “unsound” as synonymous with “not yet proved” unless the student actually claims and supports that a premise is false; the course vocabulary distinguishes false from merely unproved.
 
 ## Question 8: Part 4 Q2 – Valid does not mean true (2 points)
 
 **Expected Answer:**
-A strong paragraph explains that validity concerns whether the conclusion follows from premises, while truth concerns whether the premises match reality. Brutus's map can be valid if the ambition premise is granted; Antony matters because he challenges that premise with evidence. Therefore a valid-looking argument can still fail to prove its conclusion if a premise is false or unproved.
+A full answer explains that **validity** concerns the conditional relationship between premises and conclusion, while **truth** concerns whether the premises match reality. Brutus’s reconstructed form is valid if the premise about Caesar’s enslaving ambition is granted. Antony matters because his evidence challenges that factual premise, showing that a valid form can still fail to establish its conclusion when a premise is false, doubtful, or unproved.
+
+The paragraph may be concise and may organize these ideas in any order, but it must explain the distinction and use both Brutus and Antony as the requested example.
 
 **Rubric:**
-- 2 pts: Clearly explains the distinction using Brutus and Antony
-- 1 pt: States the distinction but uses the play example vaguely
-- 0 pts: Says valid and true mean the same thing
+- 2 pts: In one coherent paragraph, accurately distinguishes validity from factual truth/support, applies valid form to Brutus, and explains Antony’s role in challenging the premise.
+- 1 pt: States the validity/truth distinction but applies Brutus or Antony only vaguely, or discusses the play accurately without clearly explaining the logical distinction.
+- 0 pts: Says valid means true, gives only plot summary or persuasion analysis, omits both characters’ logical roles, or provides no explanatory paragraph.
 
 **Notes for grading:**
-- This is the capstone Week 6 objective.
+- Do not require the model sentence order, a particular sentence count, quotation, or the exact words “sound/unsound.”
+- A short paragraph earns full credit if it contains all three observable elements: conditional follow relationship, factual premise test, and Brutus/Antony application.
 
 **Overall Notes for Grading This Worksheet:**
 - Whole points only. No half points.
