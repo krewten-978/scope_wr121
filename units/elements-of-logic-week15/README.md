@@ -16,6 +16,10 @@
 - `lit-examples/U1L15LE_lit_example_reader.pdf`
 - `../../../graded-assignments/U1L15LE/worksheet.tex`
 - `../../../graded-assignments/U1L15LE/worksheet.pdf`
+- `../../papers/U1L15SP/assignment.tex` / `.pdf` (**U1L15SP**)
+- `../../papers/U1L15SP/text-supplement.tex` / `.pdf`
+
+`U1L15SP` is a closed-world, handwritten paper of approximately two pages on competing definitions of manhood in *Macbeth*. It is not a Krewone worksheet and has no template or AI answer key.
 
 ## Answer keys
 

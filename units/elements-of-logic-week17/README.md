@@ -16,6 +16,10 @@
 - `lit-examples/U1L17LE_lit_example_reader.pdf`
 - `../../../graded-assignments/U1L17LE/worksheet.tex`
 - `../../../graded-assignments/U1L17LE/worksheet.pdf`
+- `../../papers/U1L17SP/assignment.tex` / `.pdf` (**U1L17SP**)
+- `../../papers/U1L17SP/text-supplement.tex` / `.pdf`
+
+`U1L17SP` is a closed-world, handwritten 2–3 page comparison of Macbeth's and Brutus's private reasoning. It is not a Krewone worksheet and has no template or AI answer key.
 
 ## Answer keys
 
