@@ -14,7 +14,7 @@ This folder contains the handwritten short-paper sequence for `scope_wr121`.
 
 | Assignment ID | Week | Title | Length | Status |
 |---|---:|---|---|---|
-| `U1L6SP` | 6 | *Prophecy Is Not Proof?* | 1–2 handwritten pages | Built |
+| `U1L6SP` | 6 | *Prophecy Is Not Proof?* | 1–2 handwritten pages | Assignment + text supplement built |
 
 ## Course rule
 

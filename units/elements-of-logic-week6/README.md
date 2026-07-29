@@ -7,10 +7,12 @@
 - Lit Example worksheet: `../../../graded-assignments/U1L6LE/worksheet.tex` / `.pdf` (**U1L6LE**)
 - Lit Example answer key: `answer-keys/U1L6LE.md`
 - Handwritten short paper: `../../papers/U1L6SP/assignment.tex` / `.pdf` (**U1L6SP**, *Prophecy Is Not Proof?*)
+- Short-paper text supplement: `../../papers/U1L6SP/text-supplement.tex` / `.pdf`
 
 ```bash
 latexmk -pdf -interaction=nonstopmode -halt-on-error logic-labs/../../../graded-assignments/U1L6LL/worksheet.tex
 latexmk -pdf -interaction=nonstopmode -halt-on-error lit-examples/U1L6LE_lit_example_reader.tex
 latexmk -pdf -interaction=nonstopmode -halt-on-error lit-examples/../../../graded-assignments/U1L6LE/worksheet.tex
 latexmk -pdf -interaction=nonstopmode -halt-on-error ../../papers/U1L6SP/assignment.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error ../../papers/U1L6SP/text-supplement.tex
 ```
