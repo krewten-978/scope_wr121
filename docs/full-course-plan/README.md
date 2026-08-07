@@ -2,7 +2,7 @@
 
 This README preserves the recovered semester-scale course plan for `scope_wr121`. It was originally stored as `docs/logic-unit-scope-and-sequence.md` and was removed during a later content reset. The plan below is restored from git history at commit `80e9fc543aa12678b34a8b25dc0d5225f788296e`, with light terminology updates so it points to the current **logic lab** structure rather than the retired argument-lab model.
 
-Current prepared materials on `main`: Weeks 1–19 (default required path). The full Whately sequence, including the portfolio workshop and final defense, is now built. An optional compound-inference bridge (**Week 6B**, `U1L6BLL` / `U1L6BLE`) is also built and kept in-repo for enrichment or later reconsideration; it is **not** part of the default required sequence.
+Current prepared materials on `main`: Weeks 1–19 (default required path). The full Whately sequence, including the portfolio workshop and final defense, is now built. The finalized 2026–2027 pacing calendar is in [`2026-2027-calendar.md`](2026-2027-calendar.md). An optional compound-inference bridge (**Week 6B**, `U1L6BLL` / `U1L6BLE`) is also built and kept in-repo for enrichment or later reconsideration; it is **not** part of the default required sequence.
 
 ---
 
